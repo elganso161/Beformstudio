@@ -1,0 +1,36 @@
+main {
+  padding-top: 160px;
+}
+
+.main__title {
+  display: flex;
+  p {
+    width: 368px;
+    font-family: "PTRootUIWebRegular";
+    font-size: 16px;
+    line-height: 142%;
+    margin-bottom: 5px;
+  }
+  a {
+    text-decoration: none;
+    font-family: "PTRootUIWebBold";
+    font-size: 16px;
+    line-height: 148%;
+    color: #212121;
+    border-bottom: 1px solid #212121;
+    &:hover {
+      border-bottom: none;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}
+
+.main__title-img {
+  width: 411px;
+  height: 69px;
+  margin-top: 8px;
+  margin-left: 19.5%;
+  margin-right: 110px;
+}

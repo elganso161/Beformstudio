@@ -1,0 +1,48 @@
+.aboutus {
+  display: flex;
+  margin-bottom: 250px;
+}
+
+.aboutus__img {
+  margin-right: 190px;
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.aboutus__text {
+  width: 500px;
+  margin-top: 250px;
+  h2 {
+    width: 288px;
+    font-family: "NeutralFace-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 106%;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  p {
+    width: 444px;
+    height: 134px;
+    font-family: "PTRootUIWebRegular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+  }
+}
+
+.aboutus__img-bottom {
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/aboutus-img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 250px;
+}

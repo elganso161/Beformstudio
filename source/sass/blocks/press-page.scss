@@ -1,0 +1,234 @@
+.press-page {
+  display: flex;
+  width: 100%;
+  height: 480px;
+  padding-top: 250px;
+  margin-bottom: 160px;
+  h2 {
+    width: 344px;
+    height: 125px;
+    margin-right: 90px;
+    font-family: "NeutralFace-Bold";
+    font-size: 48px;
+    line-height: 106%;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  h3 {
+    font-family: "PTRootUIWebBold";
+    font-size: 36px;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  p {
+    width: 476px;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+  }
+}
+
+.press-page__list {
+  li {
+    margin-top: -1px;
+  }
+}
+
+.press-page__item-line {
+  width: 100%;
+  height: 1px;
+  opacity: 0.7;
+  background-color: #212121;
+}
+
+.press-page__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 110px 0;
+}
+
+.press-page__block-info {
+  img {
+    margin-bottom: 80px;
+  }
+  p {
+    width: 235px;
+    height: 50px;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    margin-bottom: 26px;
+  }
+}
+
+.open-btn {
+  text-decoration: none;
+  font-family: "Neutral Face";
+  font-size: 28px;
+  line-height: 106%;
+  color: #1d1d1b;
+  position: relative;
+  transition: 0.2s;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 200px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/accordion-arrow.svg);
+    background-size: cover;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.desing-blog {
+  margin-bottom: 250px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.desing-blog__title-text {
+  width: 565px;
+  margin-bottom: 110px;
+  margin-left: 430px;
+  padding-top: 40px;
+  h2 {
+    font-family: "PTRootUIWebBold";
+    font-size: 36px;
+    line-height: 106%;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  p {
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+}
+
+.project-publication {
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 250px;
+  }
+  img:last-child {
+    margin-bottom: 160px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.project-publication__title-text {
+  display: flex;
+  margin-bottom: 250px;
+  h2 {
+    width: 344px;
+    height: 100px;
+    font-family: "NeutralFace-Bold";
+    font-size: 48px;
+    line-height: 106%;
+    color: #212121;
+    margin-right: 200px;
+  }
+
+  h3 {
+    font-family: "PTRootUIWebBold";
+    font-size: 36px;
+    line-height: 120.5%;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  p {
+    width: 594px;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: "PTRootUIWebBold";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      top: -5px;
+      left: 170px;
+      z-index: 1;
+      background-image: url(../img/arrow-link-project.svg);
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+    }
+    &:hover::before {
+      left: 180px;
+    }
+  }
+}
+
+.close-btn {
+  display: block;
+  width: 200px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Neutral Face";
+  font-size: 28px;
+  line-height: 106%;
+  color: #1d1d1b;
+  position: relative;
+  transition: 0.2s;
+  margin-bottom: 160px;
+  margin-left: auto;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 170px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/accordion-arrow.svg);
+    background-size: cover;
+    transform: rotate(180deg);
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.hiden {
+  display: none;
+}

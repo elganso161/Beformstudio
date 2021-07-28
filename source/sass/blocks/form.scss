@@ -1,0 +1,227 @@
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  label {
+    display: block;
+    font-family: "PTRootUIWebBold";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+  }
+
+  input {
+    width: 306px;
+    border: none;
+    border-bottom: 1px solid #212121;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    padding-left: 0;
+    outline: none;
+
+    &::placeholder {
+      font-family: "Neutral Face";
+      font-size: 14px;
+      line-height: 147.5%;
+      color: #d0d0d0;
+    }
+    &:hover::placeholder {
+      color: #212121;
+      transition: 0.2s;
+    }
+    &:focus::placeholder {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]:hover,
+  input[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  button {
+    margin-top: 18px;
+    width: 232px;
+    height: 56px;
+    font-family: "PTRootUIWebBold";
+    font-size: 18px;
+    line-height: 148%;
+    text-align: center;
+    color: #212121;
+    border: 1px solid #212121;
+    background: inherit;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+      font-family: "PTRootUIWebRegular";
+      color: #f5f5f5;
+      background: #212121;
+      opacity: 0.9;
+    }
+    &:active {
+      font-family: "PTRootUIWebRegular";
+      opacity: 1;
+    }
+  }
+}
+.form {
+  margin-bottom: 110px;
+}
+
+.form__title {
+  display: flex;
+  padding-top: 250px;
+  margin-bottom: 40px;
+  h2 {
+    font-family: "NeutralFace-Bold";
+    font-size: 48px;
+    line-height: 106%;
+    color: #212121;
+    width: 344px;
+    margin-right: 90px;
+  }
+  h3 {
+    font-family: "Neutral Face";
+    font-size: 36px;
+    line-height: 106%;
+    color: #212121;
+    margin-bottom: 40px;
+  }
+  p {
+    width: 543px;
+    height: 85px;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    margin-bottom: 110px;
+  }
+}
+
+.privacy-policy {
+  font-family: "PTRootUIWebRegular";
+  font-size: 18px;
+  line-height: 148%;
+  color: #616161;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 322px;
+  span {
+    border-bottom: 1px solid #616161;
+  }
+  &:hover span {
+    border: none;
+  }
+}
+.scroll-up {
+  width: 152px;
+  height: 22px;
+  text-decoration: none;
+  font-family: "Neutral Face";
+  font-size: 24px;
+  line-height: 106%;
+  text-align: center;
+  color: #212121;
+
+  display: block;
+  margin: 0 auto;
+
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    top: -65px;
+    left: 65px;
+    z-index: 1;
+    width: 32px;
+    height: 46px;
+    background-image: url(../img/scrollup.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
+  &:hover::before {
+    top: -75px;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+// .popup-form {
+//   position: relative;
+// }
+
+.form-complite {
+  opacity: 0;
+  position: absolute;
+  top: -2000px;
+  left: 0;
+  width: 100%;
+  max-height: 100%;
+  height: 100vw;
+  z-index: 30;
+  background: #212121;
+  transition: 0.2s;
+}
+
+.form-complite-active {
+  opacity: 1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  animation: openBurgerMove 0.5s ease-out;
+}
+
+.form-complite-block {
+  display: flex;
+  width: 100%;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 30vh;
+  p {
+    font-family: "Neutral Face";
+    font-size: 64px;
+    line-height: 120%;
+    color: #f5f5f5;
+  }
+  button {
+    margin-top: 70px;
+    width: 280px;
+    height: 76px;
+    opacity: 0.8;
+    background-color: inherit;
+    border: 2px solid #d0d0d0;
+    font-family: "Neutral Face";
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #f5f5f5;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}

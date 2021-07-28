@@ -1,0 +1,77 @@
+.contactus-page__img {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 250px;
+}
+
+.contactus-page {
+  margin-bottom: 250px;
+}
+
+.contactus-page__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+.contactus-page__list-item {
+  a {
+    display: block;
+    text-decoration: none;
+    font-family: "PTRootUIWebRegular";
+    font-size: 21px;
+    line-height: 142%;
+    display: flex;
+    align-items: center;
+    color: #212121;
+  }
+
+  p {
+    font-family: "PTRootUIWebRegular";
+    font-size: 21px;
+    line-height: 142%;
+    color: #212121;
+  }
+
+  .map-link {
+    font-family: "PTRootUIWebBold";
+    font-size: 21px;
+    line-height: 142%;
+    color: #212121;
+    text-decoration: underline;
+    transition: 0.2s;
+    &:hover {
+      text-decoration: none;
+    }
+    &:active {
+      opacity: 0.7;
+    }
+  }
+}
+
+.contactus-page-social__list {
+  display: flex;
+  align-items: center;
+  li {
+    text-decoration: none;
+    font-family: "NeutralFace-Bold";
+    font-size: 21px;
+    line-height: 106%;
+    color: #212121;
+  }
+  a {
+    text-decoration: none;
+    font-family: "NeutralFace-Bold";
+    font-size: 21px;
+    line-height: 106%;
+    color: #212121;
+    transition: 0.2s;
+    opacity: 1;
+    &:hover {
+      opacity: 0.7;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}
