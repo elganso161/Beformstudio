@@ -71,7 +71,7 @@
               <a href="#"><span>02</span>Проекты</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="#"><span>04</span>процесс</a>
+              <a href="./process-page.html"><span>04</span>процесс</a>
             </li>
             <li class="animate__nav-item animate__animated">
               <a href="./ourFactory-page.html"><span>06</span>производство</a>
@@ -107,6 +107,11 @@
             <ul class="logo__lang-list">
               <li class="ru" tabindex="0">
                 rus
+                <img
+                  class="translator-arrow"
+                  src="./img/translator-arrow.svg"
+                  alt="img"
+                />
                 <ul class="sub-logo__lang-list">
                   <li class="en">
                     <a href="./indexEng.html">eng</a>
@@ -242,10 +247,10 @@
       <div class="container">
         <div class="form">
           <div class="form__title">
-            <div>
-              <h2>contact us</h2>
-            </div>
-            <div>
+            <h2>contact us</h2>
+          </div>
+          <div class="form__right-block">
+            <div class="form__subtitle">
               <h3>Have a project in mind?</h3>
               <p>
                 Если вы заинтересованы в создании грамотного, уникального и
@@ -253,40 +258,54 @@
                 вас в числе наших клиентов.
               </p>
             </div>
+            <form>
+              <ul>
+                <li>
+                  <label for="">Your name</label>
+                  <input
+                    class="input-name field"
+                    type="text"
+                    placeholder="ELENA SVETLOVA"
+                  />
+                </li>
+                <li>
+                  <label for="">Mail</label>
+                  <input
+                    class="input-mail field"
+                    type="text"
+                    placeholder="address"
+                  />
+                </li>
+                <li>
+                  <label for="">Phone</label>
+                  <input
+                    class="input-phone field"
+                    type="number"
+                    placeholder="+8 000 000 000"
+                  />
+                </li>
+                <li>
+                  <label for="">Message</label>
+                  <input
+                    class="input-message field"
+                    type="text"
+                    placeholder="text"
+                  />
+                </li>
+              </ul>
+              <div class="form-bottom-block">
+                <div class="privacy-policy">
+                  <a href="#">
+                    Нажимая кнопку «отправить», вы соглашаетесь с
+                    <span>политикой конфиденциальности</span>
+                  </a>
+                </div>
+                <button>Отправить</button>
+              </div>
+            </form>
           </div>
-          <form class="form">
-            <div>
-              <label for="">Your name</label>
-              <input
-                class="input-name field"
-                type="text"
-                placeholder="ELENA SVETLOVA"
-              />
-            </div>
-            <div>
-              <label for="">Mail</label>
-              <input
-                class="input-mail field"
-                type="text"
-                placeholder="address"
-              />
-            </div>
-            <div>
-              <label for="">Phone</label>
-              <input
-                class="input-phone field"
-                type="number"
-                placeholder="+8 000 000 000"
-              />
-            </div>
-            <button>Отправить</button>
-          </form>
-          <a class="privacy-policy" href="#"
-            >Нажимая кнопку «отправить», вы соглашаетесь с
-            <span>политикой конфиденциальности</span></a
-          >
-          <a class="scroll-up scroll" href="#top">scroll UP</a>
         </div>
+        <a class="scroll-up scroll" href="#top">scroll UP</a>
       </div>
     </section>
     <footer>

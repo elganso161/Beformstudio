@@ -21,6 +21,7 @@ window.addEventListener("resize", init);
 
 document.querySelector(".slider-next").addEventListener("click", function () {
   count++;
+
   if (count >= images.length) {
     count = 0;
   }
@@ -39,3 +40,12 @@ function rollSlider() {
   sliderLine.style.transform = "translate(-" + count * width + "px)";
   sliderCount.innerHTML = "0" + (count + 1);
 }
+
+setInterval(() => {
+  count++;
+
+  if (count >= images.length) {
+    count = 0;
+  }
+  rollSlider();
+}, 5000);

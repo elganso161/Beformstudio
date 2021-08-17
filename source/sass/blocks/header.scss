@@ -280,27 +280,17 @@
 
 .logo__lang-list {
   position: relative;
-
   &:hover .en {
     display: block;
   }
-  &:hover::before {
+  &:hover img {
     transform: rotate(180deg);
   }
-  &::before {
-    transition: 0.3s;
-    position: absolute;
-    content: "";
-    top: 7px;
-    left: 50px;
-    z-index: 1;
-    background-image: url(../img/translator-arrow.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 16px;
-    height: 16px;
-  }
+}
+
+.translator-arrow {
+  transition: 0.3s;
+  margin-left: 10px;
 }
 
 .sub-logo__lang-list {

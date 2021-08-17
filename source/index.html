@@ -69,7 +69,7 @@
               <a href="#"><span>02</span>Проекты</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="#"><span>04</span>процесс</a>
+              <a href="./process-page.html"><span>04</span>процесс</a>
             </li>
             <li class="animate__nav-item animate__animated">
               <a href="./ourFactory-page.html"><span>06</span>производство</a>
@@ -105,6 +105,11 @@
             <ul class="logo__lang-list">
               <li class="ru" tabindex="0">
                 rus
+                <img
+                  class="translator-arrow"
+                  src="./img/translator-arrow.svg"
+                  alt="img"
+                />
                 <ul class="sub-logo__lang-list">
                   <li class="en">
                     <a href="./indexEng.html">eng</a>
@@ -137,7 +142,7 @@
                 Мы специализируемся на проектировании интерьера и мебели в сфере
                 ритейла.
               </p>
-              <a href="#">Посмотреть проекты</a>
+              <!-- <a href="#">Посмотреть проекты</a> -->
             </div>
           </div>
         </div>
@@ -157,10 +162,74 @@
             </div>
             <div class="slider">
               <div class="slider-line">
-                <img src="./img/slider-img.jpg" alt="img" />
-                <img src="./img/slider-img.jpg" alt="img" />
-                <img src="./img/slider-img.jpg" alt="img" />
-                <img src="./img/slider-img.jpg" alt="img" />
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/home-page/img-1-desctop.webp    1x,
+                      ./img/home-page/img-1-desctop-x2.webp 2x
+                    "
+                  />
+                  <img
+                    src="./img/home-page/img-1-desctop.jpg"
+                    srcset="
+                      ./img/home-page/img-1-desctop.jpg    1x,
+                      ./img/home-page/img-1-desctop-x2.jpg 2x
+                    "
+                    alt="img"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/home-page/img-2-desctop.webp    1x,
+                      ./img/home-page/img-2-desctop-x2.webp 2x
+                    "
+                  />
+                  <img
+                    src="./img/home-page/img-2-desctop.jpg"
+                    srcset="
+                      ./img/home-page/img-2-desctop.jpg    1x,
+                      ./img/home-page/img-2-desctop-x2.jpg 2x
+                    "
+                    alt="img"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/home-page/img-3-desctop.webp    1x,
+                      ./img/home-page/img-3-desctop-x2.webp 2x
+                    "
+                  />
+                  <img
+                    src="./img/home-page/img-3-desctop.jpg"
+                    srcset="
+                      ./img/home-page/img-3-desctop.jpg    1x,
+                      ./img/home-page/img-3-desctop-x2.jpg 2x
+                    "
+                    alt="img"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/home-page/img-4-desctop.webp    1x,
+                      ./img/home-page/img-4-desctop-x2.webp 2x
+                    "
+                  />
+                  <img
+                    src="./img/home-page/img-4-desctop.jpg"
+                    srcset="
+                      ./img/home-page/img-4-desctop.jpg   1x,
+                      .img/home-page/img-4-desctop-x2.jpg 2x
+                    "
+                    alt="img"
+                  />
+                </picture>
               </div>
             </div>
           </div>
@@ -170,12 +239,23 @@
         <div class="container">
           <div class="aboutus">
             <div class="aboutus__img">
-              <img
-                src="./img/aboutus-img.jpg"
-                alt="img"
-                width="628"
-                height="748"
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/home-page/img-5-desctop.webp    1x,
+                    ./img/home-page/img-5-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/home-page/img-5-desctop.jpg"
+                  srcset="
+                    ./img/home-page/img-5-desctop.jpg    1x,
+                    ./img/home-page/img-5-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
             </div>
             <div class="aboutus__text">
               <h2>about us</h2>
@@ -188,7 +268,26 @@
             </div>
           </div>
         </div>
-        <div class="aboutus__img-bottom"></div>
+        <div class="aboutus__img-bottom">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                ./img/home-page/img-6-desctop.webp    1x,
+                ./img/home-page/img-6-desctop-x2.webp 2x
+              "
+            />
+            <img
+              class="aboutus__img-bottom"
+              src="./img/home-page/img-6-desctop.jpg"
+              srcset="
+                ./img/home-page/img-6-desctop.jpg    1x,
+                ./img/home-page/img-6-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
       </section>
       <section>
         <div class="container">
@@ -225,14 +324,17 @@
               <source
                 type="image/webp"
                 srcset="
-                  ./img/project-img1.webp    1x,
-                  ./img/project-img1-2x.webp 2x
+                  ./img/home-page/img-7-desctop.webp    1x,
+                  ./img/home-page/img-7-desctop-x2.webp 2x
                 "
               />
               <img
-                src="./img/project-img1.jpg"
-                srcset="./img/project-img1-2x.jpg"
-                alt="project-img"
+                src="./img/home-page/img-7-desctop.jpg"
+                srcset="
+                  ./img/home-page/img-7-desctop.jpg    1x,
+                  ./img/home-page/img-7-desctop-x2.jpg 2x
+                "
+                alt="img"
               />
             </picture>
             <a href="#">project JEWELLERY</a>
@@ -240,27 +342,63 @@
           <div class="project-two-three">
             <div class="prev-project project-two">
               <picture>
-                <source type="image/webp" srcset="./img/project-img2.webp" />
-                <img src="./img/project-img2.jpg" alt="" />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/home-page/img-8-desctop.webp    1x,
+                    ./img/home-page/img-8-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/home-page/img-8-desctop.jpg"
+                  srcset="
+                    ./img/home-page/img-8-desctop.jpg    1x,
+                    ./img/home-page/img-8-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
               </picture>
               <a href="#"> project 5ESSENCE 2.0 </a>
             </div>
             <div class="prev-project project-three">
-              <picture
-                ><source type="image/webp" srcset="./img/project-img3.webp" />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/home-page/img-9-desctop.webp    1x,
+                    ./img/home-page/img-9-desctop-x2.webp 2x
+                  "
+                />
                 <img
-                  src="./img/project-img3.jpg"
-                  srcset="./img/project-img3-2x.jpg"
-                  alt=""
-              /></picture>
+                  src="./img/home-page/img-9-desctop.jpg"
+                  srcset="
+                    ./img/home-page/img-9-desctop.jpg    1x,
+                    ./img/home-page/img-9-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
               <a href="#"> project 5ESSENCE 3.0 </a>
             </div>
           </div>
           <div class="prev-project project-four">
-            <picture
-              ><source type="image/webp" srcset="./img/project-img4.webp" />
-              <img src="./img/project-img4.jpg" alt=""
-            /></picture>
+            <picture>
+              <source
+                type="image/webp"
+                srcset="
+                  ./img/home-page/img-10-desctop.webp    1x,
+                  ./img/home-page/img-10-desctop-x2.webp 2x
+                "
+              />
+              <img
+                src="./img/home-page/img-10-desctop.jpg"
+                srcset="
+                  ./img/home-page/img-10-desctop.jpg    1x,
+                  ./img/home-page/img-10-desctop-x2.jpg 2x
+                "
+                alt="img"
+              />
+            </picture>
             <a href="#">project BIARA</a>
           </div>
           <div class="all-projects"><a href="#">all projectS</a></div>
@@ -275,16 +413,87 @@
             </div>
             <ul class="instagram__list">
               <li>
-                <a href="#"><img src="./img/inst-img1.jpg" alt="" /></a>
+                <a href="#">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./img/home-page/img-inst-1-desctop.webp    1x,
+                        ./img/home-page/img-inst-1-desctop-x2.webp 2x
+                      "
+                    />
+                    <img
+                      src="./img/home-page/img-inst-1-desctop.jpg"
+                      srcset="
+                        ./img/home-page/img-inst-1-desctop.jpg    1x,
+                        ./img/home-page/img-inst-1-desctop-x2.jpg 2x
+                      "
+                      alt="img"
+                    />
+                  </picture>
+                </a>
               </li>
               <li>
-                <a href="#"><img src="./img/inst-img2.jpg" alt="" /></a>
+                <a href="#">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./img/home-page/img-inst-2-desctop.webp    1x,
+                        ./img/home-page/img-inst-2-desctop-x2.webp 2x
+                      "
+                    />
+                    <img
+                      src="./img/home-page/img-inst-2-desctop.jpg"
+                      srcset="
+                        ./img/home-page/img-inst-2-desctop.jpg    1x,
+                        ./img/home-page/img-inst-2-desctop-x2.jpg 2x
+                      "
+                      alt="img"
+                    /> </picture
+                ></a>
               </li>
               <li>
-                <a href="#"><img src="./img/inst-img3.jpg" alt="" /></a>
+                <a href="#">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./img/home-page/img-inst-3-desctop.webp    1x,
+                        ./img/home-page/img-inst-3-desctop-x2.webp 2x
+                      "
+                    />
+                    <img
+                      src="./img/home-page/img-inst-3-desctop.jpg"
+                      srcset="
+                        ./img/home-page/img-inst-3-desctop.jpg    1x,
+                        ./img/home-page/img-inst-3-desctop-x2.jpg 2x
+                      "
+                      alt="img"
+                    />
+                  </picture>
+                </a>
               </li>
               <li>
-                <a href="#"><img src="./img/inst-img4.jpg" alt="" /></a>
+                <a href="#">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./img/home-page/img-inst-4-desctop.webp    1x,
+                        ./img/home-page/img-inst-4-desctop-x2.webp 2x
+                      "
+                    />
+                    <img
+                      src="./img/home-page/img-inst-4-desctop.jpg"
+                      srcset="
+                        ./img/home-page/img-inst-4-desctop.jpg    1x,
+                        ./img/home-page/img-inst-4-desctop-x2.jpg 2x
+                      "
+                      alt="img"
+                    />
+                  </picture>
+                </a>
               </li>
             </ul>
           </div>
@@ -294,10 +503,10 @@
         <div class="container">
           <div class="form">
             <div class="form__title">
-              <div>
-                <h2>contact us</h2>
-              </div>
-              <div>
+              <h2>contact us</h2>
+            </div>
+            <div class="form__right-block">
+              <div class="form__subtitle">
                 <h3>Have a project in mind?</h3>
                 <p>
                   Если вы заинтересованы в создании грамотного, уникального и
@@ -305,40 +514,54 @@
                   видеть вас в числе наших клиентов.
                 </p>
               </div>
+              <form action="" method="POST">
+                <ul>
+                  <li>
+                    <label for="">Your name</label>
+                    <input
+                      class="input-name field"
+                      type="text"
+                      placeholder="ELENA SVETLOVA"
+                    />
+                  </li>
+                  <li>
+                    <label for="">Mail</label>
+                    <input
+                      class="input-mail field"
+                      type="text"
+                      placeholder="address"
+                    />
+                  </li>
+                  <li>
+                    <label for="">Phone</label>
+                    <input
+                      class="input-phone field"
+                      type="number"
+                      placeholder="+8 000 000 000"
+                    />
+                  </li>
+                  <li>
+                    <label for="">Message</label>
+                    <input
+                      class="input-message field"
+                      type="text"
+                      placeholder="text"
+                    />
+                  </li>
+                </ul>
+                <div class="form-bottom-block">
+                  <div class="privacy-policy">
+                    <a href="#">
+                      Нажимая кнопку «отправить», вы соглашаетесь с
+                      <span>политикой конфиденциальности</span>
+                    </a>
+                  </div>
+                  <button>Отправить</button>
+                </div>
+              </form>
             </div>
-            <form class="form">
-              <div>
-                <label for="">Your name</label>
-                <input
-                  class="input-name field"
-                  type="text"
-                  placeholder="ELENA SVETLOVA"
-                />
-              </div>
-              <div>
-                <label for="">Mail</label>
-                <input
-                  class="input-mail field"
-                  type="text"
-                  placeholder="address"
-                />
-              </div>
-              <div>
-                <label for="">Phone</label>
-                <input
-                  class="input-phone field"
-                  type="number"
-                  placeholder="+8 000 000 000"
-                />
-              </div>
-              <button>Отправить</button>
-            </form>
-            <a class="privacy-policy" href="#"
-              >Нажимая кнопку «отправить», вы соглашаетесь с
-              <span>политикой конфиденциальности</span></a
-            >
-            <a class="scroll-up scroll" href="#top">scroll UP</a>
           </div>
+          <a class="scroll-up scroll" href="#top">scroll UP</a>
         </div>
       </section>
     </main>

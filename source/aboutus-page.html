@@ -6,10 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./img/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.min.css" />
-    <link rel="preload" href="fonts/NeutralFaceRegular.woff2" as="font" crossorigin/>
-    <link rel="preload" href="fonts/NeutralFaceBold.woff2" as="font" crossorigin/>
-    <link rel="preload" href="fonts/PT-Root-UI_Regular.woff2" as="font" crossorigin/>
-    <link rel="preload" href="fonts/PT-Root-UI_Bold.woff2" as="font" crossorigin/>
+    <link
+      rel="preload"
+      href="fonts/NeutralFaceRegular.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/NeutralFaceBold.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/PT-Root-UI_Regular.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/PT-Root-UI_Bold.woff2"
+      as="font"
+      crossorigin
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -49,10 +69,10 @@
               <a href="#"><span>02</span>Проекты</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="#"><span>04</span>процесс</a>
+              <a href="./process-page.html"><span>04</span>процесс</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="#"><span>06</span>производство</a>
+              <a href="./ourFactory-page.html"><span>06</span>производство</a>
             </li>
           </ul>
           <div class="burger__contacts">
@@ -83,6 +103,11 @@
             <ul class="logo__lang-list">
               <li class="ru" tabindex="0">
                 rus
+                <img
+                  class="translator-arrow"
+                  src="./img/translator-arrow.svg"
+                  alt="img"
+                />
                 <ul class="sub-logo__lang-list">
                   <li class="en">
                     <a href="./aboutus-pageEng.html">eng</a>
@@ -117,7 +142,25 @@
             </p>
           </div>
         </div>
-        <div><img src="./img/aboutus-page-img.jpg" alt="img" /></div>
+        <div>
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                ./img/about-us/img-1-desctop.webp    1x,
+                ./img/about-us/img-1-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/about-us/img-1-desctop.jpg"
+              srcset="
+                ./img/about-us/img-1-desctop.jpg    1x,
+                ./img/about-us/img-1-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
         <div class="aboutus-page__team">
           <h3>The Team</h3>
           <p>
@@ -137,8 +180,40 @@
           </p>
         </div>
         <div class="aboutus-page__team-img">
-          <img src="./img/aboutus-page-img2.jpg" alt="img" />
-          <img src="./img/aboutus-page-img3.jpg" alt="img" />
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                ./img/about-us/img-2-desctop.webp    1x,
+                ./img/about-us/img-2-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/about-us/img-2-desctop.jpg"
+              srcset="
+                ./img/about-us/img-2-desctop.jpg    1x,
+                ./img/about-us/img-2-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                ./img/about-us/img-3-desctop.webp    1x,
+                ./img/about-us/img-3-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/about-us/img-3-desctop.jpg"
+              srcset="
+                ./img/about-us/img-3-desctop.jpg    1x,
+                ./img/about-us/img-3-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
         </div>
         <div class="aboutus-page__studio">
           <h3>The Studio</h3>
@@ -157,11 +232,43 @@
         </div>
       </div>
       <div class="aboutus-page__img-full">
-        <img src="./img/aboutus-page-img4.jpg" alt="img" />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              ./img/about-us/img-4-desctop.webp    1x,
+              ./img/about-us/img-4-desctop-x2.webp 2x
+            "
+          />
+          <img
+            src="./img/about-us/img-4-desctop.jpg"
+            srcset="
+              ./img/about-us/img-4-desctop.jpg    1x,
+              ./img/about-us/img-4-desctop-x2.jpg 2x
+            "
+            alt="img"
+          />
+        </picture>
       </div>
       <div class="aboutus-page__last-img">
         <div class="container">
-          <img src="./img/aboutus-page-img5.jpg" alt="" />
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                ./img/about-us/img-5-desctop.webp    1x,
+                ./img/about-us/img-5-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/about-us/img-5-desctop.jpg"
+              srcset="
+                ./img/about-us/img-5-desctop.jpg    1x,
+                ./img/about-us/img-5-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
         </div>
       </div>
     </section>
@@ -169,10 +276,10 @@
       <div class="container">
         <div class="form">
           <div class="form__title">
-            <div>
-              <h2>contact us</h2>
-            </div>
-            <div>
+            <h2>contact us</h2>
+          </div>
+          <div class="form__right-block">
+            <div class="form__subtitle">
               <h3>Have a project in mind?</h3>
               <p>
                 Если вы заинтересованы в создании грамотного, уникального и
@@ -180,43 +287,54 @@
                 вас в числе наших клиентов.
               </p>
             </div>
+            <form>
+              <ul>
+                <li>
+                  <label for="">Your name</label>
+                  <input
+                    class="input-name field"
+                    type="text"
+                    placeholder="ELENA SVETLOVA"
+                  />
+                </li>
+                <li>
+                  <label for="">Mail</label>
+                  <input
+                    class="input-mail field"
+                    type="text"
+                    placeholder="address"
+                  />
+                </li>
+                <li>
+                  <label for="">Phone</label>
+                  <input
+                    class="input-phone field"
+                    type="number"
+                    placeholder="+8 000 000 000"
+                  />
+                </li>
+                <li>
+                  <label for="">Message</label>
+                  <input
+                    class="input-message field"
+                    type="text"
+                    placeholder="text"
+                  />
+                </li>
+              </ul>
+              <div class="form-bottom-block">
+                <div class="privacy-policy">
+                  <a href="#">
+                    Нажимая кнопку «отправить», вы соглашаетесь с
+                    <span>политикой конфиденциальности</span>
+                  </a>
+                </div>
+                <button>Отправить</button>
+              </div>
+            </form>
           </div>
-          <form>
-            <div>
-              <label for="">Your name</label>
-              <input
-                class="input-name"
-                type="text"
-                placeholder="ELENA SVETLOVA"
-                required
-              />
-            </div>
-            <div>
-              <label for="">Mail</label>
-              <input
-                class="input-mail"
-                type="text"
-                placeholder="address"
-                required
-              />
-            </div>
-            <div>
-              <label for="">Phone</label>
-              <input
-                class="input-phone"
-                type="number"
-                placeholder="+8 000 000 000"
-                required
-              />
-            </div>
-            <button class="form-submit" type="submit">Отправить</button>
-          </form>
-          <a class="privacy-policy" href="#"
-            >Нажимая кнопку «отправить», вы соглашаетесь с
-            <span>политикой конфиденциальности</span></a
-          >
-          <a class="scroll-up scroll" href="#top">scroll UP</a>
         </div>
+        <a class="scroll-up scroll" href="#top">scroll UP</a>
       </div>
     </section>
 

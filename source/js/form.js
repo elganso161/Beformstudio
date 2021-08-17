@@ -1,28 +1,84 @@
 "use strict";
 
 const form = document.querySelector(".form");
-const inputName = document.querySelector(".input-name");
-const inputMail = document.querySelector(".input-mail");
-const inputPhone = document.querySelector(".input-phone");
 const formComplite = document.querySelector(".form-complite");
 const closeFormComplite = document.querySelector(".form-complite-close");
 const fields = document.querySelectorAll(".field");
+const inputName = document.querySelector(".input-name");
+const inputMail = document.querySelector(".input-mail");
+const inputPhone = document.querySelector(".input-phone");
+const inputMessage = document.querySelector(".input-message");
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", formSend);
+
+async function formSend(e) {
   e.preventDefault();
+  let error = formValidate(form);
+  // let formData = new FormData(form);
+  if (error === 0) {
+    formComplite.classList.toggle("form-complite-active");
+    body.classList.toggle("active");
+    formReset();
+    // let response = await fetch("sendmail.php", {
+    //   method: "POST",
+    //   body: formData,
+    // });
+    // if (response.ok) {
+    //   let result = await response.json();
+    //   alert(result.message);
+    //   formPreview.innerHTML = "";
+    //   form.reset();
+    // } else {
+    //   alert("ошибка");
+    // }
+  } else {
+    // alert("Заполните все поля");
+  }
+}
 
-  for (let i = 0; i < fields.length; i++) {
-    if (!fields[i].value) {
-      fields[i].style.borderBottom = "1px solid red";
+function formValidate(form) {
+  let error = 0;
+
+  for (let index = 0; index < fields.length; index++) {
+    const input = fields[index];
+    formRemoveError(input);
+    if (input.classList.contains("input-mail")) {
+      if (emailTest(input)) {
+        formAddError(input);
+        error++;
+      }
     } else {
-      formComplite.classList.toggle("form-complite-active");
-      body.classList.toggle("active");
-
-      fields[i].value = "";
-      fields[i].style.borderBottom = "1px solid #212121";
+      if (input.value === "") {
+        formAddError(input);
+        error++;
+      }
     }
   }
-});
+  return error;
+}
+
+function formAddError(input) {
+  input.parentElement.classList.add("_error");
+  input.classList.add("_error");
+}
+function formRemoveError(input) {
+  input.parentElement.classList.remove("_error");
+  input.classList.remove("_error");
+}
+
+//test email function
+function emailTest(input) {
+  return !/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+    input.value
+  );
+}
+
+function formReset() {
+  inputName.value = "";
+  inputMail.value = "";
+  inputPhone.value = "";
+  inputMessage.value = "";
+}
 
 closeFormComplite.addEventListener("click", () => {
   formComplite.classList.toggle("form-complite-active");

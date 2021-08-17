@@ -1,0 +1,110 @@
+.process-page {
+  display: flex;
+  width: 100%;
+  height: 655px;
+  padding-top: 250px;
+  margin-bottom: 160px;
+  h2 {
+    width: 344px;
+    height: 125px;
+    margin-right: 90px;
+    font-family: "NeutralFace-Bold";
+    font-size: 48px;
+    line-height: 106%;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  h3 {
+    font-family: "PTRootUIWebBold";
+    font-size: 36px;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  p {
+    width: 585px;
+    height: 120px;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+}
+
+.process-page__accordion {
+  margin-bottom: 250px;
+}
+
+.accordion-list__item {
+  width: 100%;
+  min-height: 100px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: rgba(170, 170, 170, 0.1);
+  }
+
+  .accordion-list__item-btn {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 40px 0;
+    p {
+      font-family: "PTRootUIWebRegular";
+      font-size: 18px;
+      line-height: 142%;
+      color: #212121;
+      width: 114px;
+      margin-right: 320px;
+    }
+    h3 {
+      font-family: "Neutral Face";
+      font-size: 24px;
+      line-height: 106%;
+      color: #212121;
+      width: 304px;
+      margin-right: 452px;
+    }
+    .accordion-img {
+      width: 36px;
+      height: 36px;
+      background-image: url(../img/accordion-cross.svg);
+      background-size: cover;
+    }
+  }
+
+  .accordion-list__item-content {
+    display: none;
+  }
+}
+
+.accordion-list__item-content {
+  p {
+    width: 564px;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    margin-left: 437px;
+    margin-bottom: 30px;
+  }
+  p:last-child {
+    margin-bottom: 60px;
+  }
+}
+
+.accordion-list__item-active {
+  .accordion-list__item-content {
+    display: block;
+  }
+  .accordion-list__item-btn {
+    .accordion-img {
+      width: 36px;
+      height: 36px;
+      background-image: url(../img/accordion-minus.svg);
+      background-size: cover;
+    }
+  }
+}

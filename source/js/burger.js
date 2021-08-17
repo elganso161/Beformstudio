@@ -27,6 +27,3 @@ close.addEventListener("click", () => {
   });
 });
 
-// window.onscroll = function () {
-//   console.log(Math.floor(pageYOffset));
-// };

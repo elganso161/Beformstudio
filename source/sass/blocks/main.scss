@@ -4,12 +4,14 @@ main {
 
 .main__title {
   display: flex;
+  align-items: center;
+  // margin-bottom: 30px;
   p {
     width: 368px;
     font-family: "PTRootUIWebRegular";
     font-size: 16px;
     line-height: 142%;
-    margin-bottom: 5px;
+    margin-top: 15px;
   }
   a {
     text-decoration: none;
@@ -30,7 +32,7 @@ main {
 .main__title-img {
   width: 411px;
   height: 69px;
-  margin-top: 8px;
+  // margin-top: 8px;
   margin-left: 19.5%;
   margin-right: 110px;
 }

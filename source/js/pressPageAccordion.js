@@ -14,19 +14,21 @@ closeBtn.addEventListener("click", () => {
   panel.classList.add("hiden");
 });
 
+// const openBtn = document.querySelectorAll(".open-btn");
+// const panel = document.querySelectorAll(".press-page__block-panel");
+// const closeBtn = document.querySelectorAll(".close-btn");
+
 // openBtn.forEach((elem) => {
 //   elem.addEventListener("click", () => {
 //     panel.forEach((elem) => {
-//       elem.classList.toggle("hiden");
+//       elem.classList.remove("hiden");
 //       elem.classList.add("animate__zoomIn");
 //     });
-//     panel.classList.toggle("hiden");
-//     panel.classList.add("animate__zoomIn");
 //   });
 // });
 // closeBtn.forEach((elem) => {
 //   elem.addEventListener("click", () => {
 //     panel.classList.remove("animate__zoomIn");
-//     panel.classList.toggle("hiden");
+//     panel.classList.remove("hiden");
 //   });
 // });
