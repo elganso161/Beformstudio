@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./img/logo.svg" type="image/x-icon" />
     <!-- map -->
-    <script
-      src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=c218fcae-1714-47a0-84dd-fbf3a288b2fb"
-      type="text/javascript"
-    ></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
     <!-- map -->
     <link
       rel="preload"
@@ -160,13 +163,34 @@
               </ul>
             </li>
           </ul>
-          <a href="https://goo.gl/maps/DpEHodyAo33yt2zC9" target="blanc">
-            <img src="./img/map.png" alt="map" />
-          </a>
-          <!-- map -->
-          <div id="map" style="height: 600px"></div>
-          <!-- map -->
         </div>
+      </div>
+      <div>
+        <!-- map -->
+        <div class="map">
+          <div id="map" style="height: 700px"></div>
+        </div>
+        <script>
+          // TO MAKE THE MAP APPEAR YOU MUST
+          // ADD YOUR ACCESS TOKEN FROM
+          // https://account.mapbox.com
+          mapboxgl.accessToken =
+            "pk.eyJ1IjoibWFyeWEwNDkzIiwiYSI6ImNrc2hmOWIxaDF0eGUyb3FrZmczM2F1aHAifQ.EPR9RTZGEC3YRLgHdoxV8w";
+          const map = new mapboxgl.Map({
+            container: "map", // container ID
+            style: "mapbox://styles/marya0493/ckshjy4ytotbn17plidhpt9sy", // style URL
+            center: [30.296806, 59.933026], // starting position [lng, lat]
+            zoom: 14, // starting zoom
+          });
+
+          // Create a default Marker and add it to the map.
+          const marker1 = new mapboxgl.Marker({
+            color: "black",
+          })
+            .setLngLat([30.296806, 59.933726])
+            .addTo(map);
+        </script>
+        <!-- map -->
       </div>
     </section>
     <section>
@@ -300,6 +324,5 @@
     <script src="./js/scrollup.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/form.js"></script>
-    <script src="./js/map.js"></script>
   </body>
 </html>
