@@ -11,6 +11,13 @@
       href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css"
       rel="stylesheet"
     />
+
+    <!--  -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
     <!-- map -->
     <link
       rel="preload"
@@ -162,34 +169,98 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div>
-        <!-- map -->
-        <div id="map" style="height: 700px"></div>
-        <script>
-          // TO MAKE THE MAP APPEAR YOU MUST
-          // ADD YOUR ACCESS TOKEN FROM
-          // https://account.mapbox.com
-          mapboxgl.accessToken =
-            "pk.eyJ1IjoibWFyeWEwNDkzIiwiYSI6ImNrc2hmOWIxaDF0eGUyb3FrZmczM2F1aHAifQ.EPR9RTZGEC3YRLgHdoxV8w";
-          const map = new mapboxgl.Map({
-            container: "map", // container ID
-            style: "mapbox://styles/marya0493/ckshjy4ytotbn17plidhpt9sy", // style URL
-            center: [30.296806, 59.933026], // starting position [lng, lat]
-            zoom: 14, // starting zoom
-          });
+        <div>
+          <!-- map -->
+          <div id="map" style="height: 700px"></div>
+          <!-- <script>
+            // TO MAKE THE MAP APPEAR YOU MUST
+            // ADD YOUR ACCESS TOKEN FROM
+            // https://account.mapbox.com
+            mapboxgl.accessToken =
+              "pk.eyJ1IjoibWFyeWEwNDkzIiwiYSI6ImNrc2hmOWIxaDF0eGUyb3FrZmczM2F1aHAifQ.EPR9RTZGEC3YRLgHdoxV8w";
+            const map = new mapboxgl.Map({
+              container: "map", // container ID
+              style: "mapbox://styles/marya0493/ckshjy4ytotbn17plidhpt9sy", // style URL
+              center: [30.296806, 59.933026], // starting position [lng, lat]
+              zoom: 14, // starting zoom
+            });
 
-          // Create a default Marker and add it to the map.
-          const marker1 = new mapboxgl.Marker({
-            color: "black",
-          })
-            .setLngLat([30.296806, 59.933726])
-            .addTo(map);
-        </script>
-        <!-- map -->
+            // Create a default Marker and add it to the map.
+            const marker1 = new mapboxgl.Marker({
+              color: "black",
+            })
+              .setLngLat([30.296806, 59.933726])
+              .addTo(map);
+          </script> -->
+
+          <script>
+            // TO MAKE THE MAP APPEAR YOU MUST
+            // ADD YOUR ACCESS TOKEN FROM
+            // https://account.mapbox.com
+            mapboxgl.accessToken =
+              "pk.eyJ1IjoibWFyeWEwNDkzIiwiYSI6ImNrc2hmOWIxaDF0eGUyb3FrZmczM2F1aHAifQ.EPR9RTZGEC3YRLgHdoxV8w";
+            const map = new mapboxgl.Map({
+              container: "map",
+              style: "mapbox://styles/marya0493/ckshjy4ytotbn17plidhpt9sy",
+              center: [30.296806, 59.933026],
+              zoom: 14,
+            });
+
+            map.on("load", () => {
+              // Add an image to use as a custom marker
+              map.loadImage(
+                "https://docs.mapbox.com/mapbox-gl-js/assets/custom_marker.png",
+                (error, image) => {
+                  if (error) throw error;
+                  map.addImage("custom-marker", image);
+                  // Add a GeoJSON source with 2 points
+                  map.addSource("points", {
+                    type: "geojson",
+                    data: {
+                      type: "FeatureCollection",
+                      features: [
+                        {
+                          // feature for Mapbox DC
+                          type: "Feature",
+                          geometry: {
+                            type: "Point",
+                            coordinates: [30.296806, 59.933726],
+                          },
+                          properties: {
+                            title: "Beformstudio",
+                          },
+                        },
+                      ],
+                    },
+                  });
+
+                  // Add a symbol layer
+                  map.addLayer({
+                    id: "points",
+                    type: "symbol",
+                    source: "points",
+                    layout: {
+                      "icon-image": "custom-marker",
+                      // get the title name from the source's "title" property
+                      "text-field": ["get", "title"],
+                      "text-font": [
+                        "Open Sans Semibold",
+                        "Arial Unicode MS Bold",
+                      ],
+                      "text-offset": [0, 1.25],
+                      "text-anchor": "top",
+                    },
+                  });
+                }
+              );
+            });
+          </script>
+
+          <!-- map -->
+        </div>
       </div>
     </section>
-    
+
     <section>
       <div class="container">
         <div class="form">

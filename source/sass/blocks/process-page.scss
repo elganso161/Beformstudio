@@ -93,6 +93,19 @@
   p:last-child {
     margin-bottom: 60px;
   }
+  ul {
+    li {
+      width: 564px;
+      font-family: "PTRootUIWebRegular";
+      font-size: 18px;
+      line-height: 148%;
+      color: #212121;
+      margin-left: 437px;
+    }
+    li:last-child {
+      margin-bottom: 60px;
+    }
+  }
 }
 
 .accordion-list__item-active {
