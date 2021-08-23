@@ -85,18 +85,18 @@ closeFormComplite.addEventListener("click", () => {
   body.classList.toggle("active");
 });
 
-
-// function setCursorPosition(pos, elem) {
-//   elem.focus();
-//   if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
-//   else if (elem.createTextRange) {
-//     var range = elem.createTextRange();
-//     range.collapse(true);
-//     range.moveEnd("character", pos);
-//     range.moveStart("character", pos);
-//     range.select();
-//   }
-// }
+//
+function setCursorPosition(pos, elem) {
+  elem.focus();
+  if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
+  else if (elem.createTextRange) {
+    var range = elem.createTextRange();
+    range.collapse(true);
+    range.moveEnd("character", pos);
+    range.moveStart("character", pos);
+    range.select();
+  }
+}
 
 function mask(event) {
   var matrix = "+7 (___) ___ ____",

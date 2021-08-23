@@ -13,7 +13,7 @@
     font-size: 48px;
     line-height: 106%;
     color: #212121;
-    width: 344px;
+    max-width: 344px;
     margin-right: 90px;
   }
 }
@@ -142,7 +142,7 @@ form {
 }
 
 .privacy-policy {
-  width: 332px;
+  max-width: 332px;
   a {
     font-family: "PTRootUIWebRegular";
     color: #616161;
@@ -200,8 +200,7 @@ form {
   top: -2000px;
   left: 0;
   width: 100%;
-  max-height: 100%;
-  height: 100vw;
+  height: 100vh;
   z-index: 30;
   background: #212121;
   transition: 0.2s;
@@ -251,4 +250,102 @@ form {
 
 .field._error {
   border-bottom: 1px solid red;
+}
+
+@media (max-width: 768px) {
+  .form {
+    width: 100%;
+    margin-top: 170px;
+    flex-wrap: wrap;
+    padding-left: 97px;
+    padding-right: 50px;
+  }
+
+  .form__title {
+    display: flex;
+    margin: 0;
+    margin-bottom: 50px;
+    h2 {
+      font-size: 36px;
+      line-height: 106%;
+    }
+  }
+
+  .form__right-block {
+    // padding-top: 10px;
+    width: 100%;
+  }
+
+  .form__subtitle {
+    margin-bottom: 22px;
+    h3 {
+      font-size: 26px;
+      line-height: 106%;
+      margin-bottom: 22px;
+    }
+    p {
+      max-width: 453px;
+      font-size: 15px;
+      line-height: 148%;
+      margin: 0;
+      margin-bottom: 80px;
+    }
+  }
+  .form-bottom-block {
+    margin-bottom: 170px;
+  }
+  .privacy-policy {
+    max-width: 272px;
+    a {
+      font-size: 12px;
+      line-height: 138%;
+    }
+  }
+
+  .scroll-up {
+    font-size: 21px;
+    line-height: 106%;
+    &::before {
+      top: -65px;
+      left: 65px;
+      width: 28px;
+      height: 40px;
+      background-size: 28px 40px;
+    }
+  }
+
+  form {
+    ul {
+      margin-bottom: 60px;
+      li {
+        margin-bottom: 32px;
+        height: 70px;
+      }
+    }
+    label {
+      font-size: 15px;
+      margin-bottom: 8px;
+    }
+    input {
+      font-size: 15px;
+      &::placeholder {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .form-complite-block {
+    display: flex;
+    max-width: 560px;
+    min-height: 210px;
+    margin: 0 auto;
+    margin-top: 35vh;
+    p {
+      font-size: 58px;
+      line-height: 130%;
+    }
+    button {
+      margin-top: 90px;
+    }
+  }
 }

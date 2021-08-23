@@ -38,15 +38,16 @@
     />
 
     <!-- swiper -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- swiper -->
     <title>Beformstudio</title>
   </head>
   <body id="top">
+    <!-- header -->
     <header class="header">
       <nav class="header__nav">
         <div class="container">
@@ -68,16 +69,16 @@
               <a href="./aboutus-page.html"><span>01</span>О нас</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./contactus-page.html"><span>03</span>контакты</a>
+              <a href="./contactus-page.html"><span>02</span>Проекты</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./press-page.html"><span>05</span>пресса</a>
+              <a href="./press-page.html"><span>03</span>контакты</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="#"><span>02</span>Проекты</a>
+              <a href="#"><span>04</span>процесс</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./process-page.html"><span>04</span>процесс</a>
+              <a href="./process-page.html"><span>05</span>пресса</a>
             </li>
             <li class="animate__nav-item animate__animated">
               <a href="./ourFactory-page.html"><span>06</span>производство</a>
@@ -132,18 +133,13 @@
             </div>
           </div>
         </div>
-        <!-- пробуем перенести логотип в header -->
-        <!-- <div class="main__title-img">
-          <img
-            class="animate__animated animate__fadeIn"
-            src="./img/title-logo.svg"
-            alt="Logo"
-          />
-        </div> -->
-        <!-- пробуем перенести логотип в header -->
       </div>
     </header>
+    <!-- /header
+
+    <!-- main -->
     <main>
+      <!-- mainTitle -->
       <section>
         <div class="container">
           <div class="main__title">
@@ -163,13 +159,13 @@
           </div>
         </div>
       </section>
-      <!-- <section>
+      <!-- /mainTitle -->
+
+      <!-- swiper -->
+      <section class="section-swiper">
         <div class="container">
-
           <div class="swiper-container">
-
             <div class="swiper-wrapper">
-
               <div class="swiper-slide">
                 <img src="./img/home-page/1.jpg" alt="" />
               </div>
@@ -182,8 +178,11 @@
             </div>
           </div>
         </div>
-      </section> -->
-      <section>
+      </section>
+      <!-- /swiper -->
+
+      <!-- slider -->
+      <section class="section-slider">
         <h2 class="visually-hidden">Slider</h2>
         <div class="container">
           <div class="slider__block">
@@ -271,7 +270,9 @@
           </div>
         </div>
       </section>
+      <!-- /slider -->
 
+      <!-- aboutUs -->
       <section>
         <div class="container">
           <div class="aboutus">
@@ -326,6 +327,9 @@
           </picture>
         </div>
       </section>
+      <!-- /aboutUs -->
+
+      <!-- projects -->
       <section>
         <div class="container">
           <div class="projects">
@@ -441,6 +445,9 @@
           <div class="all-projects"><a href="#">all projectS</a></div>
         </div>
       </section>
+      <!-- /projects -->
+
+      <!-- instagram -->
       <section>
         <div class="container">
           <div class="instagram">
@@ -536,6 +543,9 @@
           </div>
         </div>
       </section>
+      <!-- instagram -->
+
+      <!-- form -->
       <section>
         <div class="container">
           <div class="form">
@@ -601,7 +611,11 @@
           <a class="scroll-up scroll" href="#top">scroll UP</a>
         </div>
       </section>
+      <!-- /form -->
     </main>
+    <!-- /main -->
+
+    <!-- footer -->
     <footer>
       <div class="footer">
         <div class="container">
@@ -649,21 +663,25 @@
         </div>
       </div>
     </footer>
+    <!-- /footer -->
 
-    <div class="popup-form">
-      <div class="form-complite">
-        <div class="container">
-          <div class="form-complite-block">
-            <div>
-              <p>готово!</p>
-              <p>Форма успешно отправлена</p>
-              <button class="form-complite-close">ok</button>
+    <!-- popup -->
+    <section>
+      <div class="popup-form">
+        <div class="form-complite">
+          <div class="container">
+            <div class="form-complite-block">
+              <div>
+                <p>готово!</p>
+                <p>Форма успешно отправлена</p>
+                <button class="form-complite-close">ok</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
+    </section>
+    <!-- /popup -->
     <script src="./js/scrollup.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/slider.js"></script>

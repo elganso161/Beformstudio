@@ -12,10 +12,10 @@
 }
 
 .aboutus__text {
-  width: 500px;
+  max-width: 500px;
   margin-top: 250px;
   h2 {
-    width: 288px;
+    max-width: 288px;
     font-family: "NeutralFace-Bold";
     font-style: normal;
     font-weight: bold;
@@ -25,8 +25,8 @@
     margin-bottom: 30px;
   }
   p {
-    width: 444px;
-    height: 134px;
+    max-width: 444px;
+    min-height: 134px;
     font-family: "PTRootUIWebRegular";
     font-style: normal;
     font-weight: normal;
@@ -44,4 +44,31 @@
   }
 }
 
+@media (max-width: 768px) {
+  .aboutus {
+    margin-bottom: 170px;
+  }
+  .aboutus__img {
+    margin-right: 60px;
+    img {
+      max-width: 350px;
+    }
+  }
+  .aboutus__text {
+    margin-top: 0;
+    margin-top: 131px;
+    h2 {
+      font-size: 36px;
+      line-height: 106%;
+    }
+    p {
+      max-width: 292px;
+      font-size: 15px;
+      line-height: 148%;
+    }
+  }
 
+  .aboutus__img-bottom {
+    margin-bottom: 170px;
+  }
+}

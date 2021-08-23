@@ -1,4 +1,5 @@
 main {
+  width: 100%;
   padding-top: 160px;
 }
 
@@ -7,7 +8,7 @@ main {
   align-items: center;
   // margin-bottom: 30px;
   p {
-    width: 368px;
+    max-width: 368px;
     font-family: "PTRootUIWebRegular";
     font-size: 16px;
     line-height: 142%;
@@ -37,4 +38,29 @@ main {
   // margin-top: 8px;
   // margin-left: 19.5%;
   // margin-right: 110px;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-top: 0;
+  }
+
+  .main__title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    .main__title-img {
+      margin: 0;
+      margin-bottom: 22px;
+      height: 54px;
+      img {
+        width: 326px;
+      }
+    }
+    p {
+      margin-top: 0;
+      line-height: 136%;
+    }
+  }
 }

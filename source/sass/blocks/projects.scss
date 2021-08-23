@@ -16,7 +16,7 @@
     margin-bottom: 30px;
   }
   p {
-    width: 648px;
+    max-width: 648px;
     height: 132px;
     font-family: "PTRootUIWebRegular";
     font-size: 18px;
@@ -27,7 +27,7 @@
 }
 
 .projects__record-list {
-  width: 648px;
+  max-width: 648px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 250px;
@@ -132,6 +132,100 @@
     }
     &:active {
       opacity: 0.5;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    max-width: 540px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    h2 {
+      font-size: 36px;
+      line-height: 106%;
+      margin-bottom: 60px;
+    }
+    h3 {
+      font-size: 28px;
+      line-height: 106%;
+      margin-bottom: 22px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 148%;
+    }
+  }
+  .projects__record-list {
+    margin-bottom: 170px;
+    p {
+      font-size: 68px;
+      line-height: 106%;
+    }
+  }
+  .project-one {
+    text-align: left;
+    margin-bottom: 58px;
+  }
+
+  .project-two-three {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 58px;
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+
+  .project-two {
+    width: 100%;
+    margin-bottom: 58px;
+    text-align: left;
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-three {
+    width: 100%;
+    margin-top: 0;
+    text-align: left;
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-four {
+    margin-bottom: 108px;
+    text-align: left;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .all-projects {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 170px;
+
+    a {
+      font-size: 36px;
+      line-height: 106%;
+      &:before {
+        top: 0;
+        left: 310px;
+        width: 48px;
+        height: 48px;
+        background-size: 48px 48px;
+      }
+      &:hover::before {
+        left: 330px;
+      }
+      &:active {
+        opacity: 0.5;
+      }
     }
   }
 }

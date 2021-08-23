@@ -50,12 +50,12 @@ setInterval(() => {
   rollSlider();
 }, 5000);
 
-// const swiper = new Swiper(".swiper-container", {
-//   loop: true,
-//   speed: 700,
-//   autoplay: {
-//     delay: 2500,
+const swiper = new Swiper(".swiper-container", {
+  loop: true,
+  speed: 700,
+  autoplay: {
+    delay: 2500,
 
-//     disableOnInteraction: false,
-//   },
-// });
+    disableOnInteraction: false,
+  },
+});
