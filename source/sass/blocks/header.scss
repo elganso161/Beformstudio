@@ -417,7 +417,130 @@
   }
 
   .burger__contacts-img {
-  margin-right: 0;
+    margin-right: 0;
+  }
 }
 
+@media (max-width: 480px) {
+  .header {
+    height: 95px;
+  }
+  .header__nav-close {
+    margin-top: 24px;
+    margin-bottom: 60px;
+    padding: 0 15px;
+  }
+  .close {
+    width: 21px;
+  }
+  .header__nav-lang {
+    font-size: 15px;
+  }
+  .ru {
+    font-size: 15px;
+  }
+
+  .en {
+    font-size: 15px;
+  }
+
+  .header__nav-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 66px;
+    padding-left: 0;
+    li {
+      font-size: 21px;
+      margin-right: 0;
+      margin-bottom: 50px;
+      height: 20px;
+      min-width: 100%;
+      a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+      span {
+        display: none;
+      }
+    }
+    li:last-child {
+      width: 334px;
+      margin-bottom: 0;
+    }
+  }
+
+  .burger__contacts {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+
+    p {
+      font-family: "PTRootUIWebRegular";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 148%;
+      color: #ffffff;
+    }
+    a {
+      text-decoration: none;
+      font-family: "PTRootUIWebRegular";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: #ffffff;
+    }
+  }
+  .burger__contacts-img {
+    // order: 1;
+    display: none;
+  }
+
+  .social__list {
+    order: 1;
+    margin: 0 auto;
+    li {
+      font-size: 16px;
+      line-height: 106%;
+    }
+    a {
+      text-decoration: none;
+      font-family: "Neutral Face";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 106%;
+    }
+  }
+  .burger__contacts-group {
+    order: 2;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto;
+    div {
+      min-width: 100%;
+      text-align: center;
+    }
+    p {
+      font-size: 12px;
+      line-height: 124%;
+    }
+    a {
+      display: block;
+      font-size: 12px;
+      line-height: 124%;
+    }
+  }
+
+  .logo {
+    max-width: 135px;
+  }
 }

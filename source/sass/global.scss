@@ -19,6 +19,23 @@ html {
   box-sizing: border-box;
 }
 
+// При использование swiper появлялся горизонтальный скролл.
+html {
+  overflow-y: scroll;
+}
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+:root body {
+  position: absolute;
+}
+body {
+  width: 100vw;
+  overflow: hidden;
+}
+//
+
 *,
 *::before,
 *::after {
@@ -109,7 +126,12 @@ li {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 98%;
+    max-width: 95%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
   }
 }

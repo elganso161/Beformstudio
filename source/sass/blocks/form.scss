@@ -349,3 +349,108 @@ form {
     }
   }
 }
+
+@media (max-width: 480px) {
+  .form {
+    width: 100%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    margin-left: 31px;
+    margin-bottom: 170px;
+  }
+
+  .form__title {
+    display: flex;
+    margin: 0;
+    margin-bottom: 40px;
+    height: 35px;
+    h2 {
+      max-width: 264px;
+      font-size: 34px;
+      margin: 0;
+    }
+  }
+
+  .form__subtitle {
+    margin-bottom: 22px;
+    max-width: 100%;
+    h3 {
+      font-size: 23px;
+      line-height: 106%;
+      margin-bottom: 22px;
+      max-width: 245px;
+    }
+    p {
+      // width: 100%;
+      max-width: 90%;
+      min-height: 130px;
+      font-size: 15px;
+      line-height: 148%;
+      margin: 0;
+      margin-bottom: 50px;
+    }
+  }
+
+  form {
+    padding-right: 10px;
+    ul {
+      margin-bottom: 30px;
+      padding: 0 25px 0 0;
+      li {
+        margin-bottom: 28px;
+        height: 60px;
+      }
+    }
+    label {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+    input {
+      padding: 5px 0;
+      font-size: 14px;
+      &::placeholder {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .form-bottom-block {
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    .privacy-policy {
+      max-width: 265px;
+      min-height: 24px;
+      margin-bottom: 40px;
+      font-size: 10px;
+    }
+    button {
+      width: 245px;
+      height: 56px;
+      margin: 0;
+    }
+  }
+  .scroll-up {
+    margin-bottom: 60px;
+  }
+
+  .form-complite-block {
+    display: flex;
+    max-width: 280px;
+    min-height: 210px;
+    margin: 0 auto;
+    margin-top: 25vh;
+    p {
+      font-size: 29px;
+      line-height: 142%;
+    }
+    button {
+      font-size: 36px;
+      max-width: 280px;
+      height: 60px;
+      margin-top: 100px;
+    }
+  }
+}

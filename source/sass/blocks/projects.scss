@@ -1,3 +1,7 @@
+.ttt {
+  display: none;
+}
+
 .projects {
   display: flex;
   h2 {
@@ -164,7 +168,7 @@
     }
   }
   .project-one {
-    text-align: left;
+    text-align: right;
     margin-bottom: 58px;
   }
 
@@ -182,7 +186,7 @@
   .project-two {
     width: 100%;
     margin-bottom: 58px;
-    text-align: left;
+    text-align: right;
     img {
       width: 100%;
     }
@@ -191,7 +195,7 @@
   .project-three {
     width: 100%;
     margin-top: 0;
-    text-align: left;
+    text-align: right;
     img {
       width: 100%;
     }
@@ -199,7 +203,7 @@
 
   .project-four {
     margin-bottom: 108px;
-    text-align: left;
+    text-align: right;
     img {
       max-width: 100%;
       height: auto;
@@ -227,5 +231,88 @@
         opacity: 0.5;
       }
     }
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    max-width: 75%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    h2 {
+      max-width: 240px;
+      min-height: 34px;
+      font-size: 34px;
+      margin: 0;
+      margin-bottom: 40px;
+    }
+    h3 {
+      font-size: 24px;
+      margin-bottom: 22px;
+    }
+    p {
+      width: 100%;
+      font-size: 15px;
+      line-height: 148%;
+      height: auto;
+      margin-bottom: 60px;
+    }
+  }
+
+  .prev-project {
+    a {
+      padding: 0 10px;
+    }
+  }
+
+  .projects__record-list {
+    margin-bottom: 100px;
+    width: 100%;
+    li {
+      width: 74px;
+      p {
+        font-size: 48px;
+        max-width: 54px;
+        min-height: 44px;
+        margin-bottom: 0;
+      }
+      span {
+        font-size: 10px;
+        line-height: 128%;
+      }
+    }
+  }
+
+  .project-four {
+    margin-bottom: 60px;
+  }
+
+  .all-projects {
+    width: 170px;
+    margin: 0;
+    margin-left: 41px;
+    margin-bottom: 100px;
+
+    a {
+      font-size: 30px;
+      &:before {
+        top: 32px;
+        left: 185px;
+        width: 34px;
+        width: 34px;
+        height: 34px;
+        background-size: 34px 34px;
+      }
+      &:hover::before {
+        left: 195px;
+      }
+      &:active {
+        opacity: 0.5;
+      }
+    }
+  }
+  .ttt {
+    display: block;
+    margin-top: 20px;
   }
 }

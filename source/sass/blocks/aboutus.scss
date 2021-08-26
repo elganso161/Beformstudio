@@ -55,7 +55,6 @@
     }
   }
   .aboutus__text {
-    margin-top: 0;
     margin-top: 131px;
     h2 {
       font-size: 36px;
@@ -70,5 +69,43 @@
 
   .aboutus__img-bottom {
     margin-bottom: 170px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutus {
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+
+  .aboutus__img {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 60px;
+    height: 250px;
+    overflow: hidden;
+    img {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+
+  .aboutus__text {
+    width: 75%;
+    margin-top: 0;
+    margin: 0 auto;
+    h2 {
+      font-size: 34px;
+    }
+    p {
+      width: 100%;
+      font-size: 15px;
+      line-height: 148%;
+    }
+  }
+
+  .aboutus__img-bottom {
+    margin-bottom: 100px;
   }
 }

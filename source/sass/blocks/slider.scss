@@ -96,14 +96,6 @@ select:focus {
   }
 }
 
-// button:hover {
-//   background: orangered;
-// }
-
-// button:active {
-//   background: #000;
-//   color: #fff;
-// }
 
 .out-block {
   font-size: 1rem;
@@ -162,5 +154,12 @@ select:focus {
   }
   .section-slider {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-swiper {
+    display: block;
+    margin-bottom: 100px;
   }
 }

@@ -66,12 +66,68 @@
   }
   .instagram__list {
     display: flex;
-    gap: 11px;
+    gap: 12px;
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       object-position: center;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .instagram__title {
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-left: 41px;
+    h2 {
+      font-size: 34px;
+      line-height: 106%;
+      margin-bottom: 18px;
+    }
+    a {
+      font-size: 24px;
+      line-height: 106%;
+      padding: 0;
+      &:hover {
+        opacity: 0.7;
+      }
+      &:active {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .instagram__list {
+    display: flex;
+    max-width: 390px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 11px;
+    li {
+      max-width: 189px;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 403px) {
+    .instagram__list {
+    display: flex;
+    max-width: 251px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 11px;
+    li {
+      max-width: 120px;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
     }
   }
 }

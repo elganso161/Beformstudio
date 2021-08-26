@@ -50,6 +50,7 @@ setInterval(() => {
   rollSlider();
 }, 5000);
 
+// swiper
 const swiper = new Swiper(".swiper-container", {
   loop: true,
   speed: 700,

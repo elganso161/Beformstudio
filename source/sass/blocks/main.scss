@@ -1,12 +1,10 @@
 main {
-  width: 100%;
   padding-top: 160px;
 }
 
 .main__title {
   display: flex;
   align-items: center;
-  // margin-bottom: 30px;
   p {
     max-width: 368px;
     font-family: "PTRootUIWebRegular";
@@ -34,10 +32,6 @@ main {
   width: 411px;
   height: 69px;
   margin: 0 auto;
-  // margin-top: -170px;
-  // margin-top: 8px;
-  // margin-left: 19.5%;
-  // margin-right: 110px;
 }
 
 @media (max-width: 768px) {
@@ -61,6 +55,33 @@ main {
     p {
       margin-top: 0;
       line-height: 136%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .main__title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-bottom: 24px;
+    padding-left: 15px;
+    .main__title-img {
+      margin: 0;
+      // margin-left: 3px;
+      margin-bottom: 8px;
+      height: 34px;
+      img {
+        max-width: 212px;
+      }
+    }
+    p {
+      max-width: 287px;
+      min-height: 36px;
+      // margin-left: 6px;
+      padding-left: 3px;
+      font-size: 14px;
+      line-height: 130%;
     }
   }
 }
