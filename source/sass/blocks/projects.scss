@@ -140,6 +140,57 @@
   }
 }
 
+@media (max-width: 1240px) {
+  .project-one {
+    text-align: right;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-two-three {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .project-two {
+    width: 100%;
+    margin-bottom: 72px;
+    text-align: right;
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-three {
+    width: 100%;
+    margin-top: 0;
+    text-align: right;
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-four {
+    text-align: right;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 118px;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .projects {
     max-width: 680px;

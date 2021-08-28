@@ -48,7 +48,7 @@
   .aboutus {
     margin-bottom: 190px;
   }
-  
+
   .aboutus__img {
     margin-right: 110px;
     img {
@@ -102,6 +102,50 @@
     margin-bottom: 170px;
   }
 }
+@media (max-width: 840px) {
+  .aboutus__img {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .aboutus {
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+
+  .aboutus__img {
+    margin-right: 0;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    height: 250px;
+    overflow: hidden;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .aboutus__text {
+    width: 75%;
+    margin-top: 0;
+    margin: 0 auto;
+    h2 {
+      font-size: 34px;
+    }
+    p {
+      width: 100%;
+      font-size: 15px;
+      line-height: 148%;
+    }
+  }
+
+  .aboutus__img-bottom {
+    margin-bottom: 100px;
+  }
+}
+
 ////////////////////////////////////////////////480px
 @media (max-width: 480px) {
   .aboutus {
