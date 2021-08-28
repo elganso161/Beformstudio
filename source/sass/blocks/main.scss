@@ -34,6 +34,31 @@ main {
   margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+  main {
+    padding-top: 0;
+  }
+  .main__title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 91px;
+    margin-bottom: 50px;
+    .main__title-img {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 22px;
+      height: 54px;
+      img {
+        width: 326px;
+      }
+    }
+    p {
+      margin-top: 0;
+      line-height: 136%;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   main {
     padding-top: 0;

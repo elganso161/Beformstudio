@@ -43,7 +43,38 @@
     margin: 0 auto;
   }
 }
+////////////////////////////////////////////////1024px
+@media (max-width: 1024px) {
+  .aboutus {
+    margin-bottom: 190px;
+  }
+  
+  .aboutus__img {
+    margin-right: 110px;
+    img {
+      max-width: 460px;
+    }
+  }
 
+  .aboutus__text {
+    margin-top: 170px;
+    h2 {
+      font-size: 40px;
+      line-height: 106%;
+    }
+    p {
+      font-size: 16px;
+      line-height: 148%;
+      max-width: 313px;
+    }
+  }
+
+  .aboutus__img-bottom {
+    margin-bottom: 190px;
+  }
+}
+
+////////////////////////////////////////////////768px
 @media (max-width: 768px) {
   .aboutus {
     margin-bottom: 170px;
@@ -71,7 +102,7 @@
     margin-bottom: 170px;
   }
 }
-
+////////////////////////////////////////////////480px
 @media (max-width: 480px) {
   .aboutus {
     flex-wrap: wrap;

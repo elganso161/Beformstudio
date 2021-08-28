@@ -140,6 +140,116 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .projects {
+    max-width: 680px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    h2 {
+      font-size: 40px;
+      line-height: 106%;
+      margin-bottom: 60px;
+    }
+    h3 {
+      font-size: 32px;
+      line-height: 106%;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 148%;
+      max-width: 580px;
+    }
+  }
+
+  .projects__record-list {
+    max-width: 580px;
+    margin-bottom: 210px;
+    p {
+      font-size: 76px;
+      line-height: 106%;
+    }
+    li {
+      span {
+        font-size: 15px;
+        line-height: 126%;
+      }
+    }
+  }
+
+  .project-one {
+    text-align: right;
+    max-width: 860px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-two-three {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 860px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .project-two {
+    width: 100%;
+    margin-bottom: 72px;
+    text-align: right;
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-three {
+    width: 100%;
+    margin-top: 0;
+    text-align: right;
+    img {
+      width: 100%;
+    }
+  }
+
+  .project-four {
+    text-align: right;
+    max-width: 860px;
+    margin: 0 auto;
+    margin-bottom: 118px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .all-projects {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    a {
+      font-size: 38px;
+      line-height: 106%;
+      &:before {
+        top: 0;
+        left: 320px;
+        width: 52px;
+        height: 52px;
+        background-size: 52px 52px;
+      }
+      &:hover::before {
+        left: 330px;
+      }
+      &:active {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .projects {
     max-width: 540px;

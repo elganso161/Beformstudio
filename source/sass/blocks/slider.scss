@@ -96,7 +96,6 @@ select:focus {
   }
 }
 
-
 .out-block {
   font-size: 1rem;
   font-family: monospace;
@@ -146,11 +145,10 @@ select:focus {
   height: 100%;
   object-fit: cover;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .section-swiper {
     display: block;
-    margin-bottom: 170px;
+    margin-bottom: 190px;
   }
   .section-slider {
     display: none;

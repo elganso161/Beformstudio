@@ -109,7 +109,7 @@ form {
 
   button {
     display: block;
-    width: 232px;
+    width: 248px;
     height: 56px;
     font-family: "PTRootUIWebBold";
     font-size: 18px;
@@ -250,6 +250,76 @@ form {
 
 .field._error {
   border-bottom: 1px solid red;
+}
+
+@media (max-width: 1024px) {
+  .form {
+    max-width: 680px;
+    margin-top: 170px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 190px;
+  }
+
+  .form__title {
+    display: flex;
+    margin: 0;
+    margin-bottom: 60px;
+    h2 {
+      font-size: 40px;
+      line-height: 106%;
+    }
+  }
+
+  .form__subtitle {
+    margin-bottom: 22px;
+    h3 {
+      font-size: 28px;
+      line-height: 106%;
+      margin-bottom: 30px;
+    }
+    p {
+      max-width: 465px;
+      height: 70px;
+      font-size: 16px;
+      line-height: 148%;
+      margin: 0;
+      margin-bottom: 80px;
+    }
+  }
+
+  form {
+    ul {
+      margin-bottom: 50px;
+      li {
+        margin-bottom: 30px;
+        height: 76px;
+      }
+    }
+    label {
+      font-size: 16px;
+      line-height: 148%;
+      margin-bottom: 8px;
+    }
+    input {
+      font-size: 16px;
+      &::placeholder {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .privacy-policy {
+    max-width: 310px;
+    a {
+      font-size: 14px;
+      line-height: 138%;
+    }
+  }
+
+  .form-bottom-block {
+    margin-bottom: 256px;
+  }
 }
 
 @media (max-width: 768px) {
