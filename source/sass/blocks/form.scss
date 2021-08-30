@@ -420,6 +420,19 @@ form {
   }
 }
 
+@media (max-width: 590px) {
+  .form-complite-block {
+    margin-top: 250px;
+    p {
+      font-size: 46px;
+      line-height: 130%;
+    }
+    button {
+      margin-top: 70px;
+    }
+  }
+}
+
 @media (max-width: 480px) {
   .form {
     width: 100%;
@@ -511,7 +524,7 @@ form {
     max-width: 280px;
     min-height: 210px;
     margin: 0 auto;
-    margin-top: 25vh;
+    margin-top: 250px;
     p {
       font-size: 29px;
       line-height: 142%;
