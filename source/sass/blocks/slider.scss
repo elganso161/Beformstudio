@@ -1,7 +1,7 @@
 .slider__block {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  // margin-top: 50px;
   margin-bottom: 250px;
 }
 
@@ -13,8 +13,7 @@
 .slider {
   width: 80%;
   max-width: 80%;
-  height: 560px;
-  // margin: 20px auto;
+  height: auto;
   overflow: hidden;
 }
 
@@ -83,13 +82,13 @@ select:focus {
   text-align: center;
   color: #212121;
   width: 54px;
-  height: 34px;
+  height: 38px;
 }
 
 .button {
   cursor: pointer;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   margin-top: 0;
   &:hover {
     opacity: 0.5;
