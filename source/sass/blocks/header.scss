@@ -574,11 +574,11 @@
 
   .burger__contacts {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
     width: 300px;
     margin: 0 auto;
-
+    margin-bottom: 18px;
     p {
       font-family: "PTRootUIWebRegular";
       font-style: normal;
@@ -597,7 +597,6 @@
     }
   }
   .burger__contacts-img {
-    // order: 1;
     display: none;
   }
 
@@ -605,7 +604,7 @@
     order: 1;
     margin: 0 auto;
     li {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 106%;
     }
     a {
@@ -613,30 +612,30 @@
       font-family: "Neutral Face";
       font-style: normal;
       font-weight: bold;
-      font-size: 16px;
+      font-size: 18px;
       line-height: 106%;
     }
   }
   .burger__contacts-group {
     order: 2;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 200px;
+    max-width: 210px;
     margin: 0 auto;
     div {
       min-width: 100%;
       text-align: center;
     }
     p {
-      font-size: 12px;
+      font-size: 13px;
       line-height: 124%;
     }
     a {
       display: block;
-      font-size: 12px;
+      font-size: 13px;
       line-height: 124%;
     }
   }
