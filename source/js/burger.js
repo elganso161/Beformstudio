@@ -27,3 +27,6 @@ close.addEventListener("click", () => {
   });
 });
 
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") nav.classList.remove("header__nav-active");
+});

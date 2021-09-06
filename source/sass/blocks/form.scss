@@ -1,3 +1,8 @@
+.form-section {
+  width: 100%;
+  overflow: hidden;
+}
+
 .form {
   margin-top: 250px;
   margin-bottom: 110px;
@@ -422,13 +427,17 @@ form {
 
 @media (max-width: 590px) {
   .form-complite-block {
-    margin-top: 250px;
+    max-width: 265px;
+    margin-top: 50px;
     p {
-      font-size: 46px;
-      line-height: 130%;
+      font-size: 29px;
+      line-height: 142%;
     }
     button {
-      margin-top: 70px;
+      font-size: 36px;
+      max-width: 280px;
+      height: 60px;
+      margin-top: 50px;
     }
   }
 }
