@@ -528,8 +528,9 @@
   }
   .header__nav-close {
     margin-top: 24px;
-    margin-bottom: 60px;
+    // margin-bottom: 60px;
     padding: 0 15px;
+    margin-bottom: calc(50vh - 210px);
   }
   .close {
     width: 21px;
@@ -549,8 +550,9 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 66px;
+    // margin-bottom: 66px;
     padding-left: 0;
+    margin-bottom: calc(50vh - 210px);
     li {
       font-size: 21px;
       margin-right: 0;
