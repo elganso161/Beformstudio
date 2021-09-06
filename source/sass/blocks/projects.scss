@@ -397,7 +397,7 @@
 
 @media (max-width: 480px) {
   .projects {
-    max-width: 75%;
+    width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
     h2 {
@@ -422,7 +422,7 @@
 
   .prev-project {
     a {
-      padding: 0 10px;
+      font-size: 15px;
     }
   }
 
