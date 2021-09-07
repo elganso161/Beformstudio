@@ -105,10 +105,11 @@
 }
 
 .all-projects {
-  width: 465px;
+  width: 485px;
   margin: 0 auto;
   margin-bottom: 250px;
-
+  display: flex;
+  align-items: center;
   a {
     font-family: "Neutral Face";
     font-size: 48px;
@@ -117,26 +118,17 @@
     color: #212121;
     position: relative;
     text-decoration: none;
-    &:before {
-      position: absolute;
-      content: "";
-      top: 12px;
-      left: 395px;
-      z-index: 1;
-      width: 58px;
-      height: 34px;
-      background-image: url(../img/all-projects-arrow.svg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 0.3s;
+    margin-right: 16px;
+    transition: 0.3s;
+    &:hover {
+      margin-right: 25px;
     }
-    &:hover::before {
-      left: 405px;
-    }
-    &:active {
-      opacity: 0.5;
-    }
+  }
+  &:active {
+    opacity: 0.5;
+  }
+  svg {
+    width: 64px;
   }
 }
 
@@ -278,25 +270,21 @@
   }
 
   .all-projects {
-    width: 350px;
+    width: 460px;
     margin: 0 auto;
     margin-bottom: 190px;
     a {
       font-size: 38px;
       line-height: 106%;
-      &:before {
-        top: 0;
-        left: 320px;
-        width: 52px;
-        height: 52px;
-        background-size: 52px 52px;
+      &:hover {
+        margin-right: 25px;
       }
-      &:hover::before {
-        left: 330px;
-      }
-      &:active {
-        opacity: 0.5;
-      }
+    }
+    &:active {
+      opacity: 0.5;
+    }
+    svg {
+      width: 52px;
     }
   }
 }
@@ -371,26 +359,22 @@
     }
   }
   .all-projects {
-    width: 350px;
+    width: 371px;
     margin: 0 auto;
     margin-bottom: 170px;
 
     a {
       font-size: 36px;
       line-height: 106%;
-      &:before {
-        top: 0;
-        left: 310px;
-        width: 48px;
-        height: 48px;
-        background-size: 48px 48px;
+      &:hover {
+        margin-right: 25px;
       }
-      &:hover::before {
-        left: 330px;
-      }
-      &:active {
-        opacity: 0.5;
-      }
+    }
+    &:active {
+      opacity: 0.5;
+    }
+    svg {
+      width: 48px;
     }
   }
 }
@@ -449,27 +433,23 @@
   }
 
   .all-projects {
-    width: 170px;
+    width: 241px;
     margin: 0;
     margin-left: 41px;
     margin-bottom: 100px;
-
+    display: block;
     a {
       font-size: 30px;
-      &:before {
-        top: 32px;
-        left: 185px;
-        width: 34px;
-        width: 34px;
-        height: 34px;
-        background-size: 34px 34px;
+      &:hover {
+        margin-right: 25px;
       }
-      &:hover::before {
-        left: 195px;
-      }
-      &:active {
-        opacity: 0.5;
-      }
+    }
+    &:active {
+      opacity: 0.5;
+    }
+    svg {
+      padding-top: 7px;
+      width: 34px;
     }
   }
   .ttt {
