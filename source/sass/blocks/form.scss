@@ -420,7 +420,7 @@ form {
 
   .form-complite-block {
     display: flex;
-    max-width: 560px;
+    // max-width: 560px;
     min-height: 210px;
     margin: 0 auto;
     margin-top: 100px;
@@ -436,7 +436,7 @@ form {
 
 @media (max-width: 590px) {
   .form-complite-block {
-    max-width: 265px;
+    // max-width: 265px;
     margin-top: 50px;
     p {
       font-size: 29px;
