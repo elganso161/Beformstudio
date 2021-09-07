@@ -165,37 +165,31 @@ form {
 }
 .scroll-up {
   width: 152px;
-  height: 22px;
-  text-decoration: none;
-  font-family: "Neutral Face";
-  font-size: 24px;
-  line-height: 106%;
-  text-align: center;
-  color: #212121;
-
-  display: block;
+  height: 110px;
   margin: 0 auto;
   margin-bottom: 110px;
-  position: relative;
-  &::before {
-    position: absolute;
-    content: "";
-    top: -65px;
-    left: 65px;
-    z-index: 1;
-    width: 32px;
-    height: 46px;
-    background-image: url(../img/scrollup.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  text-align: center;
+  svg {
+    width: 54px;
+    margin-top: 10px;
+    margin-bottom: 18px;
     transition: 0.3s;
   }
-  &:hover::before {
-    top: -75px;
+  &:hover svg {
+    margin-top: 0;
+    margin-bottom: 28px;
   }
   &:active {
     opacity: 0.5;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 106%;
+    text-align: center;
+    color: #212121;
   }
 }
 
@@ -389,12 +383,27 @@ form {
   .scroll-up {
     font-size: 21px;
     line-height: 106%;
-    &::before {
-      top: -65px;
-      left: 65px;
-      width: 28px;
-      height: 40px;
-      background-size: 28px 40px;
+    svg {
+      width: 48px;
+      margin-top: 10px;
+      margin-bottom: 18px;
+      transition: 0.3s;
+    }
+    &:hover svg {
+      margin-top: 0;
+      margin-bottom: 28px;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      font-family: "Neutral Face";
+      font-size: 24px;
+      line-height: 106%;
+      text-align: center;
+      color: #212121;
     }
   }
 
