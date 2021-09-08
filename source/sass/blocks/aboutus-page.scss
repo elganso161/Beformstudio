@@ -193,6 +193,7 @@
 
   .aboutus-page__team {
     max-width: 590px;
+    margin: 0 auto;
     margin-top: 170px;
     margin-bottom: 170px;
     h3 {
@@ -208,6 +209,7 @@
 
   .aboutus-page__studio {
     max-width: 590px;
+    margin: 0 auto;
     margin-top: 170px;
     margin-bottom: 170px;
     h3 {
@@ -226,7 +228,6 @@
   }
 
   .aboutus-page__last-img {
-    // margin-left: 97px;
     max-width: 590px;
     margin: 0 auto;
   }
@@ -234,7 +235,10 @@
 
 @media (max-width: 480px) {
   .aboutus-page {
-    max-width: 248px;
+    // max-width: 248px;
+    width: 80%;
+    margin: 0 auto;
+    margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 60px;
     h2 {
@@ -251,7 +255,9 @@
   }
 
   .aboutus-page__team {
-    max-width: 248px;
+    // max-width: 248px;
+    width: 80%;
+    margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
     h3 {
@@ -269,7 +275,9 @@
   }
 
   .aboutus-page__studio {
-    max-width: 248px;
+    // max-width: 248px;
+    width: 80%;
+    margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
     h3 {
@@ -288,10 +296,10 @@
   }
 
   .aboutus-page__last-img {
-    max-width: 248px;
+    // max-width: 248px;
+    width: 80%;
     margin: 0 auto;
-    // margin-left: 21px;
-    img{
+    img {
       width: 100%;
     }
   }
