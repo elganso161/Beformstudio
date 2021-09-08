@@ -165,7 +165,9 @@
   }
 
   .aboutus-page__last-img {
-    margin-left: 205px;
+    // margin-left: 205px;
+    max-width: 680px;
+    margin: 0 auto;
   }
 }
 
@@ -224,7 +226,9 @@
   }
 
   .aboutus-page__last-img {
-    margin-left: 97px;
+    // margin-left: 97px;
+    max-width: 590px;
+    margin: 0 auto;
   }
 }
 
@@ -284,8 +288,11 @@
   }
 
   .aboutus-page__last-img {
-    display: block;
+    max-width: 248px;
     margin: 0 auto;
     // margin-left: 21px;
+    img{
+      width: 100%;
+    }
   }
 }
