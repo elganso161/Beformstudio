@@ -173,11 +173,12 @@
 
 @media (max-width: 768px) {
   .aboutus-page {
-    max-width: 590px;
-    flex-direction: column;
+    // max-width: 590px;
+    width: 70%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 170px;
+    flex-direction: column;
     h2 {
       width: 260px;
       height: 36px;
@@ -192,7 +193,8 @@
   }
 
   .aboutus-page__team {
-    max-width: 590px;
+    // max-width: 590px;
+    width: 70%;
     margin: 0 auto;
     margin-top: 170px;
     margin-bottom: 170px;
@@ -208,7 +210,8 @@
   }
 
   .aboutus-page__studio {
-    max-width: 590px;
+    // max-width: 590px;
+    width: 70%;
     margin: 0 auto;
     margin-top: 170px;
     margin-bottom: 170px;
@@ -228,7 +231,8 @@
   }
 
   .aboutus-page__last-img {
-    max-width: 590px;
+    // max-width: 590px;
+    width: 70%;
     margin: 0 auto;
   }
 }
@@ -242,12 +246,14 @@
     margin-top: 15px;
     margin-bottom: 60px;
     h2 {
-      width: 240px;
+      // width: 240px;
+      width: 100%;
       height: 34px;
       font-size: 34px;
     }
     p {
-      max-width: 246px;
+      // max-width: 246px;
+      width: 100%;
       font-size: 15px;
       line-height: 148%;
       margin-bottom: 24px;
@@ -264,7 +270,8 @@
       font-size: 24px;
     }
     p {
-      max-width: 246px;
+      // max-width: 246px;
+      width: 100%;
       font-size: 15px;
       line-height: 144%;
     }
@@ -285,7 +292,8 @@
       line-height: 106%;
     }
     p {
-      max-width: 246px;
+      // max-width: 246px;
+      width: 100%;
       font-size: 15px;
       line-height: 148%;
     }
