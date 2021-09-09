@@ -52,6 +52,7 @@
     <title>Contact us</title>
   </head>
   <body id="top">
+    <!-- header -->
     <header class="header">
       <nav class="header__nav">
         <div class="container">
@@ -73,18 +74,18 @@
               <a href="./aboutus-page.html"><span>01</span>О нас</a>
             </li>
             <li class="animate__nav-item animate__animated">
+              <a href="#"><span>02</span>Проекты</a>
+            </li>
+            <li class="animate__nav-item animate__animated">
               <a class="active-link" href="./contactus-page.html"
                 ><span>03</span>контакты</a
               >
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./press-page.html"><span>05</span>пресса</a>
+              <a href="#"><span>04</span>процесс</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="#"><span>02</span>Проекты</a>
-            </li>
-            <li class="animate__nav-item animate__animated">
-              <a href="./process-page.html"><span>04</span>процесс</a>
+              <a href="./process-page.html"><span>05</span>пресса</a>
             </li>
             <li class="animate__nav-item animate__animated">
               <a href="./ourFactory-page.html"><span>06</span>производство</a>
@@ -92,7 +93,9 @@
           </ul>
           <div class="burger__contacts">
             <div class="burger__contacts-img">
-              <img src="./img/logo-w.svg" alt="Logo" />
+              <a href="./index.html"
+                ><img src="./img/logo-w.svg" alt="Logo"
+              /></a>
             </div>
             <div class="burger__contacts-group">
               <div><p>Санкт-Петербург, Галерная ул., 20</p></div>
@@ -110,7 +113,7 @@
       </nav>
       <div class="container">
         <div class="header__menu">
-          <div class="burger" tabindex="0">
+          <div class="burger">
             <div class="burger__line1"></div>
             <div class="burger__line2"></div>
           </div>
@@ -125,7 +128,7 @@
                 />
                 <ul class="sub-logo__lang-list">
                   <li class="en">
-                    <a href="./contactus-pageEng.html">eng</a>
+                    <a href="./indexEng.html">eng</a>
                   </li>
                 </ul>
               </li>
@@ -139,15 +142,143 @@
         </div>
       </div>
     </header>
+    <!-- /header -->
 
     <section>
       <div class="container">
         <div class="contactus-page__img">
-          <img src="./img/contactus-page-img1.jpg" alt="" />
-          <img src="./img/contactus-page-img2.jpg" alt="" />
+          <div class="contactus-page__img-one">
+            <picture>
+              <source
+                type="image/webp"
+                media="(max-width: 480px)"
+                srcset="
+                  ./img/3-contact-us/mob/img-1-mob.webp    1x,
+                  ./img/3-contact-us/mob/img-1-mob-x2.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 480px)"
+                srcset="
+                  ./img/3-contact-us/mob/img-1-mob.jpg    1x,
+                  ./img/3-contact-us/mob/img-1-mob-x2.jpg 2x
+                "
+              />
+              <source
+                type="image/webp"
+                media="(max-width: 768px)"
+                srcset="
+                  ./img/3-contact-us/tab/img-1-tab.webp    1x,
+                  ./img/3-contact-us/tab/img-1-tab-x2.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 768px)"
+                srcset="
+                  ./img/3-contact-us/tab/img-1-tab.jpg    1x,
+                  ./img/3-contact-us/tab/img-1-tab-x2.jpg 2x
+                "
+              />
+              <source
+                type="image/webp"
+                media="(max-width: 1024px)"
+                srcset="
+                  ./img/3-contact-us/1024px/img-1-1024.webp    1x,
+                  ./img/3-contact-us/1024px/img-1-1024-x2.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="
+                  ./img/3-contact-us/1024px/img-1-1024.jpg    1x,
+                  ./img/3-contact-us/1024px/img-1-1024-x2.jpg 2x
+                "
+              />
+              <!-- <source
+                type="image/webp"
+                srcset="
+                  ./img/3-contact-us/desctop/img-1-desctop.webp    1x,
+                  ./img/3-contact-us/desctop/img-1-desctop-x2.webp 2x
+                "
+              /> -->
+              <img
+                src="./img/3-contact-us/desctop/img-1-desctop.jpg"
+                srcset="
+                  ./img/3-contact-us/desctop/img-1-desctop.jpg    1x,
+                  ./img/3-contact-us/desctop/img-1-desctop-x2.jpg 2x
+                "
+                alt="img"
+              />
+            </picture>
+          </div>
+          <div class="contactus-page__img-two">
+            <picture>
+              <source
+                type="image/webp"
+                media="(max-width: 480px)"
+                srcset="
+                  ./img/3-contact-us/mob/img-2-mob.webp    1x,
+                  ./img/3-contact-us/mob/img-2-mob-x2.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 480px)"
+                srcset="
+                  ./img/3-contact-us/mob/img-2-mob.jpg    1x,
+                  ./img/3-contact-us/mob/img-2-mob-x2.jpg 2x
+                "
+              />
+              <source
+                type="image/webp"
+                media="(max-width: 768px)"
+                srcset="
+                  ./img/3-contact-us/tab/img-2-tab.webp    1x,
+                  ./img/3-contact-us/tab/img-2-tab-x2.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 768px)"
+                srcset="
+                  ./img/3-contact-us/tab/img-2-tab.jpg    1x,
+                  ./img/3-contact-us/tab/img-2-tab-x2.jpg 2x
+                "
+              />
+              <source
+                type="image/webp"
+                media="(max-width: 1024px)"
+                srcset="
+                  ./img/3-contact-us/1024px/img-2-1024.webp    1x,
+                  ./img/3-contact-us/1024px/img-2-1024-x2.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="
+                  ./img/3-contact-us/1024px/img-2-1024.jpg    1x,
+                  ./img/3-contact-us/1024px/img-2-1024-x2.jpg 2x
+                "
+              />
+              <!-- <source
+                type="image/webp"
+                srcset="
+                  ./img/3-contact-us/desctop/img-2-desctop.webp    1x,
+                  ./img/3-contact-us/desctop/img-2-desctop-x2.webp 2x
+                "
+              /> -->
+              <img
+                src="./img/3-contact-us/desctop/img-2-desctop.jpg"
+                srcset="
+                  ./img/3-contact-us/desctop/img-2-desctop.jpg    1x,
+                  ./img/3-contact-us/desctop/img-2-desctop-x2.jpg 2x
+                "
+                alt="img"
+              />
+            </picture>
+          </div>
         </div>
       </div>
     </section>
+
     <section>
       <div class="container">
         <div class="contactus-page">
@@ -157,7 +288,7 @@
               <a href="#">bfrmstd@gmail.com</a>
             </li>
             <li class="contactus-page__list-item">
-              <p>Россия, Санкт-Петербург</p>
+              <p>Санкт-Петербург</p>
               <p>Галерная ул., 20</p>
             </li>
             <li>
@@ -169,34 +300,10 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="map">
           <!-- map -->
           <div id="map" style="height: 700px"></div>
-          <!-- <script>
-            // TO MAKE THE MAP APPEAR YOU MUST
-            // ADD YOUR ACCESS TOKEN FROM
-            // https://account.mapbox.com
-            mapboxgl.accessToken =
-              "pk.eyJ1IjoibWFyeWEwNDkzIiwiYSI6ImNrc2hmOWIxaDF0eGUyb3FrZmczM2F1aHAifQ.EPR9RTZGEC3YRLgHdoxV8w";
-            const map = new mapboxgl.Map({
-              container: "map", // container ID
-              style: "mapbox://styles/marya0493/ckshjy4ytotbn17plidhpt9sy", // style URL
-              center: [30.296806, 59.933026], // starting position [lng, lat]
-              zoom: 14, // starting zoom
-            });
-
-            // Create a default Marker and add it to the map.
-            const marker1 = new mapboxgl.Marker({
-              color: "black",
-            })
-              .setLngLat([30.296806, 59.933726])
-              .addTo(map);
-          </script> -->
-
           <script>
-            // TO MAKE THE MAP APPEAR YOU MUST
-            // ADD YOUR ACCESS TOKEN FROM
-            // https://account.mapbox.com
             mapboxgl.accessToken =
               "pk.eyJ1IjoibWFyeWEwNDkzIiwiYSI6ImNrc2hmOWIxaDF0eGUyb3FrZmczM2F1aHAifQ.EPR9RTZGEC3YRLgHdoxV8w";
             const map = new mapboxgl.Map({
@@ -233,7 +340,6 @@
                       ],
                     },
                   });
-
                   // Add a symbol layer
                   map.addLayer({
                     id: "points",
@@ -255,13 +361,94 @@
               );
             });
           </script>
-
           <!-- map -->
         </div>
       </div>
     </section>
 
+    <!-- instagram -->
     <section>
+      <div class="instagram">
+        <div class="container">
+          <div class="instagram__title">
+            <h2>instagram</h2>
+            <a href="#">@beformstudio</a>
+          </div>
+          <ul class="instagram__list">
+            <li>
+              <a href="#">
+                <picture>
+                  <source
+                    type="image/webp"
+                    media="(max-width: 480px)"
+                    srcset="
+                      ./img/1-home-page/Mobile/img-inst-mob.webp    1x,
+                      ./img/1-home-page/Mobile/img-inst-mob-x2.webp 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 480px)"
+                    srcset="
+                      ./img/1-home-page/Mobile/img-inst-mob.png    1x,
+                      ./img/1-home-page/Mobile/img-inst-mob-x2.png 2x
+                    "
+                  />
+                  <source
+                    type="image/webp"
+                    media="(max-width: 768px)"
+                    srcset="
+                      ./img/1-home-page/Tablet/img-inst-tab.webp    1x,
+                      ./img/1-home-page/Tablet/img-inst-tab-x2.webp 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 768px)"
+                    srcset="
+                      ./img/1-home-page/Tablet/img-inst-tab.png    1x,
+                      ./img/1-home-page/Tablet/img-inst-tab-x2.png 2x
+                    "
+                  />
+                  <source
+                    type="image/webp"
+                    media="(max-width: 1240px)"
+                    srcset="
+                      ./img/1-home-page/1024PX-Beform/img-inst-1024.webp    1x,
+                      ./img/1-home-page/1024PX-Beform/img-inst-1024-x2.webp 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 1240px)"
+                    srcset="
+                      ./img/1-home-page/1024PX-Beform/img-inst-1024.png    1x,
+                      ./img/1-home-page/1024PX-Beform/img-inst-1024-x2.png 2x
+                    "
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/1-home-page/Desctop/img-inst-desctop.webp    1x,
+                      ./img/1-home-page/Desctop/img-inst-desctop-x2.webp 2x
+                    "
+                  />
+                  <img
+                    src="./img/1-home-page/Desctop/img-10-desctop.jpg"
+                    srcset="
+                      ./img/1-home-page/Desctop/img-inst-desctop.png    1x,
+                      ./img/1-home-page/Desctop/img-inst-desctop-x2.png 2x
+                    "
+                    alt="img"
+                  />
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- /instagram -->
+
+    <!-- form -->
+    <section class="form-section">
       <div class="container">
         <div class="form">
           <div class="form__title">
@@ -323,10 +510,26 @@
             </form>
           </div>
         </div>
-        <a class="scroll-up scroll" href="#top">scroll UP</a>
+        <div class="scroll-up scroll">
+          <svg
+            width="32"
+            height="46"
+            viewBox="0 0 32 46"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M32 15.98L16 0L0 15.98L1.85 17.82L14.69 4.99V46H17.31V4.99L30.15 17.82L32 15.98Z"
+              fill="#212121"
+            />
+          </svg>
+          <a class="scroll" href="#top">scroll UP</a>
+        </div>
       </div>
     </section>
+    <!-- /form -->
 
+    <!-- footer -->
     <footer>
       <div class="footer">
         <div class="container">
@@ -334,7 +537,7 @@
             <li><img src="./img/footer-logo.svg" alt="logo" /></li>
             <li>
               <p>Social</p>
-              <ul class="footer__list-social">
+              <ul class="footer__list-social social">
                 <li><a href="#">Instagram</a></li>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">behance</a></li>
@@ -353,7 +556,7 @@
               </ul>
             </li>
             <li>
-              <ul class="footer__list-social">
+              <ul class="footer__list-social email">
                 <li>
                   <p>Mail</p>
                   <a href="mailto:bfrmstd@gmail.com">bfrmstd@gmail.com</a>
@@ -374,20 +577,25 @@
         </div>
       </div>
     </footer>
+    <!-- /footer -->
 
-    <div class="popup-form">
-      <div class="form-complite">
-        <div class="container">
-          <div class="form-complite-block">
-            <div>
-              <p>готово!</p>
-              <p>Форма успешно отправлена</p>
-              <button class="form-complite-close">ok</button>
+    <!-- popup -->
+    <section>
+      <div class="popup-form">
+        <div class="form-complite">
+          <div class="container">
+            <div class="form-complite-block">
+              <div>
+                <p>готово!</p>
+                <p>Форма успешно отправлена</p>
+                <button class="form-complite-close">ok</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- /popup -->
 
     <script src="./js/scrollup.js"></script>
     <script src="./js/burger.js"></script>
