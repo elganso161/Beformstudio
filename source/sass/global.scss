@@ -88,12 +88,12 @@ li {
   }
 }
 
-// @media (min-width: 1920px) {
-//   .container {
-//     max-width: 1600px;
-//     margin: 0 auto;
-//   }
-// }
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
 
 .ymaps-layers-pane {
   filter: grayscale(1);

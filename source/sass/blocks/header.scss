@@ -258,6 +258,19 @@
   align-items: center;
   width: 175px;
   height: 100%;
+
+  svg {
+    path {
+      transition: 0.3s;
+    }
+  }
+  svg {
+    &:hover {
+      path {
+        opacity: 0.5;
+      }
+    }
+  }
 }
 
 .logo__lang-list {
