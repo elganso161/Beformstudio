@@ -1,12 +1,11 @@
 .contactus-page__img {
   display: flex;
-  // justify-content: space-between;
   margin-top: 112px;
   margin-bottom: 250px;
 }
 
 .contactus-page__img-one {
-  margin-right: 22px;
+  margin-right: 26px;
   img {
     width: 100%;
   }
@@ -32,6 +31,8 @@
 }
 
 .map {
+  height: 720px;
+  overflow: hidden;
   margin-bottom: 250px;
 }
 
@@ -98,6 +99,10 @@
 }
 
 @media (max-width: 1024px) {
+  .contactus-page__img-one {
+    margin-right: 20px;
+  }
+
   .contactus-page__img {
     margin-top: 60px;
     margin-bottom: 190px;
@@ -108,6 +113,7 @@
   }
 
   .map {
+    height: 600px;
     margin-bottom: 190px;
   }
 
@@ -153,6 +159,7 @@
   }
 
   .map {
+    height: 460px;
     margin-bottom: 170px;
   }
 
@@ -180,6 +187,10 @@
   }
 }
 @media (max-width: 480px) {
+  .contactus-page__img-one {
+    margin-right: 10px;
+  }
+
   .contactus-page__img {
     margin-top: 15px;
     margin-bottom: 100px;
