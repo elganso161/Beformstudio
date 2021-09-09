@@ -5,9 +5,10 @@
 
 .form {
   margin-top: 250px;
-  margin-bottom: 110px;
+  margin-bottom: 250px;
   display: flex;
   width: 100%;
+  height: auto;
 }
 
 .form__title {
@@ -143,7 +144,6 @@ form {
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
-  margin-bottom: 250px;
 }
 
 .privacy-policy {
@@ -258,6 +258,7 @@ form {
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 190px;
+    margin-bottom: 190px;
   }
 
   .form__title {
@@ -316,17 +317,10 @@ form {
     }
   }
 
-  .form-bottom-block {
-    margin-bottom: 256px;
-  }
   .form-complite-block {
     p {
       font-size: 5vw;
     }
-
-    // height: auto;
-    // margin-top: 20%;
-    // transform: translate(0, -40%);
   }
 }
 
@@ -334,6 +328,7 @@ form {
   .form {
     width: 100%;
     margin-top: 170px;
+    margin-bottom: 150px;
     flex-wrap: wrap;
     padding-left: 97px;
     padding-right: 50px;
@@ -368,9 +363,6 @@ form {
       margin: 0;
       margin-bottom: 80px;
     }
-  }
-  .form-bottom-block {
-    margin-bottom: 170px;
   }
   .privacy-policy {
     max-width: 272px;
@@ -464,10 +456,10 @@ form {
   .form {
     width: 100%;
     margin-top: 100px;
+    margin-left: 31px;
+    margin-bottom: 100px;
     flex-wrap: wrap;
     padding: 0 10px;
-    margin-left: 31px;
-    margin-bottom: 170px;
   }
 
   .form__title {
@@ -526,7 +518,6 @@ form {
   }
 
   .form-bottom-block {
-    margin-bottom: 0;
     display: flex;
     flex-wrap: wrap;
 
