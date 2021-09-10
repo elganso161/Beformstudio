@@ -13,14 +13,16 @@
 
 .form__title {
   display: flex;
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
+  width: 540px;
+  margin-right: 90px;
   h2 {
     font-family: "NeutralFace-Bold";
     font-size: 48px;
     line-height: 106%;
     color: #212121;
-    max-width: 344px;
-    margin-right: 90px;
+    width: 100%;
+    // margin-right: 90px;
   }
 }
 
@@ -249,6 +251,16 @@ form {
 
 .field._error {
   border-bottom: 1px solid red;
+}
+
+@media (min-width: 1920px) {
+  .form {
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+  .form__title {
+    margin-right: 163px;
+  }
 }
 
 @media (max-width: 1024px) {

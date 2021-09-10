@@ -43,6 +43,25 @@
     margin: 0 auto;
   }
 }
+
+@media (min-width: 1920px) {
+  .aboutus {
+    margin-bottom: 300px;
+  }
+
+  .aboutus__img {
+    margin-right: 220px;
+  }
+
+  .aboutus__text {
+    margin-top: 350px;
+  }
+
+  .aboutus__img-bottom {
+    margin-bottom: 300px;
+  }
+}
+
 ////////////////////////////////////////////////1024px
 @media (max-width: 1024px) {
   .aboutus {

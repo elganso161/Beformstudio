@@ -1,5 +1,4 @@
 main {
-  // padding-top: 160px;
   padding-top: 33px;
 }
 
@@ -35,6 +34,16 @@ main {
   height: 69px;
   margin-left: 19.5%;
   margin-right: 90px;
+}
+
+@media (min-width: 1920px) {
+  main {
+    padding-top: 54px;
+  }
+
+  .main__title {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 1024px) {

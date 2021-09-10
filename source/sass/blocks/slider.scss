@@ -1,7 +1,6 @@
 .slider__block {
   display: flex;
   justify-content: space-between;
-  // margin-top: 50px;
   margin-bottom: 250px;
 }
 
@@ -100,16 +99,6 @@ select:focus {
   font-family: monospace;
 }
 
-// .section {
-//   margin: 10px 0 10px 0;
-//   padding: 10px 0 30px 0;
-//   border-bottom: 1px solid #c2c2c2;
-// }
-
-// .section div {
-//   margin-bottom: 20px;
-// }
-
 // swiper
 .section-swiper {
   display: none;
@@ -145,6 +134,13 @@ select:focus {
   height: 100%;
   object-fit: cover;
 }
+
+@media (min-width: 1920px) {
+  .slider__block {
+    margin-bottom: 300px;
+  }
+}
+
 @media (max-width: 1024px) {
   .section-swiper {
     display: block;
