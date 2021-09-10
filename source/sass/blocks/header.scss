@@ -211,6 +211,16 @@
 .burger__contacts-img {
   svg {
     width: 72px;
+    path {
+      transition: 0.3s;
+    }
+  }
+  svg {
+    &:hover {
+      path {
+        opacity: 0.5;
+      }
+    }
   }
 }
 
