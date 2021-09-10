@@ -97,6 +97,27 @@
     }
   }
 }
+@media (min-width: 1920px) {
+  .contactus-page__img {
+    margin-bottom: 300px;
+  }
+
+  .contactus-page__list {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      li:last-child {
+        margin-right: 233px;
+      }
+    }
+  }
+
+  .map {
+    height: 720px;
+    overflow: hidden;
+    margin-bottom: 300px;
+  }
+}
 
 @media (max-width: 1024px) {
   .contactus-page__img-one {

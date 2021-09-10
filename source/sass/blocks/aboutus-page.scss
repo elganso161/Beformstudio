@@ -57,7 +57,7 @@
 }
 
 .aboutus-page__team-img-one {
-  max-width: 742px;
+  max-width: 724px;
   margin-right: 26px;
   img {
     display: block;
@@ -94,10 +94,59 @@
 }
 
 .aboutus-page__img-full {
-  margin-bottom: 160px;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-bottom: 110px;
   img {
     width: 100%;
-    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1920px) {
+  .aboutus-page {
+    margin-bottom: 300px;
+    h2 {
+      margin-right: 200px;
+    }
+  }
+
+  .aboutus-page__team {
+    max-width: 694px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
+  .aboutus-page__team-img {
+    justify-content: space-between;
+  }
+  .aboutus-page__team-img-one {
+    max-width: 900px;
+    height: 700px;
+    overflow: hidden;
+    margin-right: 0;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  .aboutus-page__team-img-two {
+    max-width: 670px;
+    height: 700px;
+    overflow: hidden;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .aboutus-page__studio {
+    max-width: 694px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
+  .aboutus-page__img-full {
+    margin-bottom: 140px;
   }
 }
 
