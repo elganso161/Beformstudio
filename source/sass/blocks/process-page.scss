@@ -1,18 +1,17 @@
 .process-page {
   display: flex;
   width: 100%;
-  height: 655px;
-  padding-top: 250px;
-  margin-bottom: 160px;
+  min-height: 310px;
+  margin-top: 112px;
+  margin-bottom: 250px;
   h2 {
     width: 344px;
-    height: 125px;
+    min-height: 125px;
     margin-right: 90px;
     font-family: "NeutralFace-Bold";
     font-size: 48px;
     line-height: 106%;
     color: #212121;
-    margin-bottom: 30px;
   }
   h3 {
     font-family: "PTRootUIWebBold";
@@ -21,8 +20,8 @@
     margin-bottom: 30px;
   }
   p {
-    width: 585px;
-    height: 120px;
+    max-width: 585px;
+    min-height: 120px;
     font-family: "PTRootUIWebRegular";
     font-size: 18px;
     line-height: 148%;
@@ -56,8 +55,8 @@
       font-size: 18px;
       line-height: 142%;
       color: #212121;
-      width: 114px;
-      margin-right: 320px;
+      max-width: 114px;
+      margin-right: 355px;
     }
     h3 {
       font-family: "Neutral Face";
@@ -82,7 +81,7 @@
 
 .accordion-list__item-content {
   p {
-    width: 564px;
+    max-width: 564px;
     font-family: "PTRootUIWebRegular";
     font-size: 18px;
     line-height: 148%;
@@ -118,6 +117,63 @@
       height: 36px;
       background-image: url(../img/accordion-minus.svg);
       background-size: cover;
+    }
+  }
+}
+
+.process-page-img{
+  img{
+    width: 100%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .process-page {
+    margin-bottom: 300px;
+    h2 {
+      margin-right: 200px;
+    }
+    p {
+      max-width: 706px;
+      min-height: 80px;
+    }
+  }
+
+  .process-page__accordion {
+    margin-bottom: 300px;
+  }
+
+  .accordion-list__item {
+    .accordion-list__item-btn {
+      p {
+        margin-right: 480px;
+      }
+      h3 {
+        margin-right: 670px;
+      }
+    }
+  }
+
+  .accordion-list__item-content {
+    p {
+      max-width: 640px;
+      margin-left: 560px;
+    }
+    p:last-child {
+      margin-bottom: 60px;
+    }
+    ul {
+      li {
+        max-width: 640px;
+        font-family: "PTRootUIWebRegular";
+        font-size: 18px;
+        line-height: 148%;
+        color: #212121;
+        margin-left: 560px;
+      }
+      li:last-child {
+        margin-bottom: 60px;
+      }
     }
   }
 }
