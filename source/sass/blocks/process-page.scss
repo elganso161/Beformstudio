@@ -41,6 +41,12 @@
   border-bottom: 1px solid #aaa;
   cursor: pointer;
   transition: 0.2s;
+  &:first-child {
+    border-top: 2px solid #aaa;
+  }
+  &:last-child {
+    border-bottom: 2px solid #aaa;
+  }
   &:hover {
     background-color: rgba(170, 170, 170, 0.1);
   }
