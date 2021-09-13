@@ -38,7 +38,9 @@
     />
     <title>Press</title>
   </head>
+
   <body id="top">
+    <!-- header -->
     <header class="header">
       <nav class="header__nav">
         <div class="container">
@@ -60,7 +62,13 @@
               <a href="./aboutus-page.html"><span>01</span>О нас</a>
             </li>
             <li class="animate__nav-item animate__animated">
+              <a href="#"><span>02</span>Проекты</a>
+            </li>
+            <li class="animate__nav-item animate__animated">
               <a href="./contactus-page.html"><span>03</span>контакты</a>
+            </li>
+            <li class="animate__nav-item animate__animated">
+              <a href="./process-page.html"><span>04</span>процесс</a>
             </li>
             <li class="animate__nav-item animate__animated">
               <a class="active-link" href="./press-page.html"
@@ -68,20 +76,25 @@
               >
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="#"><span>02</span>Проекты</a>
-            </li>
-            <li class="animate__nav-item animate__animated">
-              <a href="./process-page.html"><span>04</span>процесс</a>
-            </li>
-            <li class="animate__nav-item animate__animated">
               <a href="./ourFactory-page.html"><span>06</span>производство</a>
             </li>
           </ul>
           <div class="burger__contacts">
             <div class="burger__contacts-img">
-              <a href="./index.html"
-                ><img src="./img/logo-w.svg" alt="Logo"
-              /></a>
+              <a href="./index.html">
+                <svg
+                  width="68"
+                  height="35"
+                  viewBox="0 0 68 35"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M50.4452 0.680149C50.3782 0.680149 50.3112 0.666748 50.2442 0.666748H17.8747C17.62 0.666748 17.3921 0.787381 17.2313 0.961627C17.1509 1.02864 17.0705 1.12247 17.0168 1.21629L0.758381 33.6528C0.624345 33.9075 0.637747 34.2292 0.798589 34.4704C0.946028 34.7251 1.2275 34.8725 1.50897 34.8725H17.8613H34.0795H50.2308H50.3782C50.3916 34.8725 50.405 34.8591 50.4318 34.8591C59.7607 34.7519 67.3337 27.1253 67.3337 17.7696C67.3337 8.41398 59.7741 0.787377 50.4452 0.680149ZM2.87613 33.1837L17.7674 3.48148L32.7124 33.1837H2.87613ZM34.6023 33.1837L19.081 2.35559H42.8856C37.1355 5.11671 33.1279 10.9741 33.1279 17.7696C33.1279 24.5652 37.1221 30.436 42.8856 33.1837H34.6023ZM50.2442 33.1837C41.7463 33.1837 34.8301 26.2675 34.8301 17.7696C34.8301 9.2718 41.7463 2.35559 50.2442 2.35559C58.742 2.35559 65.6582 9.2718 65.6582 17.7696C65.6582 26.2809 58.742 33.1837 50.2442 33.1837Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
             </div>
             <div class="burger__contacts-group">
               <div><p>Санкт-Петербург, Галерная ул., 20</p></div>
@@ -99,7 +112,7 @@
       </nav>
       <div class="container">
         <div class="header__menu">
-          <div class="burger" tabindex="0">
+          <div class="burger">
             <div class="burger__line1"></div>
             <div class="burger__line2"></div>
           </div>
@@ -120,14 +133,32 @@
               </li>
             </ul>
             <div>
-              <a href="./index.html"
-                ><img src="./img/logo.svg" alt="Логотип"
-              /></a>
+              <a href="./index.html">
+                <!-- <img src="./img/logo.svg" alt="Логотип"/> -->
+                <svg
+                  width="72"
+                  height="72"
+                  viewBox="0 0 72 72"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M52.3903 18.6802H52.2441C52.3106 18.6802 52.377 18.6934 52.4434 18.6934C52.4169 18.6802 52.4036 18.6802 52.3903 18.6802Z"
+                    fill="#212121"
+                  />
+                  <path
+                    d="M52.4452 18.6802C52.3782 18.6802 52.3112 18.6668 52.2442 18.6668H19.8747C19.62 18.6668 19.3921 18.7874 19.2313 18.9617C19.1509 19.0287 19.0705 19.1225 19.0168 19.2163L2.75838 51.6528C2.62435 51.9075 2.63775 52.2292 2.79859 52.4705C2.94603 52.7251 3.2275 52.8726 3.50897 52.8726H19.8613H36.0795H52.2308H52.3782C52.3916 52.8726 52.405 52.8592 52.4318 52.8592C61.7607 52.7519 69.3337 45.1253 69.3337 35.7697C69.3337 26.414 61.7741 18.7874 52.4452 18.6802ZM4.87613 51.1837L19.7674 21.4815L34.7124 51.1837H4.87613ZM36.6023 51.1837L21.081 20.3556H44.8856C39.1355 23.1168 35.1279 28.9741 35.1279 35.7697C35.1279 42.5653 39.1221 48.436 44.8856 51.1837H36.6023ZM52.2442 51.1837C43.7463 51.1837 36.8301 44.2675 36.8301 35.7697C36.8301 27.2718 43.7463 20.3556 52.2442 20.3556C60.742 20.3556 67.6582 27.2718 67.6582 35.7697C67.6582 44.2809 60.742 51.1837 52.2442 51.1837Z"
+                    fill="#212121"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </header>
+    <!-- /header -->
+
     <section>
       <div class="container">
         <div class="press-page">
@@ -143,6 +174,7 @@
         </div>
       </div>
     </section>
+
     <section>
       <ul class="press-page__list">
         <li class="press-page__item">
@@ -243,7 +275,9 @@
         </li>
       </ul>
     </section>
-      <section>
+
+    <!-- form -->
+    <section class="form-section">
       <div class="container">
         <div class="form">
           <div class="form__title">
@@ -305,9 +339,26 @@
             </form>
           </div>
         </div>
-        <a class="scroll-up scroll" href="#top">scroll UP</a>
+        <div class="scroll-up scroll">
+          <svg
+            width="32"
+            height="46"
+            viewBox="0 0 32 46"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M32 15.98L16 0L0 15.98L1.85 17.82L14.69 4.99V46H17.31V4.99L30.15 17.82L32 15.98Z"
+              fill="#212121"
+            />
+          </svg>
+          <a class="scroll" href="#top">scroll UP</a>
+        </div>
       </div>
     </section>
+    <!-- /form -->
+
+    <!-- footer -->
     <footer>
       <div class="footer">
         <div class="container">
@@ -315,7 +366,7 @@
             <li><img src="./img/footer-logo.svg" alt="logo" /></li>
             <li>
               <p>Social</p>
-              <ul class="footer__list-social">
+              <ul class="footer__list-social social">
                 <li><a href="#">Instagram</a></li>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">behance</a></li>
@@ -334,7 +385,7 @@
               </ul>
             </li>
             <li>
-              <ul class="footer__list-social">
+              <ul class="footer__list-social email">
                 <li>
                   <p>Mail</p>
                   <a href="mailto:bfrmstd@gmail.com">bfrmstd@gmail.com</a>
@@ -355,20 +406,25 @@
         </div>
       </div>
     </footer>
+    <!-- /footer -->
 
-    <div class="popup-form">
-      <div class="form-complite">
-        <div class="container">
-          <div class="form-complite-block">
-            <div>
-              <p>готово!</p>
-              <p>Форма успешно отправлена</p>
-              <button class="form-complite-close">ok</button>
+    <!-- popup -->
+    <section>
+      <div class="popup-form">
+        <div class="form-complite">
+          <div class="container">
+            <div class="form-complite-block">
+              <div>
+                <p>готово!</p>
+                <p>Форма успешно отправлена</p>
+                <button class="form-complite-close">ok</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- /popup -->
 
     <script src="./js/scrollup.js"></script>
     <script src="./js/burger.js"></script>
