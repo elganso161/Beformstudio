@@ -1,0 +1,29 @@
+.project-main {
+  display: flex;
+  width: 100%;
+  min-height: 180px;
+  margin-top: 112px;
+  margin-bottom: 250px;
+  h2 {
+    width: 344px;
+    min-height: 48px;
+    margin-right: 90px;
+    font-family: "NeutralFace-Bold";
+    font-size: 48px;
+    line-height: 106%;
+    color: #212121;
+  }
+  h3 {
+    font-family: "PTRootUIWebBold";
+    font-size: 36px;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  p {
+    max-width: 628px;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+  }
+}

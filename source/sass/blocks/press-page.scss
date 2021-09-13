@@ -79,11 +79,11 @@
   color: #1d1d1b;
   position: relative;
   transition: 0.2s;
-
+  display: block;
   &::before {
     position: absolute;
     content: "";
-    top: 3px;
+    top: 0;
     left: 200px;
     z-index: 1;
     width: 30px;
@@ -140,16 +140,6 @@
 }
 
 .project-publication {
-  // img {
-  //   width: 100%;
-  //   display: block;
-  //   margin: 0 auto;
-  //   margin-bottom: 250px;
-  // }
-  // img:last-child {
-  //   width: 100%;
-  //   margin-bottom: 160px;
-  // }
   ul {
     display: flex;
     align-items: center;
@@ -258,7 +248,7 @@
   &::before {
     position: absolute;
     content: "";
-    top: -1px;
+    top: 0;
     left: 170px;
     z-index: 1;
     width: 30px;
@@ -347,14 +337,6 @@
         margin-right: 168px;
       }
     }
-    // img {
-    //   display: block;
-    //   margin: 0 auto;
-    //   margin-bottom: 300px;
-    // }
-    // img:last-child {
-    //   margin-bottom: 300px;
-    // }
   }
 
   .project-publication__img-one {
@@ -376,12 +358,6 @@
     margin-bottom: 300px;
     img {
       object-fit: cover;
-    }
-  }
-
-  .open-btn {
-    &::before {
-      top: 3px;
     }
   }
 }
@@ -430,7 +406,6 @@
     font-size: 21px;
     line-height: 106%;
     &::before {
-      top: 3px;
       left: 150px;
       width: 22px;
       height: 22px;
@@ -518,14 +493,6 @@
         margin-right: 98px;
       }
     }
-    // img {
-    //   display: block;
-    //   margin: 0 auto;
-    //   margin-bottom: 150px;
-    // }
-    // img:last-child {
-    //   margin-bottom: 150px;
-    // }
   }
 
   .project-publication__img-one {
@@ -555,7 +522,6 @@
     width: 170px;
     margin-bottom: 110px;
     &::before {
-      top: 0;
       left: 135px;
       width: 22px;
       height: 22px;
@@ -684,14 +650,6 @@
         margin-right: 20px;
       }
     }
-    // img {
-    //   display: block;
-    //   margin: 0 auto;
-    //   margin-bottom: 80px;
-    // }
-    // img:last-child {
-    //   margin-bottom: 80px;
-    // }
   }
 
   .project-publication__img-one {
@@ -736,7 +694,6 @@
   .press-page__block-info {
     width: 70%;
     margin: 0 auto;
-    // margin-right: 0;
     order: 2;
     svg {
       width: 191px;
@@ -850,12 +807,6 @@
         margin-right: 10px;
       }
     }
-    // img {
-    //   margin-bottom: 50px;
-    // }
-    // img:last-child {
-    //   margin-bottom: 50px;
-    // }
   }
 
   .project-publication__img-one {
@@ -883,6 +834,6 @@
   }
 
   .close-btn {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 }
