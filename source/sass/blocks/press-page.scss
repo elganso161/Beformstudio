@@ -373,7 +373,7 @@
     font-size: 21px;
     line-height: 106%;
     &::before {
-      top: 3px;
+      top: 0;
       left: 160px;
       width: 22px;
       height: 22px;
@@ -476,7 +476,7 @@
     width: 170px;
     margin-bottom: 110px;
     &::before {
-      top: 0;
+      top: -3px;
       left: 135px;
       width: 22px;
       height: 22px;
