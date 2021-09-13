@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 310px;
   margin-top: 112px;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
   h2 {
     width: 344px;
     min-height: 125px;
@@ -36,21 +36,13 @@
 
 .accordion-list__item {
   width: 100%;
-  min-height: 100px;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
+  min-height: 115px;
+  border-top: 1px solid #d0d0d0;
   cursor: pointer;
   transition: 0.2s;
-  &:first-child {
-    border-top: 2px solid #aaa;
-  }
   &:last-child {
-    border-bottom: 2px solid #aaa;
+    border-bottom: 1px solid #d0d0d0;
   }
-  &:hover {
-    background-color: rgba(170, 170, 170, 0.1);
-  }
-
   .accordion-list__item-btn {
     display: flex;
     align-items: center;
@@ -135,7 +127,7 @@
 
 @media (min-width: 1920px) {
   .process-page {
-    margin-bottom: 300px;
+    margin-bottom: 250px;
     h2 {
       margin-right: 200px;
     }
@@ -197,7 +189,7 @@
     max-width: 680px;
     margin: 0 auto;
     margin-top: 60px;
-    margin-bottom: 190px;
+    margin-bottom: 150px;
     h2 {
       width: 344px;
       min-height: 40px;
@@ -270,7 +262,7 @@
     max-width: 494px;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 170px;
+    margin-bottom: 120px;
     h2 {
       width: 260px;
       min-height: 36px;
@@ -348,7 +340,7 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     h2 {
       width: 240px;
       font-size: 34px;
@@ -376,6 +368,7 @@
   }
 
   .accordion-list__item {
+    min-height: 105px;
     .accordion-list__item-btn {
       p {
         width: 0;
