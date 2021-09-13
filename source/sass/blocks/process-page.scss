@@ -41,7 +41,6 @@
   border-bottom: 1px solid #aaa;
   cursor: pointer;
   transition: 0.2s;
-
   &:hover {
     background-color: rgba(170, 170, 170, 0.1);
   }
@@ -55,8 +54,8 @@
       font-size: 18px;
       line-height: 142%;
       color: #212121;
-      max-width: 114px;
-      margin-right: 355px;
+      width: 344px;
+      margin-right: 90px;
     }
     h3 {
       font-family: "Neutral Face";
@@ -64,13 +63,14 @@
       line-height: 106%;
       color: #212121;
       width: 304px;
-      margin-right: 452px;
     }
     .accordion-img {
       width: 36px;
       height: 36px;
       background-image: url(../img/accordion-cross.svg);
       background-size: cover;
+      margin-left: auto;
+      margin-right: 57px;
     }
   }
 
@@ -93,13 +93,13 @@
     margin-bottom: 60px;
   }
   ul {
+    max-width: 564px;
+    margin-left: 437px;
     li {
-      width: 564px;
       font-family: "PTRootUIWebRegular";
       font-size: 18px;
       line-height: 148%;
       color: #212121;
-      margin-left: 437px;
     }
     li:last-child {
       margin-bottom: 60px;
@@ -121,8 +121,8 @@
   }
 }
 
-.process-page-img{
-  img{
+.process-page-img {
+  img {
     width: 100%;
   }
 }
@@ -143,13 +143,20 @@
     margin-bottom: 300px;
   }
 
+  .process-page__accordion {
+    margin-bottom: 300px;
+  }
+
   .accordion-list__item {
     .accordion-list__item-btn {
       p {
-        margin-right: 480px;
+        margin-right: 200px;
       }
-      h3 {
-        margin-right: 670px;
+
+      .accordion-img {
+        width: 40px;
+        height: 40px;
+        margin-right: 64px;
       }
     }
   }
@@ -157,19 +164,248 @@
   .accordion-list__item-content {
     p {
       max-width: 640px;
-      margin-left: 560px;
+      margin-left: 544px;
     }
     p:last-child {
       margin-bottom: 60px;
     }
     ul {
+      max-width: 640px;
+      margin-left: 544px;
       li {
-        max-width: 640px;
         font-family: "PTRootUIWebRegular";
         font-size: 18px;
         line-height: 148%;
         color: #212121;
-        margin-left: 560px;
+      }
+      li:last-child {
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .process-page {
+    flex-direction: column;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 190px;
+    h2 {
+      width: 344px;
+      min-height: 40px;
+      margin-right: 0;
+      font-size: 40px;
+      line-height: 106%;
+      margin-bottom: 60px;
+    }
+    h3 {
+      font-size: 32px;
+      line-height: 106%;
+    }
+    p {
+      max-width: 534px;
+      min-height: 95px;
+      font-size: 16px;
+      line-height: 148%;
+    }
+  }
+
+  .process-page__accordion {
+    margin-bottom: 190px;
+  }
+
+  .accordion-list__item {
+    .accordion-list__item-btn {
+      p {
+        font-size: 16px;
+        line-height: 136%;
+        width: 91px;
+        margin-right: 50px;
+      }
+      h3 {
+        font-size: 24px;
+        line-height: 106%;
+      }
+      .accordion-img {
+        width: 30px;
+        height: 30px;
+        margin-right: 52px;
+      }
+    }
+  }
+
+  .accordion-list__item-content {
+    p {
+      font-size: 16px;
+      line-height: 148%;
+      max-width: 510px;
+      margin-left: 140px;
+    }
+    p:last-child {
+      margin-bottom: 60px;
+    }
+    ul {
+      margin-left: 140px;
+      li {
+        font-size: 16px;
+        line-height: 148%;
+      }
+      li:last-child {
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .process-page {
+    max-width: 494px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 170px;
+    h2 {
+      width: 260px;
+      min-height: 36px;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    h3 {
+      font-size: 28px;
+      line-height: 106%;
+      margin-bottom: 22px;
+    }
+    p {
+      max-width: 494px;
+      min-height: 95px;
+      font-size: 15px;
+      line-height: 148%;
+      margin-bottom: 22px;
+    }
+  }
+
+  .process-page__accordion {
+    margin-bottom: 170px;
+  }
+
+  .accordion-span-text {
+    display: none;
+  }
+
+  .accordion-list__item {
+    .accordion-list__item-btn {
+      p {
+        font-size: 15px;
+        line-height: 136%;
+        width: 30px;
+        margin-right: 77px;
+      }
+      h3 {
+        font-size: 20px;
+        line-height: 106%;
+      }
+      .accordion-img {
+        margin-right: 45px;
+      }
+    }
+  }
+
+  .accordion-list__item-content {
+    p {
+      font-size: 15px;
+      line-height: 148%;
+      max-width: 470px;
+      margin-left: 107px;
+    }
+    p:last-child {
+      margin-bottom: 60px;
+    }
+    ul {
+      max-width: 470px;
+      margin-left: 107px;
+      li {
+        max-width: 470px;
+        font-size: 15px;
+        line-height: 148%;
+        margin-left: 0;
+      }
+      li:last-child {
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .process-page {
+    max-width: 246px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 100px;
+    h2 {
+      width: 240px;
+      font-size: 34px;
+      line-height: 106%;
+    }
+    h3 {
+      width: 148px;
+      font-size: 24px;
+      line-height: 116%;
+    }
+    p {
+      max-width: 246px;
+      min-height: 95px;
+      font-size: 15px;
+      line-height: 148%;
+    }
+  }
+
+  .process-page__accordion {
+    margin-bottom: 100px;
+  }
+
+  .accordion-span-number {
+    display: none;
+  }
+
+  .accordion-list__item {
+    .accordion-list__item-btn {
+      p {
+        width: 0;
+        margin: 15px;
+      }
+      h3 {
+        width: 200px;
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 106%;
+      }
+      .accordion-img {
+        width: 24px;
+        height: 24px;
+        margin-right: 19px;
+      }
+    }
+  }
+
+  .accordion-list__item-content {
+    p {
+      font-size: 15px;
+      line-height: 148%;
+      max-width: 246px;
+      margin: 0 auto;
+      margin-bottom: 22px;
+    }
+    p:last-child {
+      margin-bottom: 60px;
+    }
+    ul {
+      max-width: 246px;
+      margin: 0 auto;
+      li {
+        font-size: 15px;
+        line-height: 148%;
       }
       li:last-child {
         margin-bottom: 60px;
