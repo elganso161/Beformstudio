@@ -1,7 +1,7 @@
 .project-main {
   display: flex;
   width: 100%;
-  min-height: 180px;
+  min-height: 155px;
   margin-top: 112px;
   margin-bottom: 250px;
   h2 {
@@ -26,4 +26,72 @@
     line-height: 148%;
     color: #212121;
   }
+}
+
+.project__list {
+}
+
+.project__list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.project__list-item:last-child {
+  margin-bottom: 160px;
+}
+
+.project__list-item-title {
+  h3 {
+    font-family: "NeutralFace-Bold";
+    font-size: 36px;
+    line-height: 106%;
+    color: #212121;
+    margin-bottom: 12px;
+  }
+  p {
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    margin-bottom: 26px;
+  }
+  a {
+    text-decoration: none;
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+  }
+}
+
+.project__list-item-img {
+  img {
+    width: 100%;
+  }
+}
+
+.pagination-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-btn__prev,
+.pagination-btn__next {
+  padding: 0;
+  border: none;
+  font-size: 18px;
+  line-height: 130%;
+  color: #212121;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination-pages {
+  font-family: "Neutral Face";
+  font-size: 30px;
+  line-height: 106%;
+  text-align: center;
+  color: #212121;
 }
