@@ -227,10 +227,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 60px;
   }
 
   .project__list-item-img {
     order: 1;
+    margin-bottom: 18px;
   }
   .project__list-item-title {
     order: 2;
@@ -276,7 +278,7 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     h2 {
       width: 100%;
       height: 34px;
@@ -343,5 +345,9 @@
 
   .pagination-btn {
     margin-bottom: 100px;
+  }
+
+  .project__list-item-img {
+    margin-bottom: 30px;
   }
 }

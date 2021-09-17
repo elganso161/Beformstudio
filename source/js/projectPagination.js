@@ -273,6 +273,10 @@ btn_next.addEventListener("click", () => {
   }
 });
 
+function sayHi() {
+  alert("Привет");
+}
+
 function changePage(page) {
   if (page < 1) page = 1;
   if (page > numPages()) page = numPages();
