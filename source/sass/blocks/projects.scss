@@ -1,4 +1,4 @@
-.ttt {
+.text-br {
   display: none;
 }
 
@@ -57,21 +57,27 @@
   }
 }
 
-.prev-project {
-  a {
-    display: block;
-    font-family: "Neutral Face";
-    font-size: 21px;
-    line-height: 106%;
-    color: #212121;
-    text-decoration: none;
+.project-link__img {
+  img {
+    transition: 0.5s;
   }
+  &:hover img {
+    filter: blur(3px);
+  }
+}
+
+.project-link__text {
+  display: block;
+  font-family: "Neutral Face";
+  font-size: 21px;
+  line-height: 106%;
+  color: #212121;
+  text-decoration: none;
 }
 
 .project-one {
   text-align: right;
   margin-bottom: 250px;
-
   img {
     max-width: 100%;
     height: auto;
@@ -522,7 +528,7 @@
       background-color: red;
     }
   }
-  .ttt {
+  .text-br {
     display: block;
     margin-top: 20px;
   }
