@@ -267,6 +267,13 @@
   width: 175px;
   height: 100%;
 
+  img {
+    transition: 0.3s;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
   svg {
     path {
       transition: 0.3s;

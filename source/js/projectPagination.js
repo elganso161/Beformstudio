@@ -7,6 +7,7 @@ let objJson = [
   {
     title: "umecos",
     subtitle: "Магазин азиатской косметики",
+    link: "./project-page-1.html",
     img: "./img/6-projects-main/desctop/img-1-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-1-desctop-x2.jpg",
     imgW: "./img/6-projects-main/desctop/img-1-desctop.webp",
@@ -255,10 +256,7 @@ btn_prev.addEventListener("click", () => {
   if (current_page > 1) {
     current_page--;
     changePage(current_page);
-    window.scroll({
-      top: 0,
-      behavior: "smooth",
-    });
+    onloadWindow();
   }
 });
 
@@ -266,15 +264,15 @@ btn_next.addEventListener("click", () => {
   if (current_page < numPages()) {
     current_page++;
     changePage(current_page);
-    window.scroll({
-      top: 0,
-      behavior: "smooth",
-    });
+    onloadWindow();
   }
 });
 
-function sayHi() {
-  alert("Привет");
+function onloadWindow() {
+  window.onload = window.scroll({
+    top: 0,
+    behavior: "smooth",
+  });
 }
 
 function changePage(page) {
@@ -293,7 +291,7 @@ function changePage(page) {
         <div><h3>${objJson[i].title}</h3></div>
         <div>
           <p>${objJson[i].subtitle}</p>
-          <a href="#">Посмотреть проект</a>
+          <a href="${objJson[i].link}" target="blank">Посмотреть проект</a>
         </div>
       </div>
       <div class="project__list-item-img">

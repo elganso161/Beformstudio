@@ -7,8 +7,7 @@ for (let anchor of anchors) {
     e.preventDefault();
 
     const blockID = anchor.getAttribute("href");
-
-    document.querySelector("" + blockID).scrollIntoView({
+    window.onload = document.querySelector("" + blockID).scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
