@@ -1,0 +1,323 @@
+.grocery-img-2 {
+  margin-bottom: 160px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.grocery-img-3 {
+  margin-bottom: 110px;
+  img {
+    width: 628px;
+    height: 780px;
+    margin-left: 217px;
+  }
+}
+
+.grocery-img-4 {
+  margin-bottom: 160px;
+  img {
+    width: 628px;
+    height: 780px;
+    margin-left: 217px;
+  }
+}
+
+.grocery-img-5 {
+  margin-bottom: 110px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.grocery-img-6-7 {
+  margin-bottom: 160px;
+  ul {
+    display: flex;
+    li {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    li:first-child {
+      margin-right: 32px;
+    }
+  }
+}
+
+.grocery-img-8 {
+  margin-bottom: 160px;
+  img {
+    width: 738px;
+    height: 900px;
+    margin-left: 326px;
+  }
+}
+
+.grocery-img-9 {
+  margin-bottom: 160px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1920px) {
+  .grocery-img-2 {
+    margin-bottom: 220px;
+  }
+
+  .grocery-img-3 {
+    margin-bottom: 140px;
+    img {
+      width: 800px;
+      height: 1020px;
+      margin-left: 320px;
+    }
+  }
+
+  .grocery-img-4 {
+    margin-bottom: 220px;
+    img {
+      width: 800px;
+      height: 1020px;
+      margin-left: 320px;
+    }
+  }
+
+  .grocery-img-5 {
+    margin-bottom: 90px;
+  }
+
+  .grocery-img-6-7 {
+    margin-bottom: 220px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 40px;
+      }
+    }
+  }
+
+  .grocery-img-8 {
+    margin-bottom: 220px;
+    img {
+      width: 840px;
+      height: 1060px;
+      margin-left: 500px;
+    }
+  }
+
+  .grocery-img-9 {
+    margin-bottom: 220px;
+  }
+}
+
+@media (max-width: 1201px) {
+  .grocery-img-3 {
+    margin-bottom: 110px;
+    img {
+      display: block;
+      width: 628px;
+      height: 780px;
+      margin: 0 auto;
+    }
+  }
+
+  .grocery-img-4 {
+    margin-bottom: 160px;
+    img {
+      display: block;
+      width: 628px;
+      height: 780px;
+      margin: 0 auto;
+    }
+  }
+
+  .grocery-img-8 {
+    margin-bottom: 160px;
+    img {
+      display: block;
+      width: 738px;
+      height: 900px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .grocery-img-2 {
+    margin-bottom: 150px;
+  }
+
+  .grocery-img-3 {
+    margin-bottom: 80px;
+    img {
+      display: block;
+      width: 520px;
+      height: 680px;
+      margin: 0 auto;
+    }
+  }
+
+  .grocery-img-4 {
+    margin-bottom: 150px;
+    img {
+      display: block;
+      width: 520px;
+      height: 680px;
+      margin: 0 auto;
+    }
+  }
+
+  .grocery-img-5 {
+    margin-bottom: 80px;
+  }
+
+  .grocery-img-6-7 {
+    margin-bottom: 150px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .grocery-img-8 {
+    margin-bottom: 150px;
+    img {
+      display: block;
+      width: 520px;
+      height: 680px;
+      margin: 0 auto;
+    }
+  }
+
+  .grocery-img-9 {
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grocery-img-2 {
+    margin-bottom: 140px;
+  }
+
+  .grocery-img-3 {
+    margin-bottom: 50px;
+    img {
+      width: 400px;
+      height: 520px;
+    }
+  }
+
+  .grocery-img-4 {
+    margin-bottom: 140px;
+    img {
+      width: 400px;
+      height: 520px;
+    }
+  }
+
+  .grocery-img-5 {
+    margin-bottom: 50px;
+  }
+
+  .grocery-img-6-7 {
+    margin-bottom: 140px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 18px;
+      }
+    }
+  }
+
+  .grocery-img-8 {
+    margin-bottom: 140px;
+    img {
+      width: 400px;
+      height: 520px;
+    }
+  }
+
+  .grocery-img-9 {
+    margin-bottom: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grocery-img-2 {
+    margin-bottom: 80px;
+  }
+
+  .grocery-img-3 {
+    margin-bottom: 30px;
+    img {
+      width: 236px;
+      height: 320px;
+    }
+  }
+
+  .grocery-img-4 {
+    margin-bottom: 80px;
+    img {
+      width: 236px;
+      height: 320px;
+    }
+  }
+
+  .grocery-img-5 {
+    margin-bottom: 30px;
+  }
+
+  .grocery-img-6-7 {
+    margin-bottom: 80px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .grocery-img-8 {
+    margin-bottom: 80px;
+    img {
+      width: 236px;
+      height: 320px;
+    }
+  }
+
+  .grocery-img-9 {
+    margin-bottom: 60px;
+  }
+}

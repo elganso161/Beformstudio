@@ -7,7 +7,7 @@ let objJson = [
   {
     title: "umecos",
     subtitle: "Магазин азиатской косметики",
-    link: "./project-page-1.html",
+    link: "./project-page-umecos.html",
     img: "./img/6-projects-main/desctop/img-1-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-1-desctop-x2.jpg",
     imgW: "./img/6-projects-main/desctop/img-1-desctop.webp",
@@ -32,6 +32,7 @@ let objJson = [
   {
     title: "GROCERY",
     subtitle: "Эко магазин продуктов",
+    link: "./project-page-grocery.html",
     img: "./img/6-projects-main/desctop/img-2-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-2-desctop-x2.jpg",
     imgW: "./img/6-projects-main/desctop/img-2-desctop.webp",
@@ -291,7 +292,7 @@ function changePage(page) {
         <div><h3>${objJson[i].title}</h3></div>
         <div>
           <p>${objJson[i].subtitle}</p>
-          <a href="${objJson[i].link}" target="blank">Посмотреть проект</a>
+          <a href="${objJson[i].link}">Посмотреть проект</a>
         </div>
       </div>
       <div class="project__list-item-img">
