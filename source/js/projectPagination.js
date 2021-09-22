@@ -82,6 +82,7 @@ let objJson = [
   {
     title: "5ESSENCE 2.0",
     subtitle: "Сеть магазинов обуви",
+    link: "./project-page-5essence-1.0.html",
     img: "./img/6-projects-main/desctop/img-4-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-4-desctop-x2.jpg",
     imgW: "./img/6-projects-main/desctop/img-4-desctop.webp",
@@ -106,6 +107,7 @@ let objJson = [
   {
     title: "5ESSENCE 1.0",
     subtitle: "Сеть магазинов обуви",
+    link: "./project-page-5essence-1.0.html",
     img: "./img/6-projects-main/desctop/img-5-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-5-desctop-x2.jpg",
     imgW: "./img/6-projects-main/desctop/img-5-desctop.webp",
