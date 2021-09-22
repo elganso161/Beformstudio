@@ -82,7 +82,7 @@ let objJson = [
   {
     title: "5ESSENCE 2.0",
     subtitle: "Сеть магазинов обуви",
-    link: "./project-page-5essence-1.0.html",
+    link: "./project-page-5essence-2.0.html",
     img: "./img/6-projects-main/desctop/img-4-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-4-desctop-x2.jpg",
     imgW: "./img/6-projects-main/desctop/img-4-desctop.webp",
