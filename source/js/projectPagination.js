@@ -132,6 +132,7 @@ let objJson = [
   {
     title: "jewellery",
     subtitle: "Магазин ювелиных уркашений",
+    link: "./jewellery-page.html",
     img: "./img/6-projects-main/desctop/img-6-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-6-desctop-x2.jpg",
     imgW: "./img/6-projects-main/desctop/img-6-desctop.webp",
