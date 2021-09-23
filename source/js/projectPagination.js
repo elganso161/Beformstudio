@@ -232,6 +232,7 @@ let objJson = [
   {
     title: "harris daddy",
     subtitle: "Семейный барбершоп",
+    link: "./project-page-harris-daddy.html",
     img: "./img/6-projects-main/desctop/img-10-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-10-desctop-x2.jpg",
     imgW: "./img/6-projects-main/desctop/img-10-desctop.webp",
