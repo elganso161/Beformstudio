@@ -7,13 +7,15 @@ let langLink = document.querySelector(".logo__lang-list a");
 let headerLogo = document.querySelector(".header__logo");
 let tArrow = document.querySelector(".translator-arrow");
 
-lineOne.style.backgroundImage = "url(./img/burger-line-w.svg)";
-lineTwo.style.backgroundImage = "url(./img/burger-line-w.svg)";
-langText.style.color = "#FFFFFF";
-tArrow.src = "./img/translator-arrow-w.svg";
-headerLogo.src = "./img/logo-w.svg";
-
 let clientHeight = document.documentElement.clientHeight;
+
+window.onload = function () {
+  lineOne.style.backgroundImage = "url(./img/burger-line-w.svg)";
+  lineTwo.style.backgroundImage = "url(./img/burger-line-w.svg)";
+  langText.style.color = "#FFFFFF";
+  tArrow.src = "./img/translator-arrow-w.svg";
+  headerLogo.src = "./img/logo-w.svg";
+};
 
 window.onscroll = () => {
   if (window.pageYOffset >= clientHeight) {
