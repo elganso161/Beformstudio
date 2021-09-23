@@ -1,0 +1,279 @@
+.husband-img-2 {
+  margin-bottom: 160px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.husband-img-3-4 {
+  margin-bottom: 160px;
+  ul {
+    display: flex;
+    li {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    li:first-child {
+      margin-right: 32px;
+    }
+  }
+}
+
+.husband-img-5 {
+  margin-bottom: 110px;
+  img {
+    display: block;
+    width: 736px;
+    height: 970px;
+    margin: 0 auto;
+  }
+}
+
+.husband-img-6 {
+  margin-bottom: 160px;
+  img {
+    display: block;
+    width: 736px;
+    height: 970px;
+    margin: 0 auto;
+  }
+}
+
+.husband-img-7-8 {
+  margin-bottom: 160px;
+  ul {
+    display: flex;
+    li {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    li:first-child {
+      margin-right: 32px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .husband-img-2 {
+    margin-bottom: 90px;
+  }
+
+  .husband-img-3-4 {
+    margin-bottom: 220px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 40px;
+      }
+    }
+  }
+
+  .husband-img-5 {
+    margin-bottom: 140px;
+    img {
+      display: block;
+      width: 900px;
+      height: 1200px;
+      margin: 0 auto;
+    }
+  }
+
+  .husband-img-6 {
+    margin-bottom: 190px;
+    img {
+      display: block;
+      width: 900px;
+      height: 1200px;
+      margin: 0 auto;
+    }
+  }
+
+  .husband-img-7-8 {
+    margin-bottom: 220px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .husband-img-2 {
+    margin-bottom: 80px;
+  }
+
+  .husband-img-3-4 {
+    margin-bottom: 150px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .husband-img-5 {
+    margin-bottom: 80px;
+    img {
+      width: 500px;
+      height: 680px;
+    }
+  }
+
+  .husband-img-6 {
+    margin-bottom: 150px;
+    img {
+      width: 500px;
+      height: 680px;
+    }
+  }
+
+  .husband-img-7-8 {
+    margin-bottom: 140px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .husband-img-2 {
+    margin-bottom: 50px;
+  }
+
+  .husband-img-3-4 {
+    margin-bottom: 140px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 18px;
+      }
+    }
+  }
+
+  .husband-img-5 {
+    margin-bottom: 50px;
+    img {
+      width: 400px;
+      height: 540px;
+    }
+  }
+
+  .husband-img-6 {
+    margin-bottom: 140px;
+    img {
+      width: 400px;
+      height: 540px;
+    }
+  }
+
+  .husband-img-7-8 {
+    margin-bottom: 100px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .husband-img-2 {
+    margin-bottom: 30px;
+  }
+
+  .husband-img-3-4 {
+    margin-bottom: 80px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .husband-img-5 {
+    margin-bottom: 30px;
+    img {
+      width: 236px;
+      height: 320px;
+    }
+  }
+
+  .husband-img-6 {
+    margin-bottom: 80px;
+    img {
+      width: 236px;
+      height: 320px;
+    }
+  }
+
+  .husband-img-7-8 {
+    margin-bottom: 60px;
+    ul {
+      display: flex;
+      li {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li:first-child {
+        margin-right: 8px;
+      }
+    }
+  }
+}
