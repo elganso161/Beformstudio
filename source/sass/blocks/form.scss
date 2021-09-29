@@ -445,6 +445,23 @@ form {
       margin-top: 50px;
     }
   }
+
+    .form-bottom-block {
+    display: flex;
+    flex-wrap: wrap;
+
+    .privacy-policy {
+      max-width: 265px;
+      min-height: 24px;
+      margin-bottom: 40px;
+      font-size: 10px;
+    }
+    button {
+      width: 275px;
+      height: 56px;
+      margin: 0;
+    }
+  }
 }
 
 @media (max-width: 590px) {

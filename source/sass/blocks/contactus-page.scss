@@ -31,9 +31,31 @@
 }
 
 .map {
-  height: 720px;
-  overflow: hidden;
   margin-bottom: 250px;
+}
+
+
+
+.map-link {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 257px;
+    left: 611px;
+    z-index: 1;
+    background-image: url(../img/map/pin.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 72px;
+    height: 72px;
+    transition: 0.5s;
+  }
+  &:hover::before {
+    width: 78px;
+    height: 78px;
+  }
 }
 
 .contactus-page__list-item {
@@ -55,20 +77,20 @@
     color: #212121;
   }
 
-  .map-link {
-    font-family: "PTRootUIWebBold";
-    font-size: 21px;
-    line-height: 142%;
-    color: #212121;
-    text-decoration: underline;
-    transition: 0.2s;
-    &:hover {
-      text-decoration: none;
-    }
-    &:active {
-      opacity: 0.7;
-    }
-  }
+  // .map-link {
+  //   font-family: "PTRootUIWebBold";
+  //   font-size: 21px;
+  //   line-height: 142%;
+  //   color: #212121;
+  //   text-decoration: underline;
+  //   transition: 0.2s;
+  //   &:hover {
+  //     text-decoration: none;
+  //   }
+  //   &:active {
+  //     opacity: 0.7;
+  //   }
+  // }
 }
 
 .contactus-page-social__list {
@@ -113,8 +135,8 @@
   }
 
   .map {
-    height: 720px;
-    overflow: hidden;
+    // height: 720px;
+    // overflow: hidden;
     margin-bottom: 300px;
   }
 }
@@ -134,7 +156,7 @@
   }
 
   .map {
-    height: 600px;
+    // height: 600px;
     margin-bottom: 190px;
   }
 
@@ -180,7 +202,7 @@
   }
 
   .map {
-    height: 460px;
+    // height: 460px;
     margin-bottom: 170px;
   }
 

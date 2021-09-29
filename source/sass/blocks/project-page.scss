@@ -89,8 +89,8 @@
   }
 }
 
-// тестовая ссылка на другой проект, нужно переделать
-.test-link {
+// // тестовая ссылка на другой проект, нужно переделать
+.jewellery-link {
   width: 100%;
   height: 100%;
   display: block;
@@ -99,17 +99,303 @@
     transition: 0.3s;
     position: absolute;
     content: "";
-    text-align: center;
-    padding-top: 120px;
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
     top: 0;
     left: 0;
     z-index: 1;
     width: 100%;
     height: 100%;
     background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   &:hover::before {
-    content: "project link";
+    content: "jewellery";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.sochi-airport-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "sochi-airport";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.husband-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "husband";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.biara-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "biara";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.harris-daddy-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "harris-daddy";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.umecos-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "umecos";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.grocery-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "grocery";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.essence-1-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "5essence-1.0";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.essence-2-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "5essence-2.0";
+    background-color: rgba(245, 245, 245, 0.7);
+  }
+}
+
+.essence-3-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  &::before {
+    transition: 0.3s;
+    position: absolute;
+    content: "";
+
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 136%;
+    color: #212121;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    content: "5essence-3.0";
     background-color: rgba(245, 245, 245, 0.7);
   }
 }
@@ -188,8 +474,6 @@
   }
 }
 
-
-
 @media (max-width: 1024px) {
   .project__top-img {
     width: 100%;
@@ -237,7 +521,6 @@
       line-height: 148%;
     }
   }
-
 
   .any-project__list-first {
     margin: 0;
@@ -322,7 +605,6 @@
       margin-bottom: 0;
     }
   }
-
 
   .any-project__list-first {
     margin: 0;

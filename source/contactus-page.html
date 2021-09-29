@@ -5,20 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./img/logo.svg" type="image/x-icon" />
-    <!-- map -->
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js"></script>
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css"
-      rel="stylesheet"
-    />
-
-    <!--  -->
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css"
-      rel="stylesheet"
-    />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
-    <!-- map -->
     <link
       rel="preload"
       href="fonts/NeutralFaceRegular.woff2"
@@ -357,67 +343,162 @@
           </ul>
         </div>
         <div class="map">
-          <!-- map -->
-          <div id="map" style="height: 720px"></div>
-          <script>
-            mapboxgl.accessToken =
-              "pk.eyJ1IjoibWFyeWEwNDkzIiwiYSI6ImNrc2hmOWIxaDF0eGUyb3FrZmczM2F1aHAifQ.EPR9RTZGEC3YRLgHdoxV8w";
-            const map = new mapboxgl.Map({
-              container: "map",
-              style: "mapbox://styles/marya0493/ckshjy4ytotbn17plidhpt9sy",
-              center: [30.296806, 59.933026],
-              zoom: 14,
-            });
-
-            map.on("load", () => {
-              // Add an image to use as a custom marker
-              map.loadImage(
-                "https://docs.mapbox.com/mapbox-gl-js/assets/custom_marker.png",
-                (error, image) => {
-                  if (error) throw error;
-                  map.addImage("custom-marker", image);
-                  // Add a GeoJSON source with 2 points
-                  map.addSource("points", {
-                    type: "geojson",
-                    data: {
-                      type: "FeatureCollection",
-                      features: [
-                        {
-                          // feature for Mapbox DC
-                          type: "Feature",
-                          geometry: {
-                            type: "Point",
-                            coordinates: [30.296806, 59.933726],
-                          },
-                          properties: {
-                            title: "Beformstudio",
-                          },
-                        },
-                      ],
-                    },
-                  });
-                  // Add a symbol layer
-                  map.addLayer({
-                    id: "points",
-                    type: "symbol",
-                    source: "points",
-                    layout: {
-                      "icon-image": "custom-marker",
-                      // get the title name from the source's "title" property
-                      "text-field": ["get", "title"],
-                      "text-font": [
-                        "Open Sans Semibold",
-                        "Arial Unicode MS Bold",
-                      ],
-                      "text-offset": [0, 1.25],
-                      "text-anchor": "top",
-                    },
-                  });
-                }
-              );
-            });
-          </script>
-          <!-- map -->
+          <a href="#" class="map-link">
+            <div>
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/map/img-map1-mob.webp    1x,
+                    ./img/map/img-map1-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/map/img-map1-mob.jpg    1x,
+                    ./img/map/img-map1-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/map/img-map1-tablet.webp    1x,
+                    ./img/map/img-map1-tablet-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/map/img-map1-tablet.jpg    1x,
+                    ./img/map/img-map1-tablet-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/map/img-map1-1024.webp    1x,
+                    ./img/map/img-map1-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/map/img-map1-1024.jpg    1x,
+                    ./img/map/img-map1-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/map/img-map1-full.webp    1x,
+                    ./img/map/img-map1-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/map/img-map1-full.jpg    1x,
+                    ./img/map/img-map1-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/map/img-map1-desctop.webp    1x,
+                    ./img/map/img-map1-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/map/img-map1-desctop.jpg"
+                  srcset="
+                    ./img/map/img-map1-desctop.jpg    1x,
+                    ./img/map/img-map1-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+              <!-- <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/map/img-map2-mob.webp    1x,
+                    ./img/map/img-map2-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/map/img-map2-mob.jpg    1x,
+                    ./img/map/img-map2-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/map/img-map2-tablet.webp    1x,
+                    ./img/map/img-map2-tablet-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/map/img-map2-tablet.jpg    1x,
+                    ./img/map/img-map2-tablet-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/map/img-map2-1024.webp    1x,
+                    ./img/map/img-map2-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/map/img-map2-1024.jpg    1x,
+                    ./img/map/img-map2-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/map/img-map2-full.webp    1x,
+                    ./img/map/img-map2-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/map/img-map2-full.jpg    1x,
+                    ./img/map/img-map2-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/map/img-map2-desctop.webp    1x,
+                    ./img/map/img-map2-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/map/img-map2-desctop.jpg"
+                  srcset="
+                    ./img/map/img-map2-desctop.jpg    1x,
+                    ./img/map/img-map2-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture> -->
+            </div>
+          </a>
         </div>
       </div>
     </section>

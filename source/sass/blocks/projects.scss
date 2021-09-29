@@ -58,11 +58,31 @@
 }
 
 .project-link__img {
-  img {
-    transition: 0.5s;
+  position: relative;
+  display: block;
+  &::before {
+    position: absolute;
+    content: "View project";
+    font-family: "Neutral Face";
+    font-size: 24px;
+    line-height: 106%;
+
+    text-transform: uppercase;
+    color: #212121;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    opacity: 0;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  &:hover img {
-    filter: blur(3px);
+  &:hover::before {
+    opacity: 0.8;
   }
 }
 
@@ -76,6 +96,8 @@
 }
 
 .project-one {
+  width: 846px;
+  margin-left: auto;
   text-align: right;
   margin-bottom: 250px;
   img {
@@ -103,9 +125,12 @@
   }
 }
 .project-four {
+  width: 738px;
+  margin-right: auto;
+  text-align: left;
   margin-bottom: 230px;
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 }
@@ -167,6 +192,7 @@
   }
 
   .project-one {
+    width: 1058px;
     margin-bottom: 300px;
   }
 
@@ -175,6 +201,7 @@
   }
 
   .project-four {
+    width: 940px;
     margin-bottom: 220px;
   }
 
