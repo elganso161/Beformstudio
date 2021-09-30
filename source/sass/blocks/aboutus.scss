@@ -5,15 +5,22 @@
 
 .aboutus__img {
   margin-right: 190px;
+  opacity: 0;
+  transition: 1.5s;
   img {
     max-width: 100%;
     height: auto;
   }
 }
+.aboutus__img._active {
+  opacity: 1;
+}
 
 .aboutus__text {
   max-width: 500px;
   margin-top: 250px;
+  opacity: 0;
+  transition: 1.5s;
   h2 {
     max-width: 288px;
     font-family: "NeutralFace-Bold";
@@ -36,12 +43,22 @@
   }
 }
 
+.aboutus__text._active {
+  opacity: 1;
+}
+
 .aboutus__img-bottom {
   margin-bottom: 250px;
+  opacity: 0;
+  transition: 1s;
   img {
     width: 100%;
     margin: 0 auto;
   }
+}
+
+.aboutus__img-bottom._active {
+  opacity: 1;
 }
 
 @media (min-width: 1920px) {

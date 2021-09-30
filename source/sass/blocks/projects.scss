@@ -30,6 +30,36 @@
   }
 }
 
+.projects__title {
+  opacity: 0;
+  transition: 1s;
+}
+.projects__title._active {
+  opacity: 1;
+}
+
+.projects__subtitle {
+  opacity: 0;
+  transition: 1s;
+}
+.projects__subtitle._active {
+  opacity: 1;
+}
+.projects__text {
+  opacity: 0;
+  transition: 1.5s;
+}
+.projects__text._active {
+  opacity: 1;
+}
+.projects__record-list {
+  opacity: 0;
+  transition: 1.7s;
+}
+.projects__record-list._active {
+  opacity: 1;
+}
+
 .projects__record-list {
   max-width: 648px;
   display: flex;

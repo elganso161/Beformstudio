@@ -2,6 +2,22 @@ main {
   padding-top: 33px;
 }
 
+.title-logo {
+  opacity: 0;
+  transition: 1s;
+}
+.title-logo._active {
+  opacity: 1;
+}
+
+.title-text {
+  opacity: 0;
+  transition: 2s;
+}
+.title-text._active {
+  opacity: 1;
+}
+
 .main__title {
   display: flex;
   align-items: center;
