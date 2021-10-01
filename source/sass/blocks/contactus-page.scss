@@ -38,27 +38,27 @@
   }
 }
 
-.map-link {
-  position: relative;
-  &::before {
-    position: absolute;
-    content: "";
-    top: 257px;
-    left: 611px;
-    z-index: 1;
-    background-image: url(../img/map/pin.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 72px;
-    height: 72px;
-    transition: 0.5s;
-  }
-  &:hover::before {
-    width: 78px;
-    height: 78px;
-  }
-}
+// .map-link {
+//   position: relative;
+//   &::before {
+//     position: absolute;
+//     content: "";
+//     top: 257px;
+//     left: 611px;
+//     z-index: 1;
+//     background-image: url(../img/map/pin.svg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     width: 72px;
+//     height: 72px;
+//     transition: 0.5s;
+//   }
+//   &:hover::before {
+//     width: 78px;
+//     height: 78px;
+//   }
+// }
 
 .contactus-page__list-item {
   a {
