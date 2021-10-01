@@ -345,8 +345,22 @@
         <div class="map">
           <a href="#" class="map-link">
             <div>
-              <img src="./img/map1/img-map1-desctop.png" alt="" />
-              <!-- <picture>
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 360px)"
+                  srcset="
+                    ./img/map/img-map1-360.webp    1x,
+                    ./img/map/img-map1-360-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 360px)"
+                  srcset="
+                    ./img/map/img-map1-360.jpg    1x,
+                    ./img/map/img-map1-360-x2.jpg 2x
+                  "
+                />
                 <source
                   type="image/webp"
                   media="(max-width: 480px)"
@@ -360,6 +374,21 @@
                   srcset="
                     ./img/map/img-map1-mob.jpg    1x,
                     ./img/map/img-map1-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 570px)"
+                  srcset="
+                    ./img/map/img-map1-570.webp    1x,
+                    ./img/map/img-map1-570-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 570px)"
+                  srcset="
+                    ./img/map/img-map1-570.jpg    1x,
+                    ./img/map/img-map1-570-x2.jpg 2x
                   "
                 />
                 <source
@@ -421,83 +450,7 @@
                   "
                   alt="img"
                 />
-              </picture> -->
-              <!-- <picture>
-                <source
-                  type="image/webp"
-                  media="(max-width: 480px)"
-                  srcset="
-                    ./img/map/img-map2-mob.webp    1x,
-                    ./img/map/img-map2-mob-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 480px)"
-                  srcset="
-                    ./img/map/img-map2-mob.jpg    1x,
-                    ./img/map/img-map2-mob-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 768px)"
-                  srcset="
-                    ./img/map/img-map2-tablet.webp    1x,
-                    ./img/map/img-map2-tablet-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 768px)"
-                  srcset="
-                    ./img/map/img-map2-tablet.jpg    1x,
-                    ./img/map/img-map2-tablet-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 1024px)"
-                  srcset="
-                    ./img/map/img-map2-1024.webp    1x,
-                    ./img/map/img-map2-1024-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 1024px)"
-                  srcset="
-                    ./img/map/img-map2-1024.jpg    1x,
-                    ./img/map/img-map2-1024-x2.jpg 2x
-                  "
-                />
-                <source
-                  media="(min-width: 1920px)"
-                  srcset="
-                    ./img/map/img-map2-full.webp    1x,
-                    ./img/map/img-map2-full-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(min-width: 1920px)"
-                  srcset="
-                    ./img/map/img-map2-full.jpg    1x,
-                    ./img/map/img-map2-full-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  srcset="
-                    ./img/map/img-map2-desctop.webp    1x,
-                    ./img/map/img-map2-desctop-x2.webp 2x
-                  "
-                />
-                <img
-                  src="./img/map/img-map2-desctop.jpg"
-                  srcset="
-                    ./img/map/img-map2-desctop.jpg    1x,
-                    ./img/map/img-map2-desctop-x2.jpg 2x
-                  "
-                  alt="img"
-                />
-              </picture> -->
+              </picture>
             </div>
           </a>
         </div>
