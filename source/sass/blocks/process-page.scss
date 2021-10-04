@@ -4,6 +4,8 @@
   min-height: 310px;
   margin-top: 112px;
   margin-bottom: 200px;
+  opacity: 0;
+  transition: 1s;
   h2 {
     width: 344px;
     min-height: 125px;
@@ -30,6 +32,10 @@
   }
 }
 
+.process-page._active {
+  opacity: 1;
+}
+
 .process-page__accordion {
   margin-bottom: 250px;
 }
@@ -40,6 +46,8 @@
   border-top: 1px solid #d0d0d0;
   cursor: pointer;
   transition: 0.2s;
+  opacity: 0;
+  transition: 1s;
   &:last-child {
     border-bottom: 1px solid #d0d0d0;
   }
@@ -75,6 +83,10 @@
   .accordion-list__item-content {
     display: none;
   }
+}
+
+.accordion-list__item._active {
+  opacity: 1;
 }
 
 .accordion-list__item-content {
@@ -120,9 +132,15 @@
 }
 
 .process-page-img {
+  opacity: 0;
+  transition: 1s;
   img {
     width: 100%;
   }
+}
+
+.process-page-img._active {
+  opacity: 1;
 }
 
 @media (min-width: 1920px) {

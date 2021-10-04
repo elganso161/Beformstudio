@@ -156,6 +156,48 @@
   }
 }
 
+.airport-img-2,
+.airport-img-3,
+.airport-img-4,
+.airport-img-5,
+.airport-img-6,
+.airport-img-7,
+.airport-img-8,
+.airport-img-9,
+.airport-img-10,
+.airport-img-11,
+.airport-img-12,
+.airport-img-13,
+.airport-img-14,
+.airport-img-15,
+.airport-img-16,
+.airport-img-17,
+.airport-img-18,
+.airport-img-19 {
+  opacity: 0;
+  transition: 1s;
+}
+.airport-img-2._active,
+.airport-img-3._active,
+.airport-img-4._active,
+.airport-img-5._active,
+.airport-img-6._active,
+.airport-img-7._active,
+.airport-img-8._active,
+.airport-img-9._active,
+.airport-img-10._active,
+.airport-img-11._active,
+.airport-img-12._active,
+.airport-img-13._active,
+.airport-img-14._active,
+.airport-img-15._active,
+.airport-img-16._active,
+.airport-img-17._active,
+.airport-img-18._active,
+.airport-img-19._active {
+  opacity: 1;
+}
+
 @media (min-width: 1920px) {
   .airport-img-2 {
     margin-bottom: 300px;

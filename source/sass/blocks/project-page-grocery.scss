@@ -64,6 +64,25 @@
     height: auto;
   }
 }
+.grocery-img-2,
+.grocery-img-3,
+.grocery-img-4,
+.grocery-img-5,
+.grocery-img-6-7,
+.grocery-img-8,
+.grocery-img-9 {
+  opacity: 0;
+  transition: 1s;
+}
+.grocery-img-2._active,
+.grocery-img-3._active,
+.grocery-img-4._active,
+.grocery-img-5._active,
+.grocery-img-6-7._active,
+.grocery-img-8._active,
+.grocery-img-9._active {
+  opacity: 1;
+}
 
 @media (min-width: 1920px) {
   .grocery-img-2 {

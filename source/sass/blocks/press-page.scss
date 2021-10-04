@@ -4,6 +4,8 @@
   min-height: 180px;
   margin-top: 112px;
   margin-bottom: 250px;
+  opacity: 0;
+  transition: 1s;
   h2 {
     width: 344px;
     min-height: 48px;
@@ -28,10 +30,20 @@
   }
 }
 
+.press-page._active {
+  opacity: 1;
+}
+
 .press-page__list {
+  opacity: 0;
+  transition: 1s;
   li {
     margin-top: -1px;
   }
+}
+
+.press-page__list._active {
+  opacity: 1;
 }
 
 .press-page__item-line {

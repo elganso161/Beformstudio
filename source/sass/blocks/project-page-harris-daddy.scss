@@ -82,6 +82,30 @@
   }
 }
 
+.harris-daddy-img-2,
+.harris-daddy-img-3,
+.harris-daddy-img-4,
+.harris-daddy-img-5,
+.harris-daddy-img-6-7,
+.harris-daddy-img-8,
+.harris-daddy-img-9,
+.harris-daddy-img-10,
+.harris-daddy-img-11 {
+  opacity: 0;
+  transition: 1s;
+}
+.harris-daddy-img-2._active,
+.harris-daddy-img-3._active,
+.harris-daddy-img-4._active,
+.harris-daddy-img-5._active,
+.harris-daddy-img-6-7._active,
+.harris-daddy-img-8._active,
+.harris-daddy-img-9._active,
+.harris-daddy-img-10._active,
+.harris-daddy-img-11._active {
+  opacity: 1;
+}
+
 @media (min-width: 1920px) {
   .harris-daddy-img-2 {
     margin-bottom: 220px;

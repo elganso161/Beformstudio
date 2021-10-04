@@ -4,6 +4,10 @@
   min-height: 135px;
   margin-top: 112px;
   margin-bottom: 250px;
+
+  opacity: 0;
+  transition: 1s;
+
   h2 {
     width: 344px;
     height: 125px;
@@ -25,6 +29,10 @@
   }
 }
 
+.aboutus-page._active {
+  opacity: 1;
+}
+
 .aboutus-page__img {
   img {
     width: 100%;
@@ -36,6 +44,10 @@
   margin: 0 auto;
   margin-top: 250px;
   margin-bottom: 250px;
+
+  opacity: 0;
+  transition: 1s;
+
   h3 {
     font-family: "PTRootUIWebBold";
     font-size: 36px;
@@ -52,8 +64,17 @@
   }
 }
 
+.aboutus-page__team._active {
+  opacity: 1;
+}
+
 .aboutus-page__team-img {
   display: flex;
+  opacity: 0;
+  transition: 1s;
+}
+.aboutus-page__team-img._active {
+  opacity: 1;
 }
 
 .aboutus-page__team-img-one {
@@ -77,6 +98,8 @@
   margin: 0 auto;
   margin-top: 250px;
   margin-bottom: 250px;
+  opacity: 0;
+  transition: 1s;
   h3 {
     font-family: "PTRootUIWebBold";
     font-size: 36px;
@@ -93,13 +116,32 @@
   }
 }
 
+.aboutus-page__studio._active {
+  opacity: 1;
+}
+
 .aboutus-page__img-full {
   max-width: 1920px;
   margin: 0 auto;
   margin-bottom: 110px;
+  opacity: 0;
+  transition: 1s;
   img {
     width: 100%;
   }
+}
+
+.aboutus-page__img-full._active {
+  opacity: 1;
+}
+
+.aboutus-page__last-img {
+  opacity: 0;
+  transition: 1s;
+}
+
+.aboutus-page__last-img._active {
+  opacity: 1;
 }
 
 @media (min-width: 1920px) {

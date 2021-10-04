@@ -136,6 +136,44 @@
   }
 }
 
+.umecos-img-2,
+.umecos-img-logo,
+.umecos-img-3,
+.umecos-img-4,
+.umecos-img-5,
+.umecos-img-6,
+.umecos-img-7,
+.umecos-img-8,
+.umecos-img-9,
+.umecos-img-10,
+.umecos-img-11-12,
+.umecos-img-13,
+.umecos-img-14,
+.umecos-img-15,
+.umecos-img-16,
+.umecos-img-17 {
+  opacity: 0;
+  transition: 1s;
+}
+.umecos-img-2._active,
+.umecos-img-logo._active,
+.umecos-img-3._active,
+.umecos-img-4._active,
+.umecos-img-5._active,
+.umecos-img-6._active,
+.umecos-img-7._active,
+.umecos-img-8._active,
+.umecos-img-9._active,
+.umecos-img-10._active,
+.umecos-img-11-12._active,
+.umecos-img-13._active,
+.umecos-img-14._active,
+.umecos-img-15._active,
+.umecos-img-16._active,
+.umecos-img-17._active {
+  opacity: 1;
+}
+
 @media (min-width: 1920px) {
   .umecos-img-2 {
     margin-bottom: 300px;

@@ -4,6 +4,8 @@
   min-height: 155px;
   margin-top: 112px;
   margin-bottom: 250px;
+  opacity: 0;
+  transition: 1s;
   h2 {
     width: 344px;
     min-height: 48px;
@@ -26,6 +28,10 @@
     line-height: 148%;
     color: #212121;
   }
+}
+
+.project-main._active {
+  opacity: 1;
 }
 
 .project__list-item {

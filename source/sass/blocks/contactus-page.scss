@@ -2,6 +2,12 @@
   display: flex;
   margin-top: 112px;
   margin-bottom: 250px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.contactus-page__img._active {
+  opacity: 1;
 }
 
 .contactus-page__img-one {
@@ -18,6 +24,12 @@
 
 .contactus-page {
   margin-bottom: 80px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.contactus-page._active {
+  opacity: 1;
 }
 
 .contactus-page__list {
@@ -33,11 +45,17 @@
 .map {
   margin-bottom: 250px;
   overflow: hidden;
+  opacity: 0;
+  transition: 1s;
   img {
     // width: 100%;
     // height: auto;
     object-fit: cover;
   }
+}
+
+.map._active {
+  opacity: 1;
 }
 
 .map-link {

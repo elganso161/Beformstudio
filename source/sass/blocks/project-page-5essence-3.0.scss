@@ -97,6 +97,33 @@
   }
 }
 
+.essence-3-img-2,
+.essence-3-img-3,
+.essence-3-img-4,
+.essence-3-img-5-6,
+.essence-3-img-7,
+.essence-3-img-8-9,
+.essence-3-img-10,
+.essence-3-img-11,
+.essence-3-img-12,
+.essence-3-img-13 {
+  opacity: 0;
+  transition: 1s;
+}
+
+.essence-3-img-2._active,
+.essence-3-img-3._active,
+.essence-3-img-4._active,
+.essence-3-img-5-6._active,
+.essence-3-img-7._active,
+.essence-3-img-8-9._active,
+.essence-3-img-10._active,
+.essence-3-img-11._active,
+.essence-3-img-12._active,
+.essence-3-img-13._active {
+  opacity: 1;
+}
+
 @media (min-width: 1920px) {
   .essence-3-img-2 {
     margin-bottom: 220px;

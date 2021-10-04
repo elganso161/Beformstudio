@@ -120,6 +120,36 @@
   }
 }
 
+.biara-img-2,
+.biara-img-3,
+.biara-img-4-5,
+.biara-img-6,
+.biara-img-7,
+.biara-img-8,
+.biara-img-9,
+.biara-img-10-11,
+.biara-img-12,
+.biara-img-13,
+.biara-img-14,
+.biara-img-15-16 {
+  opacity: 0;
+  transition: 1s;
+}
+.biara-img-2._active,
+.biara-img-3._active,
+.biara-img-4-5._active,
+.biara-img-6._active,
+.biara-img-7._active,
+.biara-img-8._active,
+.biara-img-9._active,
+.biara-img-10-11._active,
+.biara-img-12._active,
+.biara-img-13._active,
+.biara-img-14._active,
+.biara-img-15-16._active {
+  opacity: 1;
+}
+
 @media (min-width: 1920px) {
   .biara-img-2 {
     margin-bottom: 90px;
