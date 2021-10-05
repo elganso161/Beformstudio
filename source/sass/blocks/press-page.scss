@@ -218,28 +218,43 @@
     color: #212121;
     margin-bottom: 30px;
   }
+}
 
-  a {
-    text-decoration: none;
-    font-family: "PTRootUIWebBold";
-    font-size: 18px;
-    line-height: 148%;
-    color: #212121;
-    position: relative;
-    &::before {
-      position: absolute;
-      content: "";
-      top: -5px;
-      left: 170px;
-      z-index: 1;
-      background-image: url(../img/arrow-link-project.svg);
-      width: 36px;
-      height: 36px;
-      transition: 0.3s;
-    }
-    &:hover::before {
-      left: 180px;
-    }
+.link-to-project {
+  text-decoration: none;
+  font-family: "PTRootUIWebBold";
+  font-size: 18px;
+  line-height: 148%;
+  color: #212121;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: 170px;
+    z-index: 1;
+    background-image: url(../img/arrow-link-project.svg);
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  &:hover::before {
+    left: 180px;
+  }
+}
+
+.press-link {
+  font-family: "PTRootUIWebBold";
+  font-size: 18px;
+  line-height: 148%;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.2s;
+  &:hover {
+    opacity: 0.7;
+  }
+  &:active {
+    opacity: 0.5;
   }
 }
 
@@ -480,22 +495,26 @@
       line-height: 148%;
       margin-bottom: 30px;
     }
+  }
 
-    a {
-      font-size: 16px;
-      line-height: 106%;
-      &::before {
-        top: -4px;
-        left: 152px;
-        width: 30px;
-        height: 30px;
-        background-size: cover;
-        transition: 0.3s;
-      }
-      &:hover::before {
-        left: 160px;
-      }
+  .link-to-project {
+    font-size: 16px;
+    line-height: 106%;
+    &::before {
+      top: -4px;
+      left: 152px;
+      width: 30px;
+      height: 30px;
+      background-size: cover;
+      transition: 0.3s;
     }
+    &:hover::before {
+      left: 160px;
+    }
+  }
+
+  .press-link {
+    font-size: 16px;
   }
 
   .project-publication {
@@ -638,21 +657,25 @@
       line-height: 148%;
       margin-bottom: 22px;
     }
+  }
 
-    a {
-      font-size: 15px;
-      line-height: 106%;
-      &::before {
-        top: -4px;
-        left: 150px;
-        width: 28px;
-        height: 28px;
-        background-size: cover;
-      }
-      &:hover::before {
-        left: 160px;
-      }
+  .link-to-project {
+    font-size: 15px;
+    line-height: 106%;
+    &::before {
+      top: -4px;
+      left: 150px;
+      width: 28px;
+      height: 28px;
+      background-size: cover;
     }
+    &:hover::before {
+      left: 160px;
+    }
+  }
+
+  .press-link {
+    font-size: 15px;
   }
 
   .project-publication {
@@ -796,19 +819,20 @@
       font-size: 15px;
       line-height: 148%;
     }
-    a {
-      font-size: 15px;
-      line-height: 106%;
-      &::before {
-        top: -4px;
-        left: 150px;
-        width: 28px;
-        height: 28px;
-        background-size: cover;
-      }
-      &:hover::before {
-        left: 160px;
-      }
+  }
+
+  .link-to-project {
+    font-size: 15px;
+    line-height: 106%;
+    &::before {
+      top: -4px;
+      left: 150px;
+      width: 28px;
+      height: 28px;
+      background-size: cover;
+    }
+    &:hover::before {
+      left: 160px;
     }
   }
 
