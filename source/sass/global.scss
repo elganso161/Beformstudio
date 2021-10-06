@@ -11,22 +11,6 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-// При использование swiper появлялся горизонтальный скролл.
-// html {
-//   overflow-y: scroll;
-// }
-// :root {
-//   overflow-y: auto;
-//   overflow-x: hidden;
-// }
-// :root body {
-//   position: absolute;
-// }
-// body {
-//   width: 100vw;
-//   overflow: hidden;
-// }
-//
 
 body.active {
   overflow: hidden;

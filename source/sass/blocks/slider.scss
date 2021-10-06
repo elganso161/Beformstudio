@@ -99,9 +99,22 @@ select:focus {
   font-family: monospace;
 }
 
+.section-slider {
+  opacity: 0;
+  transition: 1s;
+}
+.section-slider._active {
+  opacity: 1;
+}
+
 // swiper
 .section-swiper {
   display: none;
+  opacity: 0;
+  transition: 1s;
+}
+.section-swiper._active {
+  opacity: 1;
 }
 .swiper-container {
   width: 100%;
