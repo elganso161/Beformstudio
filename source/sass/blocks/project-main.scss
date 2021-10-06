@@ -34,6 +34,14 @@
   opacity: 1;
 }
 
+.project__list {
+  opacity: 0;
+  transition: 1s;
+}
+.project__list._active {
+  opacity: 1;
+}
+
 .project__list-item {
   display: flex;
   justify-content: space-between;
@@ -90,19 +98,6 @@
     }
   }
 }
-
-// .project__list-item-img {
-//   max-width: 846px;
-//   height: 600px;
-//   overflow: hidden;
-// }
-
-// .project__list-item-img img {
-//   transition: 3s;
-// }
-// .project__list-item-title:hover ~ .project__list-item-img img {
-//   width: 870px;
-// }
 
 .project__list-item-img {
   img {

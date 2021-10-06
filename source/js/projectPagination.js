@@ -304,6 +304,7 @@ function changePage(page) {
         </div>
       </div>
       <div class="project__list-item-img">
+      <a href="${objJson[i].link}">
         <picture>
         <source type="image/webp" media="(max-width: 480px)"
         srcset="
@@ -347,6 +348,7 @@ function changePage(page) {
         ${objJson[i].imgX2} 2x
         " alt="img">
         </picture>
+      </a>
       </div>
     </li>`;
   }
