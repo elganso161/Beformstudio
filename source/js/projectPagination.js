@@ -289,7 +289,6 @@ function changePage(page) {
   if (page > numPages()) page = numPages();
 
   listing_table.innerHTML = "";
-
   for (
     let i = (page - 1) * records_per_page;
     i < page * records_per_page && i < objJson.length;
