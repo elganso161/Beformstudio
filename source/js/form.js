@@ -48,10 +48,10 @@ function formValidate(form) {
         error++;
       }
     } else {
-      if (input.value === "") {
-        formAddError(input);
-        error++;
-      }
+      // if (input.value === "") {
+      //   formAddError(input);
+      //   error++;
+      // }
     }
   }
   return error;
