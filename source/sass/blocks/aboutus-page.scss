@@ -34,9 +34,15 @@
 }
 
 .aboutus-page__img {
+  opacity: 0;
+  transition: 1s;
   img {
     width: 100%;
   }
+}
+
+.aboutus-page__img._active {
+  opacity: 1;
 }
 
 .aboutus-page__team {
