@@ -123,6 +123,14 @@
   line-height: 106%;
   color: #212121;
   text-decoration: none;
+  opacity: 1;
+  transition: 0.2s;
+  &:hover {
+    opacity: 0.7;
+  }
+  &:active {
+    opacity: 0.5;
+  }
 }
 
 .project-one {
