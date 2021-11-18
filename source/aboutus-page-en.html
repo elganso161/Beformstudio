@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./img/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css" />
     <link
       rel="preload"
       href="fonts/NeutralFaceRegular.woff2"
@@ -29,13 +30,11 @@
       as="font"
       crossorigin
     />
-    <link rel="stylesheet" href="css/style.min.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <title>Contact us</title>
+    <title>About us</title>
   </head>
 
   <body id="top">
@@ -53,34 +52,34 @@
               />
             </div>
             <ul class="header__nav-lang" tabindex="0">
-              <li>rus</li>
+              <li>eng</li>
             </ul>
           </div>
           <ul class="header__nav-list">
             <li class="animate__nav-item animate__animated">
-              <a  href="./aboutus-page.html"
-                ><span>01</span>О нас</a
+              <a class="active-link" href="./aboutus-page-en.html"
+                ><span>01</span>About us</a
               >
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./project-main.html"><span>02</span>Проекты</a>
+              <a href="./project-main-en.html"><span>02</span>Projects</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a class="active-link" href="./contactus-page.html"><span>03</span>контакты</a>
+              <a href="./contactus-page-en.html"><span>03</span>Contacts</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./process-page.html"><span>04</span>процесс</a>
+              <a href="./process-page-en.html"><span>04</span>Procces</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./press-page.html"><span>05</span>пресса</a>
+              <a href="./press-page-en.html"><span>05</span>Press</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./ourFactory-page.html"><span>06</span>производство</a>
+              <a href="./ourFactory-page-en.html"><span>06</span>Production</a>
             </li>
           </ul>
           <div class="burger__contacts">
             <div class="burger__contacts-img">
-              <a href="./index.html">
+              <a href="./index-en.html">
                 <svg
                   width="68"
                   height="35"
@@ -96,7 +95,7 @@
               </a>
             </div>
             <div class="burger__contacts-group">
-              <div><p>Санкт-Петербург, Галерная ул., 20</p></div>
+              <div><p>St. Petersburg, Galernaya st., 20</p></div>
               <div>
                 <a href="mailto:bfrmstd@gmail.com">bfrmstd@gmail.com</a>
               </div>
@@ -132,7 +131,7 @@
           <div class="logo">
             <ul class="logo__lang-list">
               <li class="ru" tabindex="0">
-                rus
+                eng
                 <img
                   class="translator-arrow"
                   src="./img/translator-arrow.svg"
@@ -140,13 +139,13 @@
                 />
                 <ul class="sub-logo__lang-list">
                   <li class="en">
-                    <a href="./contactus-page-en.html">eng</a>
+                    <a href="./aboutus-page.html">rus</a>
                   </li>
                 </ul>
               </li>
             </ul>
             <div>
-              <a href="./index.html">
+              <a href="./index-en.html">
                 <!-- <img src="./img/logo.svg" alt="Логотип"/> -->
                 <svg
                   width="72"
@@ -173,407 +172,453 @@
     <!-- /header -->
 
     <section>
-      <h2 class="visually-hidden">Заглавные картинки</h2>
       <div class="container">
-        <div class="contactus-page__img _anim-items _anim-no-hide">
-          <div class="contactus-page__img-one">
+        <div class="aboutus-page _anim-items _anim-no-hide">
+          <div><h2>About us</h2></div>
+          <div>
+            <p>
+              <span> Irina Kiseleva </span> - architect, co-founder of the
+              studio, organizer of most of the processes in the team.
+            </p>
+            <p>
+              <span> Anna Pavlova </span> - architect, one of the founders of
+              the studio
+            </p>
+            <p>
+              <span> Igor Rudyak </span> is a 3D visualizer directly related to
+              the work of the team.
+            </p>
+          </div>
+        </div>
+        <div class="aboutus-page__img _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/2-about-us/mob/img-1-mob.webp    1x,
+                ./img/2-about-us/mob/img-1-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/2-about-us/mob/img-1-mob.jpg    1x,
+                ./img/2-about-us/mob/img-1-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/2-about-us/tab/img-1-tab.webp    1x,
+                ./img/2-about-us/tab/img-1-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/2-about-us/tab/img-1-tab.jpg    1x,
+                ./img/2-about-us/tab/img-1-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/2-about-us/1024px/img-1-1024.webp    1x,
+                ./img/2-about-us/1024px/img-1-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/2-about-us/1024px/img-1-1024.jpg    1x,
+                ./img/2-about-us/1024px/img-1-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/2-about-us/full/img-1-full.webp    1x,
+                ./img/2-about-us/full/img-1-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/2-about-us/full/img-1-full.jpg    1x,
+                ./img/2-about-us/full/img-1-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/2-about-us/desctop/img-1-desctop.webp    1x,
+                ./img/2-about-us/desctop/img-1-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/2-about-us/desctop/img-1-desctop.jpg"
+              srcset="
+                ./img/2-about-us/desctop/img-1-desctop.jpg    1x,
+                ./img/2-about-us/desctop/img-1-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="aboutus-page__team _anim-items _anim-no-hide">
+          <h3>The Team</h3>
+          <p>
+            Our story began while studying at St. Repin. Our team members were
+            trained at the Faculty of Architecture of the St. Petersburg Academy
+            of Arts. After graduating from the university almost simultaneously
+            (in 2010 and 2011) and receiving diplomas in one specialty -
+            "Artist-architect".
+          </p>
+          <p>
+            We decided to continue our common activity in the design of
+            interiors and furniture in the retail sector, working in conjunction
+            with the production of furniture for shops. This is how the idea of
+            ​​creating a design studio appeared in 2014. For such a short but
+            productive period of time, we have gained invaluable experience in
+            understanding the features of materials, construction and
+            installation of commercial equipment.
+          </p>
+        </div>
+        <div class="aboutus-page__team-img _anim-items _anim-no-hide">
+          <div class="aboutus-page__team-img-one">
             <picture>
               <source
                 type="image/webp"
                 media="(max-width: 480px)"
                 srcset="
-                  ./img/3-contact-us/mob/img-1-mob.webp    1x,
-                  ./img/3-contact-us/mob/img-1-mob-x2.webp 2x
+                  ./img/2-about-us/mob/img-2-mob.webp    1x,
+                  ./img/2-about-us/mob/img-2-mob-x2.webp 2x
                 "
               />
               <source
                 media="(max-width: 480px)"
                 srcset="
-                  ./img/3-contact-us/mob/img-1-mob.jpg    1x,
-                  ./img/3-contact-us/mob/img-1-mob-x2.jpg 2x
+                  ./img/2-about-us/mob/img-2-mob.jpg    1x,
+                  ./img/2-about-us/mob/img-2-mob-x2.jpg 2x
                 "
               />
               <source
                 type="image/webp"
                 media="(max-width: 768px)"
                 srcset="
-                  ./img/3-contact-us/tab/img-1-tab.webp    1x,
-                  ./img/3-contact-us/tab/img-1-tab-x2.webp 2x
+                  ./img/2-about-us/tab/img-2-tab.webp    1x,
+                  ./img/2-about-us/tab/img-2-tab-x2.webp 2x
                 "
               />
               <source
                 media="(max-width: 768px)"
                 srcset="
-                  ./img/3-contact-us/tab/img-1-tab.jpg    1x,
-                  ./img/3-contact-us/tab/img-1-tab-x2.jpg 2x
+                  ./img/2-about-us/tab/img-2-tab.jpg    1x,
+                  ./img/2-about-us/tab/img-2-tab-x2.jpg 2x
                 "
               />
               <source
                 type="image/webp"
                 media="(max-width: 1024px)"
                 srcset="
-                  ./img/3-contact-us/1024px/img-1-1024.webp    1x,
-                  ./img/3-contact-us/1024px/img-1-1024-x2.webp 2x
+                  ./img/2-about-us/1024px/img-2-1024.webp    1x,
+                  ./img/2-about-us/1024px/img-2-1024-x2.webp 2x
                 "
               />
               <source
                 media="(max-width: 1024px)"
                 srcset="
-                  ./img/3-contact-us/1024px/img-1-1024.jpg    1x,
-                  ./img/3-contact-us/1024px/img-1-1024-x2.jpg 2x
+                  ./img/2-about-us/1024px/img-2-1024.jpg    1x,
+                  ./img/2-about-us/1024px/img-2-1024-x2.jpg 2x
                 "
               />
               <source
                 media="(min-width: 1920px)"
                 srcset="
-                  ./img/3-contact-us/full/img-1-full.webp    1x,
-                  ./img/3-contact-us/full/img-1-full-x2.webp 2x
+                  ./img/2-about-us/full/img-2-full.webp    1x,
+                  ./img/2-about-us/full/img-2-full-x2.webp 2x
                 "
               />
               <source
                 media="(min-width: 1920px)"
                 srcset="
-                  ./img/3-contact-us/full/img-1-full.jpg    1x,
-                  ./img/3-contact-us/full/img-1-full-x2.jpg 2x
+                  ./img/2-about-us/full/img-2-full.jpg    1x,
+                  ./img/2-about-us/full/img-2-full-x2.jpg 2x
                 "
               />
               <source
                 type="image/webp"
                 srcset="
-                  ./img/3-contact-us/desctop/img-1-desctop.webp    1x,
-                  ./img/3-contact-us/desctop/img-1-desctop-x2.webp 2x
+                  ./img/2-about-us/desctop/img-2-desctop.webp    1x,
+                  ./img/2-about-us/desctop/img-2-desctop-x2.webp 2x
                 "
               />
               <img
-                src="./img/3-contact-us/desctop/img-1-desctop.jpg"
+                src="./img/2-about-us/desctop/img-2-desctop.jpg"
                 srcset="
-                  ./img/3-contact-us/desctop/img-1-desctop.jpg    1x,
-                  ./img/3-contact-us/desctop/img-1-desctop-x2.jpg 2x
+                  ./img/2-about-us/desctop/img-2-desctop.jpg    1x,
+                  ./img/2-about-us/desctop/img-2-desctop-x2.jpg 2x
                 "
                 alt="img"
               />
             </picture>
           </div>
-          <div class="contactus-page__img-two">
+          <div class="aboutus-page__team-img-two">
             <picture>
               <source
                 type="image/webp"
                 media="(max-width: 480px)"
                 srcset="
-                  ./img/3-contact-us/mob/img-2-mob.webp    1x,
-                  ./img/3-contact-us/mob/img-2-mob-x2.webp 2x
+                  ./img/2-about-us/mob/img-3-mob.webp    1x,
+                  ./img/2-about-us/mob/img-3-mob-x2.webp 2x
                 "
               />
               <source
                 media="(max-width: 480px)"
                 srcset="
-                  ./img/3-contact-us/mob/img-2-mob.jpg    1x,
-                  ./img/3-contact-us/mob/img-2-mob-x2.jpg 2x
+                  ./img/2-about-us/mob/img-3-mob.jpg    1x,
+                  ./img/2-about-us/mob/img-3-mob-x2.jpg 2x
                 "
               />
               <source
                 type="image/webp"
                 media="(max-width: 768px)"
                 srcset="
-                  ./img/3-contact-us/tab/img-2-tab.webp    1x,
-                  ./img/3-contact-us/tab/img-2-tab-x2.webp 2x
+                  ./img/2-about-us/tab/img-3-tab.webp    1x,
+                  ./img/2-about-us/tab/img-3-tab-x2.webp 2x
                 "
               />
               <source
                 media="(max-width: 768px)"
                 srcset="
-                  ./img/3-contact-us/tab/img-2-tab.jpg    1x,
-                  ./img/3-contact-us/tab/img-2-tab-x2.jpg 2x
+                  ./img/2-about-us/tab/img-3-tab.jpg    1x,
+                  ./img/2-about-us/tab/img-3-tab-x2.jpg 2x
                 "
               />
               <source
                 type="image/webp"
                 media="(max-width: 1024px)"
                 srcset="
-                  ./img/3-contact-us/1024px/img-2-1024.webp    1x,
-                  ./img/3-contact-us/1024px/img-2-1024-x2.webp 2x
+                  ./img/2-about-us/1024px/img-3-1024.webp    1x,
+                  ./img/2-about-us/1024px/img-3-1024-x2.webp 2x
                 "
               />
               <source
                 media="(max-width: 1024px)"
                 srcset="
-                  ./img/3-contact-us/1024px/img-2-1024.jpg    1x,
-                  ./img/3-contact-us/1024px/img-2-1024-x2.jpg 2x
+                  ./img/2-about-us/1024px/img-3-1024.jpg    1x,
+                  ./img/2-about-us/1024px/img-3-1024-x2.jpg 2x
                 "
               />
               <source
                 media="(min-width: 1920px)"
                 srcset="
-                  ./img/3-contact-us/full/img-2-full.webp    1x,
-                  ./img/3-contact-us/full/img-2-full-x2.webp 2x
+                  ./img/2-about-us/full/img-3-full.webp    1x,
+                  ./img/2-about-us/full/img-3-full-x2.webp 2x
                 "
               />
               <source
                 media="(min-width: 1920px)"
                 srcset="
-                  ./img/3-contact-us/full/img-2-full.jpg    1x,
-                  ./img/3-contact-us/full/img-2-full-x2.jpg 2x
+                  ./img/2-about-us/full/img-3-full.jpg    1x,
+                  ./img/2-about-us/full/img-3-full-x2.jpg 2x
                 "
               />
               <source
                 type="image/webp"
                 srcset="
-                  ./img/3-contact-us/desctop/img-2-desctop.webp    1x,
-                  ./img/3-contact-us/desctop/img-2-desctop-x2.webp 2x
+                  ./img/2-about-us/desctop/img-3-desctop.webp    1x,
+                  ./img/2-about-us/desctop/img-3-desctop-x2.webp 2x
                 "
               />
               <img
-                src="./img/3-contact-us/desctop/img-2-desctop.jpg"
+                src="./img/2-about-us/desctop/img-3-desctop.jpg"
                 srcset="
-                  ./img/3-contact-us/desctop/img-2-desctop.jpg    1x,
-                  ./img/3-contact-us/desctop/img-2-desctop-x2.jpg 2x
+                  ./img/2-about-us/desctop/img-3-desctop.jpg    1x,
+                  ./img/2-about-us/desctop/img-3-desctop-x2.jpg 2x
                 "
                 alt="img"
               />
             </picture>
           </div>
         </div>
+        <div class="aboutus-page__studio _anim-items _anim-no-hide">
+          <h3>The Studio</h3>
+          <p>
+            An important role in the development of our studio was played by the
+            experience of working with large foreign chains in the mass market.
+            We were able to successfully adapt European design concepts at
+            Russian sites. We are very proud of the continuity of European
+            experience in the development of our brand.
+          </p>
+          <p>
+            If you are interested in creating a competent, unique and memorable
+            commercial space, we will be glad to see you among our clients!
+          </p>
+        </div>
       </div>
-    </section>
-
-    <section>
-      <h2 class="visually-hidden">Контакты</h2>
+      <div class="aboutus-page__img-full _anim-items _anim-no-hide">
+        <picture>
+          <source
+            type="image/webp"
+            media="(max-width: 480px)"
+            srcset="
+              ./img/2-about-us/mob/img-4-mob.webp    1x,
+              ./img/2-about-us/mob/img-4-mob-x2.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 480px)"
+            srcset="
+              ./img/2-about-us/mob/img-4-mob.jpg    1x,
+              ./img/2-about-us/mob/img-4-mob-x2.jpg 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(max-width: 768px)"
+            srcset="
+              ./img/2-about-us/tab/img-4-tab.webp    1x,
+              ./img/2-about-us/tab/img-4-tab-x2.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="
+              ./img/2-about-us/tab/img-4-tab.jpg    1x,
+              ./img/2-about-us/tab/img-4-tab-x2.jpg 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(max-width: 1024px)"
+            srcset="
+              ./img/2-about-us/1024px/img-4-1024.webp    1x,
+              ./img/2-about-us/1024px/img-4-1024-x2.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 1024px)"
+            srcset="
+              ./img/2-about-us/1024px/img-4-1024.jpg    1x,
+              ./img/2-about-us/1024px/img-4-1024-x2.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              ./img/2-about-us/full/img-4-full.webp    1x,
+              ./img/2-about-us/full/img-4-full-x2.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              ./img/2-about-us/full/img-4-full.jpg    1x,
+              ./img/2-about-us/full/img-4-full-x2.jpg 2x
+            "
+          />
+          <source
+            type="image/webp"
+            srcset="
+              ./img/2-about-us/desctop/img-4-desctop.webp    1x,
+              ./img/2-about-us/desctop/img-4-desctop-x2.webp 2x
+            "
+          />
+          <img
+            src="./img/2-about-us/desctop/img-4-desctop.jpg"
+            srcset="
+              ./img/2-about-us/desctop/img-4-desctop.jpg    1x,
+              ./img/2-about-us/desctop/img-4-desctop-x2.jpg 2x
+            "
+            alt="img"
+          />
+        </picture>
+      </div>
       <div class="container">
-        <div class="contactus-page _anim-items _anim-no-hide">
-          <ul class="contactus-page__list">
-            <li class="contactus-page__list-item">
-              <a href="#">+ 7 931 256 17 47</a>
-              <a href="#">bfrmstd@gmail.com</a>
-            </li>
-            <li class="contactus-page__list-item">
-              <p>Санкт-Петербург</p>
-              <p>Галерная ул., 20</p>
-            </li>
-            <li>
-              <ul class="contactus-page-social__list">
-                <li>
-                  <a
-                    href="https://www.instagram.com/beformstudio/?hl=ru"
-                    target="blank"
-                    >in</a
-                  >/
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/beformstudio" target="blank"
-                    >fb</a
-                  >/
-                </li>
-                <li>
-                  <a href="https://www.behance.net/beformstudio" target="blank"
-                    >be</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="map _anim-items _anim-no-hide">
-          <a href="#" class="map-link">
-            <div>
-              <picture>
-                <source
-                  type="image/webp"
-                  media="(max-width: 360px)"
-                  srcset="
-                    ./img/map/img-map1-360.webp    1x,
-                    ./img/map/img-map1-360-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 360px)"
-                  srcset="
-                    ./img/map/img-map1-360.jpg    1x,
-                    ./img/map/img-map1-360-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 480px)"
-                  srcset="
-                    ./img/map/img-map1-mob.webp    1x,
-                    ./img/map/img-map1-mob-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 480px)"
-                  srcset="
-                    ./img/map/img-map1-mob.jpg    1x,
-                    ./img/map/img-map1-mob-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 570px)"
-                  srcset="
-                    ./img/map/img-map1-570.webp    1x,
-                    ./img/map/img-map1-570-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 570px)"
-                  srcset="
-                    ./img/map/img-map1-570.jpg    1x,
-                    ./img/map/img-map1-570-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 768px)"
-                  srcset="
-                    ./img/map/img-map1-tablet.webp    1x,
-                    ./img/map/img-map1-tablet-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 768px)"
-                  srcset="
-                    ./img/map/img-map1-tablet.jpg    1x,
-                    ./img/map/img-map1-tablet-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 1024px)"
-                  srcset="
-                    ./img/map/img-map1-1024.webp    1x,
-                    ./img/map/img-map1-1024-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 1024px)"
-                  srcset="
-                    ./img/map/img-map1-1024.jpg    1x,
-                    ./img/map/img-map1-1024-x2.jpg 2x
-                  "
-                />
-                <source
-                  media="(min-width: 1920px)"
-                  srcset="
-                    ./img/map/img-map1-full.webp    1x,
-                    ./img/map/img-map1-full-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(min-width: 1920px)"
-                  srcset="
-                    ./img/map/img-map1-full.jpg    1x,
-                    ./img/map/img-map1-full-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  srcset="
-                    ./img/map/img-map1-desctop.webp    1x,
-                    ./img/map/img-map1-desctop-x2.webp 2x
-                  "
-                />
-                <img
-                  src="./img/map/img-map1-desctop.jpg"
-                  srcset="
-                    ./img/map/img-map1-desctop.jpg    1x,
-                    ./img/map/img-map1-desctop-x2.jpg 2x
-                  "
-                  alt="img"
-                />
-              </picture>
-            </div>
-          </a>
+        <div class="aboutus-page__last-img _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/2-about-us/mob/img-5-mob.webp    1x,
+                ./img/2-about-us/mob/img-5-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/2-about-us/mob/img-5-mob.jpg    1x,
+                ./img/2-about-us/mob/img-5-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/2-about-us/tab/img-5-tab.webp    1x,
+                ./img/2-about-us/tab/img-5-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/2-about-us/tab/img-5-tab.jpg    1x,
+                ./img/2-about-us/tab/img-5-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/2-about-us/1024px/img-5-1024.webp    1x,
+                ./img/2-about-us/1024px/img-5-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/2-about-us/1024px/img-5-1024.jpg    1x,
+                ./img/2-about-us/1024px/img-5-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/2-about-us/full/img-5-full.webp    1x,
+                ./img/2-about-us/full/img-5-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/2-about-us/full/img-5-full.jpg    1x,
+                ./img/2-about-us/full/img-5-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/2-about-us/desctop/img-5-desctop.webp    1x,
+                ./img/2-about-us/desctop/img-5-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/2-about-us/desctop/img-5-desctop.jpg"
+              srcset="
+                ./img/2-about-us/desctop/img-5-desctop.jpg    1x,
+                ./img/2-about-us/desctop/img-5-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
         </div>
       </div>
     </section>
-
-    <!-- instagram -->
-    <section>
-      <div class="instagram">
-        <div class="container">
-          <div class="instagram__title">
-            <h2>instagram</h2>
-            <a
-              href="https://www.instagram.com/beformstudio/?hl=ru"
-              target="blank"
-              >@beformstudio</a
-            >
-          </div>
-          <ul class="instagram__list">
-            <li>
-              <a
-                href="https://www.instagram.com/beformstudio/?hl=ru"
-                target="blank"
-              >
-                <picture>
-                  <source
-                    type="image/webp"
-                    media="(max-width: 480px)"
-                    srcset="
-                      ./img/1-home-page/Mobile/img-inst-mob.webp    1x,
-                      ./img/1-home-page/Mobile/img-inst-mob-x2.webp 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 480px)"
-                    srcset="
-                      ./img/1-home-page/Mobile/img-inst-mob.png    1x,
-                      ./img/1-home-page/Mobile/img-inst-mob-x2.png 2x
-                    "
-                  />
-                  <source
-                    type="image/webp"
-                    media="(max-width: 768px)"
-                    srcset="
-                      ./img/1-home-page/Tablet/img-inst-tab.webp    1x,
-                      ./img/1-home-page/Tablet/img-inst-tab-x2.webp 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 768px)"
-                    srcset="
-                      ./img/1-home-page/Tablet/img-inst-tab.png    1x,
-                      ./img/1-home-page/Tablet/img-inst-tab-x2.png 2x
-                    "
-                  />
-                  <source
-                    type="image/webp"
-                    media="(max-width: 1240px)"
-                    srcset="
-                      ./img/1-home-page/1024PX-Beform/img-inst-1024.webp    1x,
-                      ./img/1-home-page/1024PX-Beform/img-inst-1024-x2.webp 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 1240px)"
-                    srcset="
-                      ./img/1-home-page/1024PX-Beform/img-inst-1024.png    1x,
-                      ./img/1-home-page/1024PX-Beform/img-inst-1024-x2.png 2x
-                    "
-                  />
-                  <source
-                    type="image/webp"
-                    srcset="
-                      ./img/1-home-page/Desctop/img-inst-desctop.webp    1x,
-                      ./img/1-home-page/Desctop/img-inst-desctop-x2.webp 2x
-                    "
-                  />
-                  <img
-                    src="./img/1-home-page/Desctop/img-10-desctop.jpg"
-                    srcset="
-                      ./img/1-home-page/Desctop/img-inst-desctop.png    1x,
-                      ./img/1-home-page/Desctop/img-inst-desctop-x2.png 2x
-                    "
-                    alt="img"
-                  />
-                </picture>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- /instagram -->
 
     <!-- form -->
     <section class="form-section">
@@ -586,9 +631,9 @@
             <div class="form__subtitle">
               <h3>Have a project in mind?</h3>
               <p>
-                Если вы заинтересованы в создании грамотного, уникального и
-                запоминающегося коммерческого пространства, мы будем рады видеть
-                вас в числе наших клиентов.
+                If you are interested in creating a competent, unique and
+                memorable commercial space, we will be glad to see you among our
+                clients.
               </p>
             </div>
             <form>
@@ -634,8 +679,8 @@
               <div class="form-bottom-block">
                 <div class="privacy-policy">
                   <a href="#">
-                    Нажимая кнопку «отправить», вы соглашаетесь с
-                    <span>политикой конфиденциальности</span>
+                    By clicking the "submit" button, you agree to the
+                    <span> privacy policy </span>
                   </a>
                 </div>
                 <button>Отправить</button>
@@ -700,7 +745,7 @@
                   <!-- <p>Saint Petersburg</p> -->
                   <p>Address</p>
                   <!-- <a href="#">Галерная ул., 20 </a> -->
-                  <a href="#">СПБ, Галерная ул., 20</a>
+                  <a href="#">SPB, Galernaya st., 20</a>
                 </li>
               </ul>
             </li>
@@ -736,8 +781,8 @@
           <div class="container">
             <div class="form-complite-block">
               <div>
-                <p>готово!</p>
-                <p>Форма успешно отправлена</p>
+                <p>Complited!</p>
+                <p>Form sent successfully</p>
                 <button class="form-complite-close">ok</button>
               </div>
             </div>

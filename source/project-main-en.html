@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./img/logo.svg" type="image/x-icon" />
+
     <link
       rel="preload"
       href="fonts/NeutralFaceRegular.woff2"
@@ -30,12 +31,20 @@
       crossorigin
     />
     <link rel="stylesheet" href="css/style.min.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <title>Contact us</title>
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- swiper -->
+
+    <title>Projects</title>
   </head>
 
   <body id="top">
@@ -53,34 +62,34 @@
               />
             </div>
             <ul class="header__nav-lang" tabindex="0">
-              <li>rus</li>
+              <li>eng</li>
             </ul>
           </div>
           <ul class="header__nav-list">
             <li class="animate__nav-item animate__animated">
-              <a  href="./aboutus-page.html"
-                ><span>01</span>О нас</a
+              <a  href="./aboutus-page-en.html"
+                ><span>01</span>About us</a
               >
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./project-main.html"><span>02</span>Проекты</a>
+              <a class="active-link" href="./project-main-en.html"><span>02</span>Projects</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a class="active-link" href="./contactus-page.html"><span>03</span>контакты</a>
+              <a href="./contactus-page-en.html"><span>03</span>Contacts</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./process-page.html"><span>04</span>процесс</a>
+              <a href="./process-page-en.html"><span>04</span>Procces</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./press-page.html"><span>05</span>пресса</a>
+              <a href="./press-page-en.html"><span>05</span>Press</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./ourFactory-page.html"><span>06</span>производство</a>
+              <a href="./ourFactory-page-en.html"><span>06</span>Production</a>
             </li>
           </ul>
           <div class="burger__contacts">
             <div class="burger__contacts-img">
-              <a href="./index.html">
+              <a href="./index-en.html">
                 <svg
                   width="68"
                   height="35"
@@ -132,7 +141,7 @@
           <div class="logo">
             <ul class="logo__lang-list">
               <li class="ru" tabindex="0">
-                rus
+                eng
                 <img
                   class="translator-arrow"
                   src="./img/translator-arrow.svg"
@@ -140,7 +149,7 @@
                 />
                 <ul class="sub-logo__lang-list">
                   <li class="en">
-                    <a href="./contactus-page-en.html">eng</a>
+                    <a href="./project-main.html">rus</a>
                   </li>
                 </ul>
               </li>
@@ -173,316 +182,32 @@
     <!-- /header -->
 
     <section>
-      <h2 class="visually-hidden">Заглавные картинки</h2>
       <div class="container">
-        <div class="contactus-page__img _anim-items _anim-no-hide">
-          <div class="contactus-page__img-one">
-            <picture>
-              <source
-                type="image/webp"
-                media="(max-width: 480px)"
-                srcset="
-                  ./img/3-contact-us/mob/img-1-mob.webp    1x,
-                  ./img/3-contact-us/mob/img-1-mob-x2.webp 2x
-                "
-              />
-              <source
-                media="(max-width: 480px)"
-                srcset="
-                  ./img/3-contact-us/mob/img-1-mob.jpg    1x,
-                  ./img/3-contact-us/mob/img-1-mob-x2.jpg 2x
-                "
-              />
-              <source
-                type="image/webp"
-                media="(max-width: 768px)"
-                srcset="
-                  ./img/3-contact-us/tab/img-1-tab.webp    1x,
-                  ./img/3-contact-us/tab/img-1-tab-x2.webp 2x
-                "
-              />
-              <source
-                media="(max-width: 768px)"
-                srcset="
-                  ./img/3-contact-us/tab/img-1-tab.jpg    1x,
-                  ./img/3-contact-us/tab/img-1-tab-x2.jpg 2x
-                "
-              />
-              <source
-                type="image/webp"
-                media="(max-width: 1024px)"
-                srcset="
-                  ./img/3-contact-us/1024px/img-1-1024.webp    1x,
-                  ./img/3-contact-us/1024px/img-1-1024-x2.webp 2x
-                "
-              />
-              <source
-                media="(max-width: 1024px)"
-                srcset="
-                  ./img/3-contact-us/1024px/img-1-1024.jpg    1x,
-                  ./img/3-contact-us/1024px/img-1-1024-x2.jpg 2x
-                "
-              />
-              <source
-                media="(min-width: 1920px)"
-                srcset="
-                  ./img/3-contact-us/full/img-1-full.webp    1x,
-                  ./img/3-contact-us/full/img-1-full-x2.webp 2x
-                "
-              />
-              <source
-                media="(min-width: 1920px)"
-                srcset="
-                  ./img/3-contact-us/full/img-1-full.jpg    1x,
-                  ./img/3-contact-us/full/img-1-full-x2.jpg 2x
-                "
-              />
-              <source
-                type="image/webp"
-                srcset="
-                  ./img/3-contact-us/desctop/img-1-desctop.webp    1x,
-                  ./img/3-contact-us/desctop/img-1-desctop-x2.webp 2x
-                "
-              />
-              <img
-                src="./img/3-contact-us/desctop/img-1-desctop.jpg"
-                srcset="
-                  ./img/3-contact-us/desctop/img-1-desctop.jpg    1x,
-                  ./img/3-contact-us/desctop/img-1-desctop-x2.jpg 2x
-                "
-                alt="img"
-              />
-            </picture>
-          </div>
-          <div class="contactus-page__img-two">
-            <picture>
-              <source
-                type="image/webp"
-                media="(max-width: 480px)"
-                srcset="
-                  ./img/3-contact-us/mob/img-2-mob.webp    1x,
-                  ./img/3-contact-us/mob/img-2-mob-x2.webp 2x
-                "
-              />
-              <source
-                media="(max-width: 480px)"
-                srcset="
-                  ./img/3-contact-us/mob/img-2-mob.jpg    1x,
-                  ./img/3-contact-us/mob/img-2-mob-x2.jpg 2x
-                "
-              />
-              <source
-                type="image/webp"
-                media="(max-width: 768px)"
-                srcset="
-                  ./img/3-contact-us/tab/img-2-tab.webp    1x,
-                  ./img/3-contact-us/tab/img-2-tab-x2.webp 2x
-                "
-              />
-              <source
-                media="(max-width: 768px)"
-                srcset="
-                  ./img/3-contact-us/tab/img-2-tab.jpg    1x,
-                  ./img/3-contact-us/tab/img-2-tab-x2.jpg 2x
-                "
-              />
-              <source
-                type="image/webp"
-                media="(max-width: 1024px)"
-                srcset="
-                  ./img/3-contact-us/1024px/img-2-1024.webp    1x,
-                  ./img/3-contact-us/1024px/img-2-1024-x2.webp 2x
-                "
-              />
-              <source
-                media="(max-width: 1024px)"
-                srcset="
-                  ./img/3-contact-us/1024px/img-2-1024.jpg    1x,
-                  ./img/3-contact-us/1024px/img-2-1024-x2.jpg 2x
-                "
-              />
-              <source
-                media="(min-width: 1920px)"
-                srcset="
-                  ./img/3-contact-us/full/img-2-full.webp    1x,
-                  ./img/3-contact-us/full/img-2-full-x2.webp 2x
-                "
-              />
-              <source
-                media="(min-width: 1920px)"
-                srcset="
-                  ./img/3-contact-us/full/img-2-full.jpg    1x,
-                  ./img/3-contact-us/full/img-2-full-x2.jpg 2x
-                "
-              />
-              <source
-                type="image/webp"
-                srcset="
-                  ./img/3-contact-us/desctop/img-2-desctop.webp    1x,
-                  ./img/3-contact-us/desctop/img-2-desctop-x2.webp 2x
-                "
-              />
-              <img
-                src="./img/3-contact-us/desctop/img-2-desctop.jpg"
-                srcset="
-                  ./img/3-contact-us/desctop/img-2-desctop.jpg    1x,
-                  ./img/3-contact-us/desctop/img-2-desctop-x2.jpg 2x
-                "
-                alt="img"
-              />
-            </picture>
+        <div class="project-main _anim-items _anim-no-hide">
+          <div><h2>Projects</h2></div>
+          <div>
+            <h3>Our Principles</h3>
+            <p>
+              In our work, we always remain true to our architectural thinking.
+              Volume, space, functionality and ergonomics - for us these are the
+              most important design aspects.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
     <section>
-      <h2 class="visually-hidden">Контакты</h2>
+      <h2 class="visually-hidden">Pagination</h2>
       <div class="container">
-        <div class="contactus-page _anim-items _anim-no-hide">
-          <ul class="contactus-page__list">
-            <li class="contactus-page__list-item">
-              <a href="#">+ 7 931 256 17 47</a>
-              <a href="#">bfrmstd@gmail.com</a>
-            </li>
-            <li class="contactus-page__list-item">
-              <p>Санкт-Петербург</p>
-              <p>Галерная ул., 20</p>
-            </li>
-            <li>
-              <ul class="contactus-page-social__list">
-                <li>
-                  <a
-                    href="https://www.instagram.com/beformstudio/?hl=ru"
-                    target="blank"
-                    >in</a
-                  >/
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/beformstudio" target="blank"
-                    >fb</a
-                  >/
-                </li>
-                <li>
-                  <a href="https://www.behance.net/beformstudio" target="blank"
-                    >be</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="map _anim-items _anim-no-hide">
-          <a href="#" class="map-link">
-            <div>
-              <picture>
-                <source
-                  type="image/webp"
-                  media="(max-width: 360px)"
-                  srcset="
-                    ./img/map/img-map1-360.webp    1x,
-                    ./img/map/img-map1-360-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 360px)"
-                  srcset="
-                    ./img/map/img-map1-360.jpg    1x,
-                    ./img/map/img-map1-360-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 480px)"
-                  srcset="
-                    ./img/map/img-map1-mob.webp    1x,
-                    ./img/map/img-map1-mob-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 480px)"
-                  srcset="
-                    ./img/map/img-map1-mob.jpg    1x,
-                    ./img/map/img-map1-mob-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 570px)"
-                  srcset="
-                    ./img/map/img-map1-570.webp    1x,
-                    ./img/map/img-map1-570-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 570px)"
-                  srcset="
-                    ./img/map/img-map1-570.jpg    1x,
-                    ./img/map/img-map1-570-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 768px)"
-                  srcset="
-                    ./img/map/img-map1-tablet.webp    1x,
-                    ./img/map/img-map1-tablet-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 768px)"
-                  srcset="
-                    ./img/map/img-map1-tablet.jpg    1x,
-                    ./img/map/img-map1-tablet-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  media="(max-width: 1024px)"
-                  srcset="
-                    ./img/map/img-map1-1024.webp    1x,
-                    ./img/map/img-map1-1024-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(max-width: 1024px)"
-                  srcset="
-                    ./img/map/img-map1-1024.jpg    1x,
-                    ./img/map/img-map1-1024-x2.jpg 2x
-                  "
-                />
-                <source
-                  media="(min-width: 1920px)"
-                  srcset="
-                    ./img/map/img-map1-full.webp    1x,
-                    ./img/map/img-map1-full-x2.webp 2x
-                  "
-                />
-                <source
-                  media="(min-width: 1920px)"
-                  srcset="
-                    ./img/map/img-map1-full.jpg    1x,
-                    ./img/map/img-map1-full-x2.jpg 2x
-                  "
-                />
-                <source
-                  type="image/webp"
-                  srcset="
-                    ./img/map/img-map1-desctop.webp    1x,
-                    ./img/map/img-map1-desctop-x2.webp 2x
-                  "
-                />
-                <img
-                  src="./img/map/img-map1-desctop.jpg"
-                  srcset="
-                    ./img/map/img-map1-desctop.jpg    1x,
-                    ./img/map/img-map1-desctop-x2.jpg 2x
-                  "
-                  alt="img"
-                />
-              </picture>
-            </div>
-          </a>
+        <ul
+          class="project__list _anim-items _anim-no-hide"
+          id="listingTable"
+        ></ul>
+        <div class="pagination-btn">
+          <button class="pagination-btn__prev" id="btn_prev">Previous</button>
+          <span class="pagination-pages" id="page"></span>
+          <button class="pagination-btn__next" id="btn_next">Next</button>
         </div>
       </div>
     </section>
@@ -586,9 +311,9 @@
             <div class="form__subtitle">
               <h3>Have a project in mind?</h3>
               <p>
-                Если вы заинтересованы в создании грамотного, уникального и
-                запоминающегося коммерческого пространства, мы будем рады видеть
-                вас в числе наших клиентов.
+                If you are interested in creating competent, unique and
+                memorable commercial space, we will be glad to see you among our
+                clients.
               </p>
             </div>
             <form>
@@ -634,8 +359,8 @@
               <div class="form-bottom-block">
                 <div class="privacy-policy">
                   <a href="#">
-                    Нажимая кнопку «отправить», вы соглашаетесь с
-                    <span>политикой конфиденциальности</span>
+                    By clicking the "submit" button, you agree to
+                    <span> privacy policy </span>
                   </a>
                 </div>
                 <button>Отправить</button>
@@ -700,7 +425,7 @@
                   <!-- <p>Saint Petersburg</p> -->
                   <p>Address</p>
                   <!-- <a href="#">Галерная ул., 20 </a> -->
-                  <a href="#">СПБ, Галерная ул., 20</a>
+                  <a href="#">SPB, Galernaya st., 20</a>
                 </li>
               </ul>
             </li>
@@ -736,8 +461,8 @@
           <div class="container">
             <div class="form-complite-block">
               <div>
-                <p>готово!</p>
-                <p>Форма успешно отправлена</p>
+                <p>Complite!</p>
+                <p>Form sent successfully</p>
                 <button class="form-complite-close">ok</button>
               </div>
             </div>
@@ -747,6 +472,7 @@
     </section>
     <!-- /popup -->
 
+    <script src="./js/projectPaginationEn.js"></script>
     <script src="./js/scrollup.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/form.js"></script>
