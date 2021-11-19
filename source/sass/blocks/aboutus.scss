@@ -7,6 +7,7 @@
   margin-right: 190px;
   opacity: 0;
   transition: 1s;
+  transform: translate(0, 10%);
   img {
     max-width: 100%;
     height: auto;
@@ -14,6 +15,7 @@
 }
 .aboutus__img._active {
   opacity: 1;
+  transform: translate(0, 0);
 }
 
 .aboutus__text {
@@ -21,6 +23,7 @@
   margin-top: 250px;
   opacity: 0;
   transition: 1s;
+  transform: translate(0, 10%);
   h2 {
     max-width: 288px;
     font-family: "NeutralFace-Bold";
@@ -45,6 +48,7 @@
 
 .aboutus__text._active {
   opacity: 1;
+  transform: translate(0, 0);
 }
 
 .aboutus__img-bottom {
