@@ -27,7 +27,41 @@
   color: #f5f5f5;
 }
 
-.our-factory__tytle-text {
+// .wrapper {
+//   width: 100%;
+//   height: 100%;
+//   position: relative;
+// }
+
+.sound {
+  position: absolute;
+  z-index: 10;
+  content: "";
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 32px 0 0 0;
+  top: 90%;
+  left: 48%;
+  transform: translate(0, -50%);
+  font-family: "NeutralFace-Bold";
+  font-size: 18px;
+  line-height: 106%;
+  color: #f5f5f5;
+  cursor: pointer;
+  transition: 1s;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.sound.active {
+  background-color: rgb(4, 41, 58);
+}
+
+.our-factory__title-text {
   max-width: 582px;
   margin-left: 434px;
   margin-bottom: 250px;

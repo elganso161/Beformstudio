@@ -58,9 +58,7 @@
           </div>
           <ul class="header__nav-list">
             <li class="animate__nav-item animate__animated">
-              <a  href="./aboutus-page.html"
-                ><span>01</span>О нас</a
-              >
+              <a href="./aboutus-page.html"><span>01</span>О нас</a>
             </li>
             <li class="animate__nav-item animate__animated">
               <a href="./project-main.html"><span>02</span>Проекты</a>
@@ -75,7 +73,9 @@
               <a href="./press-page.html"><span>05</span>пресса</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a class="active-link" href="./ourFactory-page.html"><span>06</span>производство</a>
+              <a class="active-link" href="./ourFactory-page.html"
+                ><span>06</span>производство</a
+              >
             </li>
           </ul>
           <div class="burger__contacts">
@@ -147,7 +147,7 @@
             </ul>
             <div>
               <a href="./index.html">
-                <img class="header__logo" src="./img/logo.svg" alt="Логотип"/>
+                <img class="header__logo" src="./img/logo.svg" alt="Логотип" />
                 <!-- <svg
                   width="72"
                   height="72"
@@ -175,17 +175,20 @@
     <section>
       <div class="video">
         <div class="container">
-          <h3 class="video__title">Our factory</h3>
+          <div class="wrapper">
+            <h3 class="video__title">Our factory</h3>
+            <div class="sound">sound off</div>
+          </div>
         </div>
         <video class="my__video" autoplay muted loop>
-          <!-- <source src="./img/video-bg1.mp4" type="video/mp4" /> -->
+          <source src="./img/video-bg2.mp4" type="video/mp4" />
         </video>
       </div>
     </section>
 
     <section>
       <div class="container">
-        <div class="our-factory__tytle-text">
+        <div class="our-factory__title-text">
           <h2>Experts and Design</h2>
           <p>
             В Beformstudio мы рады иметь собственное производство мебели и
@@ -407,6 +410,7 @@
     </section>
     <!-- /popup -->
 
+    <script src="./js/sound.js"></script>
     <script src="./js/scrollup.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/form.js"></script>
