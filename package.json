@@ -13,7 +13,7 @@
     "gulp-postcss": "9.0.x",
     "gulp-posthtml": "^3.0.5",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.0.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "3.0.x",
     "gulp-svgstore": "^8.0.0",
     "posthtml-include": "^1.7.1",
@@ -45,8 +45,10 @@
   "dependencies": {
     "copy": "^0.3.2",
     "del": "^6.0.0",
+    "node-sass": "^7.0.1",
     "picturefill": "^3.0.3",
     "postcss": "^8.3.5",
+    "sass": "^1.45.2",
     "svg4everybody": "^2.1.9"
   }
 }
