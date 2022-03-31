@@ -1,0 +1,2470 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/logo.svg" type="image/x-icon" />
+
+    <link
+      rel="preload"
+      href="fonts/NeutralFaceRegular.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/NeutralFaceBold.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/PT-Root-UI_Regular.woff2"
+      as="font"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/PT-Root-UI_Bold.woff2"
+      as="font"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Project Airport Sochi</title>
+  </head>
+  <body id="top">
+    <!-- header -->
+    <header class="header">
+      <nav class="header__nav">
+        <div class="container">
+          <div class="header__nav-close">
+            <div>
+              <img
+                class="close"
+                src="./img/close-nav.svg"
+                alt="close"
+                tabindex="0"
+              />
+            </div>
+            <ul class="header__nav-lang" tabindex="0">
+              <li>rus</li>
+            </ul>
+          </div>
+          <ul class="header__nav-list">
+            <li class="animate__nav-item animate__animated">
+              <a href="./aboutus-page.html"><span>01</span>О нас</a>
+            </li>
+            <li class="animate__nav-item animate__animated">
+              <a href="./project-main.html"><span>02</span>Проекты</a>
+            </li>
+            <li class="animate__nav-item animate__animated">
+              <a href="./contactus-page.html"><span>03</span>контакты</a>
+            </li>
+            <li class="animate__nav-item animate__animated">
+              <a href="./process-page.html"><span>04</span>процесс</a>
+            </li>
+            <li class="animate__nav-item animate__animated">
+              <a href="./press-page.html"><span>05</span>пресса</a>
+            </li>
+            <li class="animate__nav-item animate__animated">
+              <a href="./ourFactory-page.html"><span>06</span>производство</a>
+            </li>
+          </ul>
+          <div class="burger__contacts">
+            <div class="burger__contacts-img">
+              <a href="./index.html">
+                <svg
+                  width="68"
+                  height="35"
+                  viewBox="0 0 68 35"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M50.4452 0.680149C50.3782 0.680149 50.3112 0.666748 50.2442 0.666748H17.8747C17.62 0.666748 17.3921 0.787381 17.2313 0.961627C17.1509 1.02864 17.0705 1.12247 17.0168 1.21629L0.758381 33.6528C0.624345 33.9075 0.637747 34.2292 0.798589 34.4704C0.946028 34.7251 1.2275 34.8725 1.50897 34.8725H17.8613H34.0795H50.2308H50.3782C50.3916 34.8725 50.405 34.8591 50.4318 34.8591C59.7607 34.7519 67.3337 27.1253 67.3337 17.7696C67.3337 8.41398 59.7741 0.787377 50.4452 0.680149ZM2.87613 33.1837L17.7674 3.48148L32.7124 33.1837H2.87613ZM34.6023 33.1837L19.081 2.35559H42.8856C37.1355 5.11671 33.1279 10.9741 33.1279 17.7696C33.1279 24.5652 37.1221 30.436 42.8856 33.1837H34.6023ZM50.2442 33.1837C41.7463 33.1837 34.8301 26.2675 34.8301 17.7696C34.8301 9.2718 41.7463 2.35559 50.2442 2.35559C58.742 2.35559 65.6582 9.2718 65.6582 17.7696C65.6582 26.2809 58.742 33.1837 50.2442 33.1837Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="burger__contacts-group">
+              <div><p>Санкт-Петербург, Галерная ул., 20</p></div>
+              <div>
+                <a href="mailto:bfrmstd@gmail.com">bfrmstd@gmail.com</a>
+              </div>
+            </div>
+            <ul class="social__list">
+              <li>
+                <a
+                  href="https://www.instagram.com/beformstudio/?hl=ru"
+                  target="blank"
+                  >in</a
+                >/
+              </li>
+              <li>
+                <a href="https://www.facebook.com/beformstudio" target="blank"
+                  >fb</a
+                >/
+              </li>
+              <li>
+                <a href="https://www.behance.net/beformstudio" target="blank"
+                  >be</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="header__menu">
+          <div class="burger">
+            <div class="burger__line1"></div>
+            <div class="burger__line2"></div>
+          </div>
+          <div class="logo">
+            <ul class="logo__lang-list">
+              <li class="ru" tabindex="0">
+                rus
+                <img
+                  class="translator-arrow"
+                  src="./img/translator-arrow.svg"
+                  alt="img"
+                />
+                <ul class="sub-logo__lang-list">
+                  <li class="en">
+                    <a href="./project-page-airport-en.html">eng</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div>
+              <a href="./index.html">
+                <img class="header__logo" src="./img/logo.svg" alt="Логотип" />
+                <!-- <svg
+                  width="72"
+                  height="72"
+                  viewBox="0 0 72 72"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M52.3903 18.6802H52.2441C52.3106 18.6802 52.377 18.6934 52.4434 18.6934C52.4169 18.6802 52.4036 18.6802 52.3903 18.6802Z"
+                    fill="#212121"
+                  />
+                  <path
+                    d="M52.4452 18.6802C52.3782 18.6802 52.3112 18.6668 52.2442 18.6668H19.8747C19.62 18.6668 19.3921 18.7874 19.2313 18.9617C19.1509 19.0287 19.0705 19.1225 19.0168 19.2163L2.75838 51.6528C2.62435 51.9075 2.63775 52.2292 2.79859 52.4705C2.94603 52.7251 3.2275 52.8726 3.50897 52.8726H19.8613H36.0795H52.2308H52.3782C52.3916 52.8726 52.405 52.8592 52.4318 52.8592C61.7607 52.7519 69.3337 45.1253 69.3337 35.7697C69.3337 26.414 61.7741 18.7874 52.4452 18.6802ZM4.87613 51.1837L19.7674 21.4815L34.7124 51.1837H4.87613ZM36.6023 51.1837L21.081 20.3556H44.8856C39.1355 23.1168 35.1279 28.9741 35.1279 35.7697C35.1279 42.5653 39.1221 48.436 44.8856 51.1837H36.6023ZM52.2442 51.1837C43.7463 51.1837 36.8301 44.2675 36.8301 35.7697C36.8301 27.2718 43.7463 20.3556 52.2442 20.3556C60.742 20.3556 67.6582 27.2718 67.6582 35.7697C67.6582 44.2809 60.742 51.1837 52.2442 51.1837Z"
+                    fill="#212121"
+                  />
+                </svg> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <!-- top-project-section -->
+    <section>
+      <div class="project__top-img">
+        <picture>
+          <source
+            type="image/webp"
+            media="(max-width: 480px)"
+            srcset="
+              ./img/projects/furniture/mob/img-1-mob.webp    1x,
+              ./img/projects/furniture/mob/img-1-mob-x2.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 480px)"
+            srcset="
+              ./img/projects/furniture/mob/img-1-mob.jpg    1x,
+              ./img/projects/furniture/mob/img-1-mob-x2.jpg 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(max-width: 768px)"
+            srcset="
+              ./img/projects/furniture/tab/img-1-tab.webp    1x,
+              ./img/projects/furniture/tab/img-1-tab-x2.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="
+              ./img/projects/furniture/tab/img-1-tab.jpg    1x,
+              ./img/projects/furniture/tab/img-1-tab-x2.jpg 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(max-width: 1024px)"
+            srcset="
+              ./img/projects/furniture/1024px/img-1-1024.webp    1x,
+              ./img/projects/furniture/1024px/img-1-1024-x2.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 1024px)"
+            srcset="
+              ./img/projects/furniture/1024px/img-1-1024.jpg    1x,
+              ./img/projects/furniture/1024px/img-1-1024-x2.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              ./img/projects/furniture/full/img-1-full.webp    1x,
+              ./img/projects/furniture/full/img-1-full-x2.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1920px)"
+            srcset="
+              ./img/projects/furniture/full/img-1-full.jpg    1x,
+              ./img/projects/furniture/full/img-1-full-x2.jpg 2x
+            "
+          />
+          <source
+            type="image/webp"
+            srcset="
+              ./img/projects/furniture/desctop/img-1-desctop.webp    1x,
+              ./img/projects/furniture/desctop/img-1-desctop-x2.webp 2x
+            "
+          />
+          <img
+            src="./img/projects/furniture/desctop/img-1-desctop.jpg"
+            srcset="
+              ./img/projects/furniture/desctop/img-1-desctop.jpg    1x,
+              ./img/projects/furniture/desctop/img-1-desctop-x2.jpg 2x
+            "
+            alt="img"
+          />
+        </picture>
+      </div>
+      <div class="container">
+        <div class="project__description _anim-items _anim-no-hide">
+          <div class="project__description-character">
+            <ul>
+              <li>
+                <p>Город:</p>
+                <span>Москва</span>
+              </li>
+              <li>
+                <p>Площадь:</p>
+                <span>50 кв.м</span>
+              </li>
+              <li>
+                <p>Год:</p>
+                <span>2022</span>
+              </li>
+            </ul>
+          </div>
+          <div class="project__description-text">
+            <h2>FURNITURE</h2>
+            <p>
+              Harris Daddy – семейный барбершоп для отцов и сыновей. Общее
+              пространство помещения площадью 50 кв. м было поделено на
+              несколько функциональных зон. При этом удалось сохранить общую
+              целостность всего пространства. В рабочем зале расположены три
+              посадочных места и обособленная зона с раковиной. Клиентская зона
+              ожидания оснащена игровой приставкой и большим книжным шкафом.
+              Стойка рецепции оборудована так, что является не только местом для
+              администратора, но и мини-баром для клиентов.
+            </p>
+            <p>
+              В цветовой гамме интерьера присутствуют некоторые из традиционных
+              оттенков классической концепции барбершопа: красный цвет, а также
+              покрытия из натурального дерева. Однако в целом интерьер не
+              привязан к традиционным стандартам и адаптирован для самой разной
+              аудитории.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /top-project-section -->
+
+    <!-- body-project-section -->
+    <section>
+      <h3 class="visually-hidden">Картинки проекта</h3>
+      <div class="container">
+        <div class="furniture-img-2 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-2-mob.webp    1x,
+                ./img/projects/furniture/mob/img-2-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-2-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-2-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-2-tab.webp    1x,
+                ./img/projects/furniture/tab/img-2-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-2-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-2-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-2-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-2-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-2-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-2-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-2-full.webp    1x,
+                ./img/projects/furniture/full/img-2-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-2-full.jpg    1x,
+                ./img/projects/furniture/full/img-2-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-2-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-2-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-2-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-2-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-2-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-3-4 _anim-items _anim-no-hide">
+          <ul>
+            <li>
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-3-mob.webp    1x,
+                    ./img/projects/furniture/mob/img-3-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-3-mob.jpg    1x,
+                    ./img/projects/furniture/mob/img-3-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-3-tab.webp    1x,
+                    ./img/projects/furniture/tab/img-3-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-3-tab.jpg    1x,
+                    ./img/projects/furniture/tab/img-3-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-3-1024.webp    1x,
+                    ./img/projects/furniture/1024px/img-3-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-3-1024.jpg    1x,
+                    ./img/projects/furniture/1024px/img-3-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-3-full.webp    1x,
+                    ./img/projects/furniture/full/img-3-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-3-full.jpg    1x,
+                    ./img/projects/furniture/full/img-3-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-3-desctop.webp    1x,
+                    ./img/projects/furniture/desctop/img-3-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/furniture/desctop/img-3-desctop.jpg"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-3-desctop.jpg    1x,
+                    ./img/projects/furniture/desctop/img-3-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </li>
+            <li>
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-4-mob.webp    1x,
+                    ./img/projects/furniture/mob/img-4-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-4-mob.jpg    1x,
+                    ./img/projects/furniture/mob/img-4-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-4-tab.webp    1x,
+                    ./img/projects/furniture/tab/img-4-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-4-tab.jpg    1x,
+                    ./img/projects/furniture/tab/img-4-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-4-1024.webp    1x,
+                    ./img/projects/furniture/1024px/img-4-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-4-1024.jpg    1x,
+                    ./img/projects/furniture/1024px/img-4-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-4-full.webp    1x,
+                    ./img/projects/furniture/full/img-4-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-4-full.jpg    1x,
+                    ./img/projects/furniture/full/img-4-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-4-desctop.webp    1x,
+                    ./img/projects/furniture/desctop/img-4-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/furniture/desctop/img-4-desctop.jpg"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-4-desctop.jpg    1x,
+                    ./img/projects/furniture/desctop/img-4-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </li>
+          </ul>
+        </div>
+        <div class="furniture-img-5 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-5-mob.webp    1x,
+                ./img/projects/furniture/mob/img-5-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-5-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-5-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-5-tab.webp    1x,
+                ./img/projects/furniture/tab/img-5-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-5-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-5-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-5-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-5-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-5-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-5-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-5-full.webp    1x,
+                ./img/projects/furniture/full/img-5-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-5-full.jpg    1x,
+                ./img/projects/furniture/full/img-5-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-5-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-5-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-5-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-5-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-5-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-6 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-6-mob.webp    1x,
+                ./img/projects/furniture/mob/img-6-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-6-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-6-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-6-tab.webp    1x,
+                ./img/projects/furniture/tab/img-6-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-6-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-6-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-6-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-6-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-6-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-6-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-6-full.webp    1x,
+                ./img/projects/furniture/full/img-6-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-6-full.jpg    1x,
+                ./img/projects/furniture/full/img-6-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-6-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-6-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-6-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-6-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-6-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-7 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-7-mob.webp    1x,
+                ./img/projects/furniture/mob/img-7-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-7-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-7-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-7-tab.webp    1x,
+                ./img/projects/furniture/tab/img-7-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-7-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-7-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-7-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-7-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-7-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-7-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-7-full.webp    1x,
+                ./img/projects/furniture/full/img-7-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-7-full.jpg    1x,
+                ./img/projects/furniture/full/img-7-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-7-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-7-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-7-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-7-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-7-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-8 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-8-mob.webp    1x,
+                ./img/projects/furniture/mob/img-8-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-8-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-8-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-8-tab.webp    1x,
+                ./img/projects/furniture/tab/img-8-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-8-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-8-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-8-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-8-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-8-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-8-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-8-full.webp    1x,
+                ./img/projects/furniture/full/img-8-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-8-full.jpg    1x,
+                ./img/projects/furniture/full/img-8-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-8-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-8-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-8-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-8-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-8-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-9 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-9-mob.webp    1x,
+                ./img/projects/furniture/mob/img-9-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-9-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-9-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-9-tab.webp    1x,
+                ./img/projects/furniture/tab/img-9-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-9-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-9-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-9-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-9-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-9-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-9-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-9-full.webp    1x,
+                ./img/projects/furniture/full/img-9-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-9-full.jpg    1x,
+                ./img/projects/furniture/full/img-9-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-9-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-9-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-9-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-9-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-9-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-10-11 _anim-items _anim-no-hide">
+          <ul>
+            <li>
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-10-mob.webp    1x,
+                    ./img/projects/furniture/mob/img-10-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-10-mob.jpg    1x,
+                    ./img/projects/furniture/mob/img-10-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-10-tab.webp    1x,
+                    ./img/projects/furniture/tab/img-10-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-10-tab.jpg    1x,
+                    ./img/projects/furniture/tab/img-10-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-10-1024.webp    1x,
+                    ./img/projects/furniture/1024px/img-10-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-10-1024.jpg    1x,
+                    ./img/projects/furniture/1024px/img-10-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-10-full.webp    1x,
+                    ./img/projects/furniture/full/img-10-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-10-full.jpg    1x,
+                    ./img/projects/furniture/full/img-10-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-10-desctop.webp    1x,
+                    ./img/projects/furniture/desctop/img-10-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/furniture/desctop/img-10-desctop.jpg"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-10-desctop.jpg    1x,
+                    ./img/projects/furniture/desctop/img-10-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </li>
+            <li>
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-11-mob.webp    1x,
+                    ./img/projects/furniture/mob/img-11-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-11-mob.jpg    1x,
+                    ./img/projects/furniture/mob/img-11-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-11-tab.webp    1x,
+                    ./img/projects/furniture/tab/img-11-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-11-tab.jpg    1x,
+                    ./img/projects/furniture/tab/img-11-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-11-1024.webp    1x,
+                    ./img/projects/furniture/1024px/img-11-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-11-1024.jpg    1x,
+                    ./img/projects/furniture/1024px/img-11-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-11-full.webp    1x,
+                    ./img/projects/furniture/full/img-11-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-11-full.jpg    1x,
+                    ./img/projects/furniture/full/img-11-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-11-desctop.webp    1x,
+                    ./img/projects/furniture/desctop/img-11-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/furniture/desctop/img-11-desctop.jpg"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-11-desctop.jpg    1x,
+                    ./img/projects/furniture/desctop/img-11-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </li>
+          </ul>
+        </div>
+        <div class="furniture-img-12 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-12-mob.webp    1x,
+                ./img/projects/furniture/mob/img-12-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-12-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-12-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-12-tab.webp    1x,
+                ./img/projects/furniture/tab/img-12-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-12-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-12-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-12-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-12-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-12-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-12-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-12-full.webp    1x,
+                ./img/projects/furniture/full/img-12-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-12-full.jpg    1x,
+                ./img/projects/furniture/full/img-12-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-12-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-12-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-12-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-12-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-12-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-13 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-13-mob.webp    1x,
+                ./img/projects/furniture/mob/img-13-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-13-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-13-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-13-tab.webp    1x,
+                ./img/projects/furniture/tab/img-13-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-13-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-13-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-13-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-13-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-13-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-13-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-13-full.webp    1x,
+                ./img/projects/furniture/full/img-13-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-13-full.jpg    1x,
+                ./img/projects/furniture/full/img-13-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-13-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-13-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-13-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-13-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-13-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-14 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-14-mob.webp    1x,
+                ./img/projects/furniture/mob/img-14-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-14-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-14-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-14-tab.webp    1x,
+                ./img/projects/furniture/tab/img-14-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-14-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-14-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-14-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-14-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-14-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-14-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-14-full.webp    1x,
+                ./img/projects/furniture/full/img-14-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-14-full.jpg    1x,
+                ./img/projects/furniture/full/img-14-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-14-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-14-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-14-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-14-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-14-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-15 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-15-mob.webp    1x,
+                ./img/projects/furniture/mob/img-15-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-15-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-15-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-15-tab.webp    1x,
+                ./img/projects/furniture/tab/img-15-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-15-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-15-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-15-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-15-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-15-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-15-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-15-full.webp    1x,
+                ./img/projects/furniture/full/img-15-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-15-full.jpg    1x,
+                ./img/projects/furniture/full/img-15-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-15-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-15-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-15-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-15-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-15-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-16-17 _anim-items _anim-no-hide">
+          <ul>
+            <li>
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-16-mob.webp    1x,
+                    ./img/projects/furniture/mob/img-16-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-16-mob.jpg    1x,
+                    ./img/projects/furniture/mob/img-16-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-16-tab.webp    1x,
+                    ./img/projects/furniture/tab/img-16-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-16-tab.jpg    1x,
+                    ./img/projects/furniture/tab/img-16-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-16-1024.webp    1x,
+                    ./img/projects/furniture/1024px/img-16-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-16-1024.jpg    1x,
+                    ./img/projects/furniture/1024px/img-16-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-16-full.webp    1x,
+                    ./img/projects/furniture/full/img-16-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-16-full.jpg    1x,
+                    ./img/projects/furniture/full/img-16-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-16-desctop.webp    1x,
+                    ./img/projects/furniture/desctop/img-16-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/furniture/desctop/img-16-desctop.jpg"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-16-desctop.jpg    1x,
+                    ./img/projects/furniture/desctop/img-16-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </li>
+            <li>
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-17-mob.webp    1x,
+                    ./img/projects/furniture/mob/img-17-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/furniture/mob/img-17-mob.jpg    1x,
+                    ./img/projects/furniture/mob/img-17-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-17-tab.webp    1x,
+                    ./img/projects/furniture/tab/img-17-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/furniture/tab/img-17-tab.jpg    1x,
+                    ./img/projects/furniture/tab/img-17-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-17-1024.webp    1x,
+                    ./img/projects/furniture/1024px/img-17-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/furniture/1024px/img-17-1024.jpg    1x,
+                    ./img/projects/furniture/1024px/img-17-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-17-full.webp    1x,
+                    ./img/projects/furniture/full/img-17-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/furniture/full/img-17-full.jpg    1x,
+                    ./img/projects/furniture/full/img-17-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-17-desctop.webp    1x,
+                    ./img/projects/furniture/desctop/img-17-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/furniture/desctop/img-17-desctop.jpg"
+                  srcset="
+                    ./img/projects/furniture/desctop/img-17-desctop.jpg    1x,
+                    ./img/projects/furniture/desctop/img-17-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </li>
+          </ul>
+        </div>
+        <div class="furniture-img-18 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-18-mob.webp    1x,
+                ./img/projects/furniture/mob/img-18-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-18-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-18-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-18-tab.webp    1x,
+                ./img/projects/furniture/tab/img-18-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-18-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-18-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-18-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-18-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-18-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-18-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-18-full.webp    1x,
+                ./img/projects/furniture/full/img-18-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-18-full.jpg    1x,
+                ./img/projects/furniture/full/img-18-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-18-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-18-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-18-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-18-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-18-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-19 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-19-mob.webp    1x,
+                ./img/projects/furniture/mob/img-19-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-19-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-19-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-19-tab.webp    1x,
+                ./img/projects/furniture/tab/img-19-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-19-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-19-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-19-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-19-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-19-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-19-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-19-full.webp    1x,
+                ./img/projects/furniture/full/img-19-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-19-full.jpg    1x,
+                ./img/projects/furniture/full/img-19-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-19-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-19-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-19-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-19-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-19-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+        <div class="furniture-img-20 _anim-items _anim-no-hide">
+          <picture>
+            <source
+              type="image/webp"
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-20-mob.webp    1x,
+                ./img/projects/furniture/mob/img-20-mob-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 480px)"
+              srcset="
+                ./img/projects/furniture/mob/img-20-mob.jpg    1x,
+                ./img/projects/furniture/mob/img-20-mob-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-20-tab.webp    1x,
+                ./img/projects/furniture/tab/img-20-tab-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./img/projects/furniture/tab/img-20-tab.jpg    1x,
+                ./img/projects/furniture/tab/img-20-tab-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-20-1024.webp    1x,
+                ./img/projects/furniture/1024px/img-20-1024-x2.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcset="
+                ./img/projects/furniture/1024px/img-20-1024.jpg    1x,
+                ./img/projects/furniture/1024px/img-20-1024-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-20-full.webp    1x,
+                ./img/projects/furniture/full/img-20-full-x2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1920px)"
+              srcset="
+                ./img/projects/furniture/full/img-20-full.jpg    1x,
+                ./img/projects/furniture/full/img-20-full-x2.jpg 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                ./img/projects/furniture/desctop/img-20-desctop.webp    1x,
+                ./img/projects/furniture/desctop/img-20-desctop-x2.webp 2x
+              "
+            />
+            <img
+              src="./img/projects/furniture/desctop/img-20-desctop.jpg"
+              srcset="
+                ./img/projects/furniture/desctop/img-20-desctop.jpg    1x,
+                ./img/projects/furniture/desctop/img-20-desctop-x2.jpg 2x
+              "
+              alt="img"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <!-- /body-project-section -->
+
+    <!-- bottom-project-section -->
+    <section>
+      <div class="container">
+        <ul class="any-project__list-first">
+          <li>
+            <a
+              class="harris-daddy-link"
+              href="./project-page-harris-daddy.html"
+            >
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-17-mob.webp    1x,
+                    ./img/projects/biara/mob/img-17-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-17-mob.jpg    1x,
+                    ./img/projects/biara/mob/img-17-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-17-tab.webp    1x,
+                    ./img/projects/biara/tab/img-17-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-17-tab.jpg    1x,
+                    ./img/projects/biara/tab/img-17-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-17-1024.webp    1x,
+                    ./img/projects/biara/1024px/img-17-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-17-1024.jpg    1x,
+                    ./img/projects/biara/1024px/img-17-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-17-full.webp    1x,
+                    ./img/projects/biara/full/img-17-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-17-full.jpg    1x,
+                    ./img/projects/biara/full/img-17-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/biara/desctop/img-17-desctop.webp    1x,
+                    ./img/projects/biara/desctop/img-17-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/biara/desctop/img-17-desctop.jpg"
+                  srcset="
+                    ./img/projects/biara/desctop/img-17-desctop.jpg    1x,
+                    ./img/projects/biara/desctop/img-17-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a class="umecos-link" href="./project-page-umecos.html">
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-18-mob.webp    1x,
+                    ./img/projects/biara/mob/img-18-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-18-mob.jpg    1x,
+                    ./img/projects/biara/mob/img-18-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-18-tab.webp    1x,
+                    ./img/projects/biara/tab/img-18-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-18-tab.jpg    1x,
+                    ./img/projects/biara/tab/img-18-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-18-1024.webp    1x,
+                    ./img/projects/biara/1024px/img-18-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-18-1024.jpg    1x,
+                    ./img/projects/biara/1024px/img-18-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-18-full.webp    1x,
+                    ./img/projects/biara/full/img-18-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-18-full.jpg    1x,
+                    ./img/projects/biara/full/img-18-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/biara/desctop/img-18-desctop.webp    1x,
+                    ./img/projects/biara/desctop/img-18-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/biara/desctop/img-18-desctop.jpg"
+                  srcset="
+                    ./img/projects/biara/desctop/img-18-desctop.jpg    1x,
+                    ./img/projects/biara/desctop/img-18-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a class="grocery-link" href="./project-page-grocery.html">
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-19-mob.webp    1x,
+                    ./img/projects/biara/mob/img-19-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-19-mob.jpg    1x,
+                    ./img/projects/biara/mob/img-19-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-19-tab.webp    1x,
+                    ./img/projects/biara/tab/img-19-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-19-tab.jpg    1x,
+                    ./img/projects/biara/tab/img-19-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-19-1024.webp    1x,
+                    ./img/projects/biara/1024px/img-19-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-19-1024.jpg    1x,
+                    ./img/projects/biara/1024px/img-19-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-19-full.webp    1x,
+                    ./img/projects/biara/full/img-19-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-19-full.jpg    1x,
+                    ./img/projects/biara/full/img-19-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/biara/desctop/img-19-desctop.webp    1x,
+                    ./img/projects/biara/desctop/img-19-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/biara/desctop/img-19-desctop.jpg"
+                  srcset="
+                    ./img/projects/biara/desctop/img-19-desctop.jpg    1x,
+                    ./img/projects/biara/desctop/img-19-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </a>
+          </li>
+        </ul>
+        <ul class="any-project__list-last">
+          <li>
+            <a class="essence-3-link" href="./project-page-5essence-3.0.html">
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-20-mob.webp    1x,
+                    ./img/projects/biara/mob/img-20-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-20-mob.jpg    1x,
+                    ./img/projects/biara/mob/img-20-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-20-tab.webp    1x,
+                    ./img/projects/biara/tab/img-20-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-20-tab.jpg    1x,
+                    ./img/projects/biara/tab/img-20-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-20-1024.webp    1x,
+                    ./img/projects/biara/1024px/img-20-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-20-1024.jpg    1x,
+                    ./img/projects/biara/1024px/img-20-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-20-full.webp    1x,
+                    ./img/projects/biara/full/img-20-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-20-full.jpg    1x,
+                    ./img/projects/biara/full/img-20-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/biara/desctop/img-20-desctop.webp    1x,
+                    ./img/projects/biara/desctop/img-20-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/biara/desctop/img-20-desctop.jpg"
+                  srcset="
+                    ./img/projects/biara/desctop/img-20-desctop.jpg    1x,
+                    ./img/projects/biara/desctop/img-20-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a class="essence-2-link" href="./project-page-5essence-2.0.html">
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-21-mob.webp    1x,
+                    ./img/projects/biara/mob/img-21-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-21-mob.jpg    1x,
+                    ./img/projects/biara/mob/img-21-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-21-tab.webp    1x,
+                    ./img/projects/biara/tab/img-21-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-21-tab.jpg    1x,
+                    ./img/projects/biara/tab/img-21-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-21-1024.webp    1x,
+                    ./img/projects/biara/1024px/img-21-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-21-1024.jpg    1x,
+                    ./img/projects/biara/1024px/img-21-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-21-full.webp    1x,
+                    ./img/projects/biara/full/img-21-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-21-full.jpg    1x,
+                    ./img/projects/biara/full/img-21-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/biara/desctop/img-21-desctop.webp    1x,
+                    ./img/projects/biara/desctop/img-21-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/biara/desctop/img-21-desctop.jpg"
+                  srcset="
+                    ./img/projects/biara/desctop/img-21-desctop.jpg    1x,
+                    ./img/projects/biara/desctop/img-21-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a class="essence-1-link" href="./project-page-5essence-1.0.html">
+              <picture>
+                <source
+                  type="image/webp"
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-22-mob.webp    1x,
+                    ./img/projects/biara/mob/img-22-mob-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="
+                    ./img/projects/biara/mob/img-22-mob.jpg    1x,
+                    ./img/projects/biara/mob/img-22-mob-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-22-tab.webp    1x,
+                    ./img/projects/biara/tab/img-22-tab-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/projects/biara/tab/img-22-tab.jpg    1x,
+                    ./img/projects/biara/tab/img-22-tab-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-22-1024.webp    1x,
+                    ./img/projects/biara/1024px/img-22-1024-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="
+                    ./img/projects/biara/1024px/img-22-1024.jpg    1x,
+                    ./img/projects/biara/1024px/img-22-1024-x2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-22-full.webp    1x,
+                    ./img/projects/biara/full/img-22-full-x2.webp 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1920px)"
+                  srcset="
+                    ./img/projects/biara/full/img-22-full.jpg    1x,
+                    ./img/projects/biara/full/img-22-full-x2.jpg 2x
+                  "
+                />
+                <source
+                  type="image/webp"
+                  srcset="
+                    ./img/projects/biara/desctop/img-22-desctop.webp    1x,
+                    ./img/projects/biara/desctop/img-22-desctop-x2.webp 2x
+                  "
+                />
+                <img
+                  src="./img/projects/biara/desctop/img-22-desctop.jpg"
+                  srcset="
+                    ./img/projects/biara/desctop/img-22-desctop.jpg    1x,
+                    ./img/projects/biara/desctop/img-22-desctop-x2.jpg 2x
+                  "
+                  alt="img"
+                />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- /bottom-project-section -->
+
+    <!-- form -->
+    <section class="form-section">
+      <div class="container">
+        <div class="form">
+          <div class="form__title">
+            <h2>contact us</h2>
+          </div>
+          <div class="form__right-block">
+            <div class="form__subtitle">
+              <h3>Have a project in mind?</h3>
+              <p>
+                Если вы заинтересованы в создании грамотного, уникального и
+                запоминающегося коммерческого пространства, мы будем рады видеть
+                вас в числе наших клиентов.
+              </p>
+            </div>
+            <form>
+              <ul>
+                <li>
+                  <label for="name">Your name</label>
+                  <input
+                    id="name"
+                    class="input-name field"
+                    type="text"
+                    placeholder="ELENA SVETLOVA"
+                  />
+                </li>
+                <li>
+                  <label for="email">Mail</label>
+                  <input
+                    id="email"
+                    class="input-mail field"
+                    type="email"
+                    placeholder="address"
+                    required
+                  />
+                </li>
+                <li>
+                  <label for="phone">Phone</label>
+                  <input
+                    id="phone"
+                    class="input-phone field"
+                    type="tel"
+                    placeholder="+7 (___)___-__-__"
+                  />
+                </li>
+                <li>
+                  <label for="message">Message</label>
+                  <input
+                    id="message"
+                    class="input-message field"
+                    type="text"
+                    placeholder="text"
+                  />
+                </li>
+              </ul>
+              <div class="form-bottom-block">
+                <div class="privacy-policy">
+                  <a href="#">
+                    Нажимая кнопку «отправить», вы соглашаетесь с
+                    <span>политикой конфиденциальности</span>
+                  </a>
+                </div>
+                <button>Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="scroll-up scroll">
+          <svg
+            width="32"
+            height="46"
+            viewBox="0 0 32 46"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M32 15.98L16 0L0 15.98L1.85 17.82L14.69 4.99V46H17.31V4.99L30.15 17.82L32 15.98Z"
+              fill="#212121"
+            />
+          </svg>
+          <a class="scroll" href="#top">scroll UP</a>
+        </div>
+      </div>
+    </section>
+    <!-- /form -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <ul class="footer__list">
+            <li><img src="./img/footer-logo.svg" alt="logo" /></li>
+            <li>
+              <p>Social</p>
+              <ul class="footer__list-social social">
+                <li>
+                  <a
+                    href="https://www.instagram.com/beformstudio/?hl=ru"
+                    target="blank"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/beformstudio" target="blank"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.behance.net/beformstudio" target="blank"
+                    >behance</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="footer__list-social contacts">
+                <li>
+                  <p>Phone</p>
+                  <a href="tel:+79312561747">+ 7 931 256 17 47</a>
+                </li>
+                <li>
+                  <!-- <p>Saint Petersburg</p> -->
+                  <p>Address</p>
+                  <!-- <a href="#">Галерная ул., 20 </a> -->
+                  <a href="#">СПБ, Галерная ул., 20</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="footer__list-social email">
+                <li>
+                  <p>Mail</p>
+                  <a href="mailto:bfrmstd@gmail.com">bfrmstd@gmail.com</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-line"></div>
+        <div>
+          <div class="container">
+            <ul class="footer__list-footer">
+              <li>© 2021 Beformstudio All Rights Reserved</li>
+              <li>Legal information</li>
+              <li>Privacy police</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- popup -->
+    <section>
+      <h2 class="visually-hidden">popup</h2>
+      <div class="popup-form">
+        <div class="form-complite">
+          <div class="container">
+            <div class="form-complite-block">
+              <div>
+                <p>готово!</p>
+                <p>Форма успешно отправлена</p>
+                <button class="form-complite-close">ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /popup -->
+
+    <script src="./js/scrollup.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/toggleNavColor.js"></script>
+    <script src="./js/anim.js"></script>
+  </body>
+</html>
