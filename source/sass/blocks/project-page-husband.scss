@@ -1,11 +1,3 @@
-// .husband-img-2 {
-//   margin-bottom: 160px;
-//   img {
-//     width: 100%;
-//     height: auto;
-//   }
-// }
-
 .husband-img-3-4 {
   margin-bottom: 160px;
   ul {
@@ -42,28 +34,11 @@
   }
 }
 
-.husband-img-7-8 {
-  margin-bottom: 160px;
-  ul {
-    display: flex;
-    li {
-      img {
-        width: 100%;
-        height: auto;
-      }
-    }
-    li:first-child {
-      margin-right: 32px;
-    }
-  }
-}
-
 // .husband-img-2,
 .husband-img-3,
 .husband-img-4,
 .husband-img-5,
-.husband-img-6,
-.husband-img-7-8 {
+.husband-img-6 {
   opacity: 0;
   transition: 1s;
 }
@@ -71,8 +46,7 @@
 .husband-img-3._active,
 .husband-img-4._active,
 .husband-img-5._active,
-.husband-img-6._active,
-.husband-img-7-8._active {
+.husband-img-6._active {
   opacity: 1;
 }
 
@@ -117,27 +91,9 @@
     }
   }
 
-  .husband-img-7-8 {
-    margin-bottom: 220px;
-    ul {
-      display: flex;
-      li {
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-      li:first-child {
-        margin-right: 40px;
-      }
-    }
-  }
 }
 
 @media (max-width: 1024px) {
-  // .husband-img-2 {
-  //   margin-bottom: 80px;
-  // }
 
   .husband-img-3-4 {
     margin-bottom: 150px;
@@ -171,27 +127,9 @@
     }
   }
 
-  .husband-img-7-8 {
-    margin-bottom: 140px;
-    ul {
-      display: flex;
-      li {
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-      li:first-child {
-        margin-right: 20px;
-      }
-    }
-  }
 }
 
 @media (max-width: 768px) {
-  // .husband-img-2 {
-  //   margin-bottom: 50px;
-  // }
 
   .husband-img-3-4 {
     margin-bottom: 140px;
@@ -225,27 +163,9 @@
     }
   }
 
-  .husband-img-7-8 {
-    margin-bottom: 100px;
-    ul {
-      display: flex;
-      li {
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-      li:first-child {
-        margin-right: 18px;
-      }
-    }
-  }
 }
 
 @media (max-width: 480px) {
-  // .husband-img-2 {
-  //   margin-bottom: 30px;
-  // }
 
   .husband-img-3-4 {
     margin-bottom: 80px;
@@ -279,19 +199,4 @@
     }
   }
 
-  .husband-img-7-8 {
-    margin-bottom: 60px;
-    ul {
-      display: flex;
-      li {
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-      li:first-child {
-        margin-right: 8px;
-      }
-    }
-  }
 }

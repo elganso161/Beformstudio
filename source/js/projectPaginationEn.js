@@ -5,7 +5,7 @@ let records_per_page = 6;
 
 let objJson = [
   {
-    title: "Furniture",
+    title: "Fluffy&Puffy",
     subtitle: "Furniture store",
     link: "./project-page-furniture-en.html",
     img: "./img/6-projects-main/desctop/img-11-desctop.jpg",

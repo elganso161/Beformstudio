@@ -1,0 +1,11 @@
+.project-text-links {
+  font-family: "PTRootUIWebBold";
+  font-size: 18px;
+  line-height: 148%;
+  color: #212121;
+  text-decoration: none;
+  transform: 0.2s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
