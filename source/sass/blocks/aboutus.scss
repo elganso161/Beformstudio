@@ -9,7 +9,7 @@
   transition: 1s;
   transform: translate(0, 10%);
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 }
@@ -20,7 +20,7 @@
 
 .aboutus__text {
   max-width: 500px;
-  margin-top: 250px;
+  margin-top: 200px;
   opacity: 0;
   transition: 1s;
   transform: translate(0, 10%);
@@ -35,14 +35,17 @@
     margin-bottom: 30px;
   }
   p {
-    max-width: 444px;
-    min-height: 134px;
+    width: 100%;
+    // max-width: 444px;
+    // min-height: 134px;
+    height: auto;
     font-family: "PTRootUIWebRegular";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 148%;
     color: #212121;
+    margin-bottom: 20px;
   }
 }
 
@@ -75,7 +78,8 @@
   }
 
   .aboutus__text {
-    margin-top: 350px;
+    margin-top: 300px;
+    max-width: 575px;
   }
 
   .aboutus__img-bottom {
@@ -107,7 +111,7 @@
     p {
       font-size: 16px;
       line-height: 148%;
-      max-width: 313px;
+      // max-width: 313px;
     }
   }
 
@@ -134,7 +138,7 @@
       line-height: 106%;
     }
     p {
-      max-width: 292px;
+      // max-width: 292px;
       font-size: 15px;
       line-height: 148%;
     }
