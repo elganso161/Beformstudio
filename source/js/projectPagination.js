@@ -6,7 +6,7 @@ let records_per_page = 6;
 let objJson = [
   {
     title: "Fluffy&Puffy",
-    subtitle: "Магазин мебели",
+    subtitle: "Шоурум мягкой мебели",
     link: "./project-page-furniture.html",
     img: "./img/6-projects-main/desctop/img-11-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-11-desctop-x2.jpg",
@@ -56,7 +56,7 @@ let objJson = [
   },
   {
     title: "GROCERY",
-    subtitle: "Эко магазин продуктов",
+    subtitle: "Продуктовый магазин",
     link: "./project-page-grocery.html",
     img: "./img/6-projects-main/desctop/img-2-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-2-desctop-x2.jpg",
@@ -81,7 +81,7 @@ let objJson = [
   },
   {
     title: "5ESSENCE 3.0",
-    subtitle: "Сеть магазинов обуви",
+    subtitle: "Сеть обувных магазинов",
     link: "./project-page-5essence-3.0.html",
     img: "./img/6-projects-main/desctop/img-3-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-3-desctop-x2.jpg",
@@ -106,7 +106,7 @@ let objJson = [
   },
   {
     title: "5ESSENCE 2.0",
-    subtitle: "Сеть магазинов обуви",
+    subtitle: "Сеть обувных магазинов",
     link: "./project-page-5essence-2.0.html",
     img: "./img/6-projects-main/desctop/img-4-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-4-desctop-x2.jpg",
@@ -131,7 +131,7 @@ let objJson = [
   },
   {
     title: "5ESSENCE 1.0",
-    subtitle: "Сеть магазинов обуви",
+    subtitle: "Сеть обувных магазинов",
     link: "./project-page-5essence-1.0.html",
     img: "./img/6-projects-main/desctop/img-5-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-5-desctop-x2.jpg",
@@ -156,7 +156,7 @@ let objJson = [
   },
   {
     title: "jewellery",
-    subtitle: "Магазин ювелиных уркашений",
+    subtitle: "Ювелирный магазин",
     link: "./project-page-jewellery.html",
     img: "./img/6-projects-main/desctop/img-6-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-6-desctop-x2.jpg",
@@ -181,7 +181,7 @@ let objJson = [
   },
   {
     title: "sochi airport",
-    subtitle: "Отделы розничной торговли",
+    subtitle: "Концепция интерьера входной зоны аэропорта",
     link: "./project-page-airport.html",
     img: "./img/6-projects-main/desctop/img-7-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-7-desctop-x2.jpg",
@@ -206,7 +206,7 @@ let objJson = [
   },
   {
     title: "HUSBAND",
-    subtitle: "Офис студии интерьера",
+    subtitle: "Шоурум мягкой мебели",
     link: "./project-page-husband.html",
     img: "./img/6-projects-main/desctop/img-8-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-8-desctop-x2.jpg",
@@ -230,7 +230,7 @@ let objJson = [
     imgmobWx2: "./img/6-projects-main/mob/img-8-mob-x2.webp",
   },
   {
-    title: "baira",
+    title: "biara",
     subtitle: "Магазин обуви",
     link: "./project-page-biara.html",
     img: "./img/6-projects-main/desctop/img-9-desctop.jpg",
@@ -255,7 +255,7 @@ let objJson = [
     imgmobWx2: "./img/6-projects-main/mob/img-9-mob-x2.webp",
   },
   {
-    title: "harris daddy",
+    title: "barbershop",
     subtitle: "Семейный барбершоп",
     link: "./project-page-harris-daddy.html",
     img: "./img/6-projects-main/desctop/img-10-desctop.jpg",

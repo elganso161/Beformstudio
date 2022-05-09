@@ -141,7 +141,21 @@
       font-size: 18px;
       line-height: 148%;
       color: #212121;
+      margin-left: 15px;
       margin-bottom: 10px;
+      position: relative;
+      &:before{
+        position: absolute;
+        content: '';
+        top: 11px;
+        left: -15px;
+        z-index: 1;
+        width: 6px;
+        height: 6px;
+        // border: 1px solid #000;
+        background-color: #aaa9a9;
+        border-radius: 50%;
+      }
     }
   }
 }
