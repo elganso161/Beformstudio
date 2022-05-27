@@ -144,15 +144,14 @@
       margin-left: 15px;
       margin-bottom: 10px;
       position: relative;
-      &:before{
+      &:before {
         position: absolute;
-        content: '';
+        content: "";
         top: 11px;
         left: -15px;
         z-index: 1;
         width: 6px;
         height: 6px;
-        // border: 1px solid #000;
         background-color: #aaa9a9;
         border-radius: 50%;
       }
@@ -300,7 +299,6 @@
   }
 
   .aboutus-page__last-img {
-    // margin-left: 205px;
     max-width: 680px;
     margin: 0 auto;
   }
@@ -308,7 +306,6 @@
 
 @media (max-width: 768px) {
   .aboutus-page {
-    // max-width: 590px;
     width: 70%;
     margin: 0 auto;
     margin-top: 20px;
@@ -328,7 +325,6 @@
   }
 
   .aboutus-page__team {
-    // max-width: 590px;
     width: 70%;
     margin: 0 auto;
     margin-top: 170px;
@@ -345,7 +341,6 @@
   }
 
   .aboutus-page__studio {
-    // max-width: 590px;
     width: 70%;
     margin: 0 auto;
     margin-top: 170px;
@@ -366,7 +361,6 @@
   }
 
   .aboutus-page__last-img {
-    // max-width: 590px;
     width: 70%;
     margin: 0 auto;
   }
@@ -374,19 +368,16 @@
 
 @media (max-width: 480px) {
   .aboutus-page {
-    // max-width: 248px;
     width: 80%;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 60px;
     h2 {
-      // width: 240px;
       width: 100%;
       height: 34px;
       font-size: 34px;
     }
     p {
-      // max-width: 246px;
       width: 100%;
       font-size: 15px;
       line-height: 148%;
@@ -395,7 +386,6 @@
   }
 
   .aboutus-page__team {
-    // max-width: 248px;
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
@@ -404,7 +394,6 @@
       font-size: 24px;
     }
     p {
-      // max-width: 246px;
       width: 100%;
       font-size: 15px;
       line-height: 144%;
@@ -416,7 +405,6 @@
   }
 
   .aboutus-page__studio {
-    // max-width: 248px;
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
@@ -426,7 +414,6 @@
       line-height: 106%;
     }
     p {
-      // max-width: 246px;
       width: 100%;
       font-size: 15px;
       line-height: 148%;
@@ -438,7 +425,6 @@
   }
 
   .aboutus-page__last-img {
-    // max-width: 248px;
     width: 80%;
     margin: 0 auto;
     img {

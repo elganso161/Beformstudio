@@ -64,6 +64,13 @@ footer {
     font-size: 14px;
     line-height: 126%;
     color: #aaaaaa;
+    a {
+      text-decoration: none;
+      font-family: "PTRootUIWebRegular";
+      font-size: 14px;
+      line-height: 126%;
+      color: #aaaaaa;
+    }
   }
 }
 
@@ -118,6 +125,10 @@ footer {
     li {
       font-size: 14px;
       line-height: 126%;
+      a {
+        font-size: 14px;
+        line-height: 126%;
+      }
     }
   }
 }
@@ -178,6 +189,10 @@ footer {
     li {
       font-size: 12px;
       line-height: 120%;
+      a {
+        font-size: 12px;
+        line-height: 120%;
+      }
     }
   }
 }
@@ -204,6 +219,9 @@ footer {
     height: 26px;
     li {
       height: 16px;
+      a {
+        height: 16px;
+      }
     }
   }
 }
@@ -285,6 +303,11 @@ footer {
       height: 20px;
       font-size: 8px;
       line-height: 118%;
+      a {
+        height: 20px;
+        font-size: 8px;
+        line-height: 118%;
+      }
     }
   }
 }
