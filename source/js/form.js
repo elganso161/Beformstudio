@@ -1,6 +1,6 @@
 "use strict";
 
-const form = document.querySelector(".form");
+const form = document.querySelector(".form-form");
 const formComplite = document.querySelector(".form-complite");
 const closeFormComplite = document.querySelector(".form-complite-close");
 const fields = document.querySelectorAll(".field");
@@ -14,25 +14,25 @@ form.addEventListener("submit", formSend);
 async function formSend(e) {
   e.preventDefault();
   let error = formValidate(form);
-  // let formData = new FormData(form);
+  let formData = new FormData(form);
   if (error === 0) {
     formComplite.classList.toggle("form-complite-active");
     body.classList.toggle("active");
     formReset();
-    // let response = await fetch("sendmail.php", {
-    //   method: "POST",
-    //   body: formData,
-    // });
-    // if (response.ok) {
-    //   let result = await response.json();
-    //   alert(result.message);
-    //   formPreview.innerHTML = "";
-    //   form.reset();
-    // } else {
-    //   alert("ошибка");
-    // }
+    let response = await fetch("sendmail.php", {
+      method: "POST",
+      body: formData,
+    });
+    if (response.ok) {
+      let result = await response.json();
+      alert(result.message);
+      formPreview.innerHTML = "";
+      form.reset();
+    } else {
+      alert("ошибка");
+    }
   } else {
-    // alert("Заполните все поля");
+    alert("Заполните все поля");
   }
 }
 
@@ -48,10 +48,10 @@ function formValidate(form) {
         error++;
       }
     } else {
-      // if (input.value === "") {
-      //   formAddError(input);
-      //   error++;
-      // }
+      if (input.value === "") {
+        formAddError(input);
+        error++;
+      }
     }
   }
   return error;
