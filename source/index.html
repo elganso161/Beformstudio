@@ -49,6 +49,38 @@
     <title>Beformstudio</title>
   </head>
 
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] =
+        m[i] ||
+        function () {
+          (m[i].a = m[i].a || []).push(arguments);
+        };
+      m[i].l = 1 * new Date();
+      (k = e.createElement(t)),
+        (a = e.getElementsByTagName(t)[0]),
+        (k.async = 1),
+        (k.src = r),
+        a.parentNode.insertBefore(k, a);
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(89318775, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+    });
+  </script>
+  <noscript
+    ><div>
+      <img
+        src="https://mc.yandex.ru/watch/89318775"
+        style="position: absolute; left: -9999px"
+        alt=""
+      /></div
+  ></noscript>
+  <!-- /Yandex.Metrika counter -->
+
   <body id="top">
     <!-- header -->
     <header class="header">
@@ -197,8 +229,8 @@
             </div>
             <div>
               <p class="title-text _anim-items _anim-no-hide">
-                С 2015 года мы проектируем интерьеры в сфере торговли и других
-                видов бизнеса
+                С 2015 года мы создаем интерьеры в сфере торговли и других видов
+                бизнеса
               </p>
             </div>
           </div>
@@ -964,7 +996,7 @@
               </p>
               <p>
                 Большой опыт работы с российскими и зарубежными брендами
-                позволяет нам быть в курсе основных тенденций в ритейл дизайне.
+                позволяет нам быть в курсе основных тенденций в ритейл-дизайне.
               </p>
             </div>
           </div>
@@ -1063,26 +1095,15 @@
               <h3 class="projects__subtitle _anim-items _anim-no-hide">
                 Our Mission
               </h3>
-              <p class="projects__text _anim-items _anim-no-hide">
-                Главная цель студии – раскрыть потенциал вашего бренда
-                <!-- <br class="text-br" /> -->
-              </p>
-              <p>Выбрав нас, вы получаете</p>
               <ul>
                 <li>
-                  - фирменный стиль на основе маркетинговых исследований и
-                  аналитики рынка
-                </li>
-                <li>
-                  - дизайн интерьера, который выстроит эффективную коммуникацию
-                  с вашей аудиторией
-                </li>
-                <li>
-                  - эргономичное решение пространства, где продумано всё - от
-                  мебели до освещения
-                </li>
-                <li>
-                  - авторское сопровождение на всех этапах реализации проекта
+                  <p class="projects__text _anim-items _anim-no-hide">
+                    Главная цель студии – раскрыть потенциал вашего бренда.
+                    Выбрав нас, вы получаете разработку фирменного стиля,
+                    создание эффективного дизайн-интерьера и эргономичное
+                    решение вашего пространства. При этом мы будем сопровождать
+                    вас на всех этапах реализации проекта.
+                  </p>
                 </li>
               </ul>
               <ul class="projects__record-list _anim-items _anim-no-hide">
@@ -1091,12 +1112,12 @@
                   <span>Лет работы</span>
                 </li>
                 <li>
-                  <p>36</p>
+                  <p>59</p>
                   <span>Реализованных проектов</span>
                 </li>
                 <li>
                   <p>18</p>
-                  <span>Важные факты</span>
+                  <span>Городов России</span>
                 </li>
               </ul>
             </div>
@@ -1705,7 +1726,10 @@
         <div>
           <div class="container">
             <ul class="footer__list-footer">
-              <li>© 2021 Beformstudio All Rights Reserved</li>
+              <li>
+                © <span class="footer-date"></span> Beformstudio All Rights
+                Reserved
+              </li>
               <li>
                 <a href="./legal-information-page.html" target="_blank"
                   >Legal information</a
@@ -1747,5 +1771,6 @@
     <script src="./js/slider.js"></script>
     <script src="./js/form.js"></script>
     <script src="./js/anim.js"></script>
+    <script src="./js/date.js"></script>
   </body>
 </html>
