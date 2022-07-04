@@ -35,9 +35,9 @@ $mail->Body=$body;
 //Отправляем
 
 if(!$mail->send()){
-  $message = ('ошибка')
+  $echo = ('ошибка')
 }else{
-  $message = 'данные отправлены'
+  $echo = 'данные отправлены'
 }
 
 $responce = ['message'=>$message];
