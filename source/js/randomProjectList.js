@@ -52,11 +52,11 @@ const database = [
     link: "./project-page-biara.html",
     img: "./img/6-projects-main/desctop/img-9-desctop.jpg",
   },
-  {
-    titleLink: "barbershop",
-    link: "./project-page-harris-daddy.html",
-    img: "./img/6-projects-main/desctop/img-10-desctop.jpg",
-  },
+  // {
+  //   titleLink: "barbershop",
+  //   link: "./project-page-harris-daddy.html",
+  //   img: "./img/6-projects-main/desctop/img-10-desctop.jpg",
+  // },
 ];
 
 function shuffle(a) {
