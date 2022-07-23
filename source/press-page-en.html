@@ -59,9 +59,7 @@
           </div>
           <ul class="header__nav-list">
             <li class="animate__nav-item animate__animated">
-              <a  href="./aboutus-page-en.html"
-                ><span>01</span>About us</a
-              >
+              <a href="./aboutus-page-en.html"><span>01</span>About us</a>
             </li>
             <li class="animate__nav-item animate__animated">
               <a href="./project-main-en.html"><span>02</span>Projects</a>
@@ -73,7 +71,9 @@
               <a href="./process-page-en.html"><span>04</span>Procces</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a class="active-link" href="./press-page-en.html"><span>05</span>Press</a>
+              <a class="active-link" href="./press-page-en.html"
+                ><span>05</span>Press</a
+              >
             </li>
             <li class="animate__nav-item animate__animated">
               <a href="./ourFactory-page-en.html"><span>06</span>Production</a>
@@ -180,9 +180,8 @@
           <div>
             <h3>About Section</h3>
             <p>
-              The PRESS section is dedicated to international publications about
-              the studio and our projects or collaborations with other studios
-              and designers from architectural objects to branding.
+              In this section you can find publications about the Beform studio,
+              our projects and collaborations with designers and other partners.
             </p>
           </div>
         </div>
@@ -208,9 +207,13 @@
                     fill="#212121"
                   />
                 </svg>
-                <p>Shoe store "5Essence" Russia, St. Petersburg</p>
-                <a class="open-btn scroll" href="#scrollDown" id="scrollDown">
-                  More details
+                <p>Shoe store "5Essence" Russia, Saint Petersburg</p>
+                <a
+                  class="open-btn-en scroll"
+                  href="#scrollDown"
+                  id="scrollDown"
+                >
+                  Detalis
                 </a>
               </div>
               <div class="press-page__block-img">
@@ -295,18 +298,13 @@
             <div class="press-page__block-panel hiden">
               <div class="desing-blog _anim-items">
                 <div class="desing-blog__title-text">
-                  <h2>Retail Desing Blog</h2>
+                  <h2>Retail Design Blog</h2>
                   <p>
-                    RETAIL DESING BLOG is an online space for retail design,
-                    which is focused on combining design communities and
-                    provides news and information on trends and retail
-                    solutions.
-                  </p>
-                  <p>
-                    Every day people from all over the world post to blog
-                    architectural projects, design products and new items in
-                    areas of visualization and design, the best of which is the
-                    platform publishes.
+                    This is the online space with the latest news in the field
+                    of retail design. Every day, the administrators of the
+                    Internet platform select and publish the best projects of
+                    commercial interiors, corporate identity and packaging, as
+                    well as graphic design innovations.
                   </p>
                 </div>
                 <div>
@@ -554,25 +552,26 @@
                   <div>
                     <h3>5Essence 1.0</h3>
                     <p>
-                      Publication of our project - Shoe store "5Essence 1.0"
-                      Russia, Saint Petersburg on
+                      Publication of our 5Essence 1.0 project on the
                       <a
                         class="press-link"
                         href="https://retaildesignblog.net/2017/12/26/5essence-store-by-beformstudio-saint-petersburg-russia/"
                         target="blank"
-                        >Retail Desing Blog</a
+                        >Retail Design Blog</a
                       >
                     </p>
                     <p>
-                      This is a completely new Beformstudio concept developed by
-                      for shoe store 5Essence. At first glance, the interior
-                      looks completely modern, but when traveling through space
-                      of this store, you can see many subtle details of vintage
-                      style that harmoniously blends with modern design.
+                      This is our first store for the 5ESSENCE shoe chain. The
+                      client wished to pay special attention to furniture. The
+                      inspiration for this concept was samples of vintage side
+                      cabinets and shelving. The result was the unusual
+                      commercial equipment made of materials such as lacquered
+                      walnut and rosewood veneer, MDF with glossy painting and
+                      mirror stainless steel.
                     </p>
                     <div>
                       <a
-                        class="link-to-project"
+                        class="link-to-project-en"
                         href="./project-page-5essence-1.0-en.html"
                         >View project</a
                       >
@@ -895,7 +894,7 @@
                     </picture>
                   </div>
                 </div>
-                <a class="close-btn scroll" href="#scrollUp">REDUCE</a>
+                <a class="close-btn-en scroll" href="#scrollUp">ROLL</a>
               </div>
             </div>
           </div>
@@ -915,17 +914,20 @@
             <div class="form__subtitle">
               <h3>Have a project in mind?</h3>
               <p>
-                If you are interested in creating competent, unique and
-                memorable commercial space, we will be glad to see you among our
-                clients.
+                If you want a design that will make your brand stand out from
+                the competition, fill out the form below, and we will contact
+                you! Or you can just
+                <a class="form__phone-link" href="tel:+79312561747">call us</a>
+                and we will answer all your questions.
               </p>
             </div>
-            <form>
+            <form action="#" class="form-form">
               <ul>
                 <li>
                   <label for="name">Your name</label>
                   <input
                     id="name"
+                    name="user_name"
                     class="input-name field"
                     type="text"
                     placeholder="ELENA SVETLOVA"
@@ -935,6 +937,7 @@
                   <label for="email">Mail</label>
                   <input
                     id="email"
+                    name="user_email"
                     class="input-mail field"
                     type="email"
                     placeholder="address"
@@ -945,6 +948,7 @@
                   <label for="phone">Phone</label>
                   <input
                     id="phone"
+                    name="user__phone"
                     class="input-phone field"
                     type="tel"
                     placeholder="+7 (___)___-__-__"
@@ -954,6 +958,7 @@
                   <label for="message">Message</label>
                   <input
                     id="message"
+                    name="user_message"
                     class="input-message field"
                     type="text"
                     placeholder="text"
@@ -962,12 +967,12 @@
               </ul>
               <div class="form-bottom-block">
                 <div class="privacy-policy">
-                  <a href="#">
-                    By clicking the "submit" button, you agree to
-                    <span> privacy policy </span>
+                  <a href="./privacy-police-page-en.html" target="_blank">
+                    By clicking on the "Submit" button, you agree to the
+                    <span>privacy policy.</span>
                   </a>
                 </div>
-                <button>Отправить</button>
+                <button type="submit">Submit</button>
               </div>
             </form>
           </div>
@@ -1004,12 +1009,12 @@
                   <a
                     href="https://www.instagram.com/beformstudio/?hl=ru"
                     target="blank"
-                    >Instagram</a
+                    >Blog</a
                   >
                 </li>
                 <li>
                   <a href="https://www.facebook.com/beformstudio" target="blank"
-                    >Facebook</a
+                    >Vkontakte</a
                   >
                 </li>
                 <li>
@@ -1047,9 +1052,20 @@
         <div>
           <div class="container">
             <ul class="footer__list-footer">
-              <li>© 2021 Beformstudio All Rights Reserved</li>
-              <li>Legal information</li>
-              <li>Privacy police</li>
+              <li>
+                © <span class="footer-date"></span> Beformstudio All Rights
+                Reserved
+              </li>
+              <li>
+                <a href="./legal-information-page-en.html" target="_blank"
+                  >Legal information</a
+                >
+              </li>
+              <li>
+                <a href="privacy-police-page-en.html" target="_blank"
+                  >Privacy policy</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -1066,7 +1082,7 @@
             <div class="form-complite-block">
               <div>
                 <p>Complited!</p>
-                <p>Form sent successfully</p>
+                <p>Form submitted successfully</p>
                 <button class="form-complite-close">ok</button>
               </div>
             </div>
@@ -1079,7 +1095,8 @@
     <script src="./js/scrollup.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/form.js"></script>
-    <script src="./js/pressPageAccordion.js"></script>
+    <script src="./js/pressPageAccordionEn.js"></script>
     <script src="./js/anim.js"></script>
+    <script src="./js/date.js"></script>
   </body>
 </html>

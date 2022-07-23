@@ -279,11 +279,16 @@
               степени думаем о пространстве и форме.
             </li>
             <li>
-              <span>Мария Анфиногенова</span> – графический и digital дизайнер.
+              <span>Мария Анфиногенова</span> – графический и digital дизайнер
             </li>
             <li>
               Стремлюсь к критическому мышлению, сопереживанию и творчеству,
               чтобы создавать эффективные решения.
+            </li>
+            <li><span>Ольга Каратаева</span> - видеограф, контент мейкер</li>
+            <li>
+              В съемках архитектуры использую свой опыт инженера и дизайнера.
+              Профессиональный подход к форме, свету и пространству.
             </li>
           </ul>
         </div>
@@ -642,15 +647,20 @@
               <p>
                 Если вы заинтересованы в создании дизайна, который выделит ваш
                 бренд на фоне конкурентов, заполните форму ниже и мы свяжемся с
-                вами!
+                вами или просто
+                <a class="form__phone-link" href="tel:+79312561747"
+                  >позвоните</a
+                >
+                нам!
               </p>
             </div>
-            <form>
+            <form action="#" class="form-form">
               <ul>
                 <li>
                   <label for="name">Your name</label>
                   <input
                     id="name"
+                    name="user_name"
                     class="input-name field"
                     type="text"
                     placeholder="ELENA SVETLOVA"
@@ -660,6 +670,7 @@
                   <label for="email">Mail</label>
                   <input
                     id="email"
+                    name="user_email"
                     class="input-mail field"
                     type="email"
                     placeholder="address"
@@ -670,6 +681,7 @@
                   <label for="phone">Phone</label>
                   <input
                     id="phone"
+                    name="user__phone"
                     class="input-phone field"
                     type="tel"
                     placeholder="+7 (___)___-__-__"
@@ -679,6 +691,7 @@
                   <label for="message">Message</label>
                   <input
                     id="message"
+                    name="user_message"
                     class="input-message field"
                     type="text"
                     placeholder="text"
@@ -692,7 +705,7 @@
                     <span>политикой конфиденциальности</span>
                   </a>
                 </div>
-                <button>Отправить</button>
+                <button type="submit">Отправить</button>
               </div>
             </form>
           </div>

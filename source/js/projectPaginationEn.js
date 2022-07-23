@@ -6,7 +6,7 @@ let records_per_page = 6;
 let objJson = [
   {
     title: "Fluffy&Puffy",
-    subtitle: "Furniture store",
+    subtitle: "Upholstered furniture showroom",
     link: "./project-page-furniture-en.html",
     img: "./img/6-projects-main/desctop/img-11-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-11-desctop-x2.jpg",
@@ -31,7 +31,7 @@ let objJson = [
   },
   {
     title: "umecos",
-    subtitle: "Asian cosmetics store",
+    subtitle: "Asian Cosmetics Store",
     link: "./project-page-umecos-en.html",
     img: "./img/6-projects-main/desctop/img-1-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-1-desctop-x2.jpg",
@@ -56,7 +56,7 @@ let objJson = [
   },
   {
     title: "GROCERY",
-    subtitle: "Eco grocery store",
+    subtitle: "Grocery store",
     link: "./project-page-grocery-en.html",
     img: "./img/6-projects-main/desctop/img-2-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-2-desctop-x2.jpg",
@@ -156,7 +156,7 @@ let objJson = [
   },
   {
     title: "jewellery",
-    subtitle: "Jewelry store",
+    subtitle: "Jewellery store",
     link: "./project-page-jewellery-en.html",
     img: "./img/6-projects-main/desctop/img-6-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-6-desctop-x2.jpg",
@@ -181,7 +181,7 @@ let objJson = [
   },
   {
     title: "sochi airport",
-    subtitle: "Retail Departments",
+    subtitle: "Interior concept of the airport entrance area",
     link: "./project-page-airport-en.html",
     img: "./img/6-projects-main/desctop/img-7-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-7-desctop-x2.jpg",
@@ -206,7 +206,7 @@ let objJson = [
   },
   {
     title: "HUSBAND",
-    subtitle: "Interior studio office",
+    subtitle: "Upholstered furniture showroom",
     link: "./project-page-husband-en.html",
     img: "./img/6-projects-main/desctop/img-8-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-8-desctop-x2.jpg",
@@ -230,8 +230,8 @@ let objJson = [
     imgmobWx2: "./img/6-projects-main/mob/img-8-mob-x2.webp",
   },
   {
-    title: "baira",
-    subtitle: "Shoe store",
+    title: "biara",
+    subtitle: "Shoe Store",
     link: "./project-page-biara-en.html",
     img: "./img/6-projects-main/desctop/img-9-desctop.jpg",
     imgX2: "./img/6-projects-main/desctop/img-9-desctop-x2.jpg",
@@ -255,9 +255,9 @@ let objJson = [
     imgmobWx2: "./img/6-projects-main/mob/img-9-mob-x2.webp",
   },
   // {
-  //   title: "harris daddy",
-  //   subtitle: "Family barbershop",
-  //   link: "./project-page-harris-daddy-en.html",
+  //   title: "barbershop",
+  //   subtitle: "Семейный барбершоп",
+  //   link: "./project-page-harris-daddy.html",
   //   img: "./img/6-projects-main/desctop/img-10-desctop.jpg",
   //   imgX2: "./img/6-projects-main/desctop/img-10-desctop-x2.jpg",
   //   imgW: "./img/6-projects-main/desctop/img-10-desctop.webp",
@@ -320,7 +320,7 @@ function changePage(page) {
     i++
   ) {
     listing_table.innerHTML += `<li class="project__list-item">
-      <div class="project__list-item-title">
+      <div class="project__list-item-title-en">
         <div><h3>${objJson[i].title}</h3></div>
         <div>
           <p>${objJson[i].subtitle}</p>

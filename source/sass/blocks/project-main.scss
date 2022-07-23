@@ -99,6 +99,51 @@
     }
   }
 }
+.project__list-item-title-en {
+  width: 282px;
+  margin-right: 20px;
+  h3 {
+    font-family: "NeutralFace-Bold";
+    font-size: 36px;
+    line-height: 106%;
+    color: #212121;
+    margin-bottom: 12px;
+  }
+  p {
+    font-family: "PTRootUIWebRegular";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    margin-bottom: 26px;
+  }
+  a {
+    text-decoration: none;
+    font-family: "PTRootUIWebBold";
+    font-size: 18px;
+    line-height: 148%;
+    color: #212121;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      top: -6px;
+      left: 115px;
+      z-index: 1;
+      background-image: url(../img/arrow-link-project.svg);
+      background-size: cover;
+      width: 36px;
+      height: 36px;
+      transition: 0.2s;
+      opacity: 1;
+    }
+    &:hover::before {
+      left: 125px;
+    }
+    &:active {
+      opacity: 0.7;
+    }
+  }
+}
 
 .project__list-item-img {
   img {
@@ -224,6 +269,31 @@
       }
     }
   }
+  .project__list-item-title-en {
+    width: 240px;
+    h3 {
+      font-size: 31px;
+      line-height: 106%;
+    }
+    p {
+      font-size: 16px;
+      line-height: 148%;
+    }
+    a {
+      font-size: 16px;
+      line-height: 106%;
+      &::before {
+        top: -5px;
+        left: 100px;
+        z-index: 1;
+        width: 30px;
+        height: 30px;
+      }
+      &:hover::before {
+        left: 110px;
+      }
+    }
+  }
   .pagination-btn {
     margin-bottom: 190px;
   }
@@ -322,6 +392,36 @@
       }
     }
   }
+  .project__list-item-title-en {
+    order: 2;
+    display: flex;
+    width: 100%;
+    h3 {
+      width: 220px;
+      font-size: 28px;
+      line-height: 106%;
+      margin-bottom: 0;
+      margin-right: 30px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 148%;
+      margin-bottom: 11px;
+    }
+    a {
+      font-size: 15px;
+      line-height: 106%;
+      &::before {
+        top: -4px;
+        left: 90px;
+        width: 28px;
+        height: 28px;
+      }
+      &:hover::before {
+        left: 100px;
+      }
+    }
+  }
   .project__list-item:last-child {
     margin-bottom: 115px;
   }
@@ -381,6 +481,25 @@
       &:active {
         opacity: 0.7;
       }
+    }
+  }
+  .project__list-item-title-en {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    h3 {
+      font-size: 28px;
+      line-height: 106%;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 148%;
+      margin-bottom: 11px;
+    }
+    a {
+      font-size: 15px;
+      line-height: 106%;
     }
   }
   .project__list-item {

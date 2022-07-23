@@ -30,23 +30,14 @@
       as="font"
       crossorigin
     />
+
     <link rel="stylesheet" href="css/style.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
-    <!-- swiper -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- swiper -->
-
-    <title>Projects</title>
+    <title>Legal information</title>
   </head>
-
   <body id="top">
     <!-- header -->
     <header class="header">
@@ -70,9 +61,7 @@
               <a href="./aboutus-page-en.html"><span>01</span>About us</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a class="active-link" href="./project-main-en.html"
-                ><span>02</span>Projects</a
-              >
+              <a href="./project-main-en.html"><span>02</span>Projects</a>
             </li>
             <li class="animate__nav-item animate__animated">
               <a href="./contactus-page-en.html"><span>03</span>Contacts</a>
@@ -84,7 +73,7 @@
               <a href="./press-page-en.html"><span>05</span>Press</a>
             </li>
             <li class="animate__nav-item animate__animated">
-              <a href="./ourFactory-page-en.html"><span>06</span>Production</a>
+              <a href="./ourFactory-page-en.html"><span>06</span>production</a>
             </li>
           </ul>
           <div class="burger__contacts">
@@ -105,7 +94,7 @@
               </a>
             </div>
             <div class="burger__contacts-group">
-              <div><p>Санкт-Петербург, Галерная ул., 20</p></div>
+              <div><p>St. Petersburg, Galernaya st., 20</p></div>
               <div>
                 <a href="mailto:bfrmstd@gmail.com">bfrmstd@gmail.com</a>
               </div>
@@ -149,13 +138,13 @@
                 />
                 <ul class="sub-logo__lang-list">
                   <li class="en">
-                    <a href="./project-main.html">rus</a>
+                    <a href="./legal-information-page.html">rus</a>
                   </li>
                 </ul>
               </li>
             </ul>
             <div>
-              <a href="./index.html">
+              <a href="./index-en.html">
                 <!-- <img src="./img/logo.svg" alt="Логотип"/> -->
                 <svg
                   width="72"
@@ -183,217 +172,62 @@
 
     <section>
       <div class="container">
-        <div class="project-main _anim-items _anim-no-hide">
-          <div><h2>Projects</h2></div>
+        <div class="legal-information-body">
+          <div><h2>Legal information</h2></div>
           <div>
-            <h3>Our Principles</h3>
+            <h3>Легальная информация</h3>
             <p>
-              The Beform studio always starts work on a project with the wishes
-              of the customer. Our great experience allows us to find a balance
-              between the designer's self-expression and the client's needs.
-              Thanks to this, our projects are in demand and reflect the
-              philosophy of the studio.
+              Пользователям информации, представленной на сайте Beformstudio,
+              рекомендуется обратить внимание на следующие положения:
+            </p>
+            <p>
+              Пользователям информации, представленной на сайте Beformstudio,
+              рекомендуется обратить внимание на следующие положения:
+            </p>
+            <ul>
+              <li>
+                Информация, представленная на сайте, не являет собой прямое
+                предложение и не имеет целью склонить Пользователя к заключению
+                каких-либо сделок, совершению каких бы то ни было операций и
+                подписанию правовых актов.
+              </li>
+              <li>
+                Все, представленные на сайте Beformstudio мнения и различные
+                сведения, преследуют только информационные цели и могут быть
+                изменены без предварительного уведомления.
+              </li>
+              <li>
+                Сайт Beformstudio может содержать ссылки на сайты других
+                компаний, которые не могут быть подконтрольны Beformstudio, и за
+                содержание которых Компания ответственности не несёт. Цель
+                применения ссылки (гиперлинка) – обеспечить удобство
+                Пользователю в получении информации.
+              </li>
+              <li>
+                Beformstudio не несёт ответственности за возможные убытки,
+                потери и т.п., которые могут произойти вследствие использования
+                информации с сайтов, представленных посредством ссылки.
+              </li>
+              <li>
+                Beformstudio является правообладателем информации и сведений,
+                представленных на сайте компании, исключая случаи, когда
+                авторские права лимитированы.
+              </li>
+            </ul>
+            <p>
+              Beformstudio не передаёт авторские права и не осуществляет
+              лицензирование.
+            </p>
+            <p>
+              Данные правовые положения составлены в соответствии с
+              законодательством и им же регламентируются. Все споры и претензии
+              по использованию информации, представленной на данном сайте ,
+              разрешаются в судебном порядке.
             </p>
           </div>
         </div>
       </div>
     </section>
-
-    <section>
-      <h2 class="visually-hidden">Pagination</h2>
-      <div class="container">
-        <ul
-          class="project__list _anim-items _anim-no-hide"
-          id="listingTable"
-        ></ul>
-        <div class="pagination-btn">
-          <button class="pagination-btn__prev" id="btn_prev">Previous</button>
-          <span class="pagination-pages" id="page"></span>
-          <button class="pagination-btn__next" id="btn_next">Next</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- instagram -->
-    <section>
-      <div class="instagram">
-        <div class="container">
-          <div class="instagram__title">
-            <h2>Blog</h2>
-            <a
-              href="https://www.instagram.com/beformstudio/?hl=ru"
-              target="blank"
-              >@beformstudio</a
-            >
-          </div>
-          <ul class="instagram__list">
-            <li>
-              <a
-                href="https://www.instagram.com/beformstudio/?hl=ru"
-                target="blank"
-              >
-                <picture>
-                  <source
-                    type="image/webp"
-                    media="(max-width: 480px)"
-                    srcset="
-                      ./img/1-home-page/Mobile/img-inst-mob.webp    1x,
-                      ./img/1-home-page/Mobile/img-inst-mob-x2.webp 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 480px)"
-                    srcset="
-                      ./img/1-home-page/Mobile/img-inst-mob.png    1x,
-                      ./img/1-home-page/Mobile/img-inst-mob-x2.png 2x
-                    "
-                  />
-                  <source
-                    type="image/webp"
-                    media="(max-width: 768px)"
-                    srcset="
-                      ./img/1-home-page/Tablet/img-inst-tab.webp    1x,
-                      ./img/1-home-page/Tablet/img-inst-tab-x2.webp 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 768px)"
-                    srcset="
-                      ./img/1-home-page/Tablet/img-inst-tab.png    1x,
-                      ./img/1-home-page/Tablet/img-inst-tab-x2.png 2x
-                    "
-                  />
-                  <source
-                    type="image/webp"
-                    media="(max-width: 1240px)"
-                    srcset="
-                      ./img/1-home-page/1024PX-Beform/img-inst-1024.webp    1x,
-                      ./img/1-home-page/1024PX-Beform/img-inst-1024-x2.webp 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 1240px)"
-                    srcset="
-                      ./img/1-home-page/1024PX-Beform/img-inst-1024.png    1x,
-                      ./img/1-home-page/1024PX-Beform/img-inst-1024-x2.png 2x
-                    "
-                  />
-                  <source
-                    type="image/webp"
-                    srcset="
-                      ./img/1-home-page/Desctop/img-inst-desctop.webp    1x,
-                      ./img/1-home-page/Desctop/img-inst-desctop-x2.webp 2x
-                    "
-                  />
-                  <img
-                    src="./img/1-home-page/Desctop/img-10-desctop.jpg"
-                    srcset="
-                      ./img/1-home-page/Desctop/img-inst-desctop.png    1x,
-                      ./img/1-home-page/Desctop/img-inst-desctop-x2.png 2x
-                    "
-                    alt="img"
-                  />
-                </picture>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- /instagram -->
-
-    <!-- form -->
-    <section class="form-section">
-      <div class="container">
-        <div class="form">
-          <div class="form__title">
-            <h2>contact us</h2>
-          </div>
-          <div class="form__right-block">
-            <div class="form__subtitle">
-              <h3>Have a project in mind?</h3>
-              <p>
-                If you want a design that will make your brand stand out from
-                the competition, fill out the form below, and we will contact
-                you! Or you can just
-                <a class="form__phone-link" href="tel:+79312561747">call us</a>
-                and we will answer all your questions.
-              </p>
-            </div>
-            <form action="#" class="form-form">
-              <ul>
-                <li>
-                  <label for="name">Your name</label>
-                  <input
-                    id="name"
-                    name="user_name"
-                    class="input-name field"
-                    type="text"
-                    placeholder="ELENA SVETLOVA"
-                  />
-                </li>
-                <li>
-                  <label for="email">Mail</label>
-                  <input
-                    id="email"
-                    name="user_email"
-                    class="input-mail field"
-                    type="email"
-                    placeholder="address"
-                    required
-                  />
-                </li>
-                <li>
-                  <label for="phone">Phone</label>
-                  <input
-                    id="phone"
-                    name="user__phone"
-                    class="input-phone field"
-                    type="tel"
-                    placeholder="+7 (___)___-__-__"
-                  />
-                </li>
-                <li>
-                  <label for="message">Message</label>
-                  <input
-                    id="message"
-                    name="user_message"
-                    class="input-message field"
-                    type="text"
-                    placeholder="text"
-                  />
-                </li>
-              </ul>
-              <div class="form-bottom-block">
-                <div class="privacy-policy">
-                  <a href="./privacy-police-page-en.html" target="_blank">
-                    By clicking on the "Submit" button, you agree to the
-                    <span>privacy policy.</span>
-                  </a>
-                </div>
-                <button type="submit">Submit</button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="scroll-up scroll">
-          <svg
-            width="32"
-            height="46"
-            viewBox="0 0 32 46"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M32 15.98L16 0L0 15.98L1.85 17.82L14.69 4.99V46H17.31V4.99L30.15 17.82L32 15.98Z"
-              fill="#212121"
-            />
-          </svg>
-          <a class="scroll" href="#top">scroll UP</a>
-        </div>
-      </div>
-    </section>
-    <!-- /form -->
 
     <!-- footer -->
     <footer>
@@ -433,7 +267,7 @@
                   <!-- <p>Saint Petersburg</p> -->
                   <p>Address</p>
                   <!-- <a href="#">Галерная ул., 20 </a> -->
-                  <a href="#">SPB, Galernaya st., 20</a>
+                  <a href="#">СПБ, Галерная ул., 20</a>
                 </li>
               </ul>
             </li>
@@ -456,12 +290,12 @@
                 Reserved
               </li>
               <li>
-                <a href="./legal-information-page-en.html" target="_blank"
+                <a href="./legal-information-page.html" target="_blank"
                   >Legal information</a
                 >
               </li>
               <li>
-                <a href="privacy-police-page-en.html" target="_blank"
+                <a href="privacy-police-page.html" target="_blank"
                   >Privacy policy</a
                 >
               </li>
@@ -472,30 +306,8 @@
     </footer>
     <!-- /footer -->
 
-    <!-- popup -->
-    <section>
-      <h2 class="visually-hidden">popup</h2>
-      <div class="popup-form">
-        <div class="form-complite">
-          <div class="container">
-            <div class="form-complite-block">
-              <div>
-                <p>Complited!</p>
-                <p>Form submitted successfully</p>
-                <button class="form-complite-close">ok</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /popup -->
-
-    <script src="./js/projectPaginationEn.js"></script>
     <script src="./js/scrollup.js"></script>
     <script src="./js/burger.js"></script>
-    <script src="./js/form.js"></script>
-    <script src="./js/anim.js"></script>
     <script src="./js/date.js"></script>
   </body>
 </html>
