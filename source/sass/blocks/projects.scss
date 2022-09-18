@@ -583,7 +583,7 @@
       margin-bottom: 100px;
       width: 100%;
       li {
-        width: 74px;
+        width: 90px;
         p {
           font-size: 48px;
           max-width: 54px;
@@ -594,6 +594,9 @@
           font-size: 10px;
           line-height: 128%;
         }
+      }
+      li:first-child{
+        width: 74px;
       }
     }
   }
