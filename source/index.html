@@ -47,39 +47,51 @@
     <!-- swiper -->
 
     <title>Beformstudio</title>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(89318775, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/89318775"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
   </head>
-
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function (m, e, t, r, i, k, a) {
-      m[i] =
-        m[i] ||
-        function () {
-          (m[i].a = m[i].a || []).push(arguments);
-        };
-      m[i].l = 1 * new Date();
-      (k = e.createElement(t)),
-        (a = e.getElementsByTagName(t)[0]),
-        (k.async = 1),
-        (k.src = r),
-        a.parentNode.insertBefore(k, a);
-    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-    ym(89318775, "init", {
-      clickmap: true,
-      trackLinks: true,
-      accurateTrackBounce: true,
-    });
-  </script>
-  <noscript
-    ><div>
-      <img
-        src="https://mc.yandex.ru/watch/89318775"
-        style="position: absolute; left: -9999px"
-        alt=""
-      /></div
-  ></noscript>
-  <!-- /Yandex.Metrika counter -->
 
   <body id="top">
     <!-- header -->
@@ -151,9 +163,7 @@
                 >/
               </li>
               <li>
-                <a href="https://www.facebook.com/beformstudio" target="blank"
-                  >vk</a
-                >/
+                <a href="https://vk.com/beformstudio" target="blank">vk</a>/
               </li>
               <li>
                 <a href="https://www.behance.net/beformstudio" target="blank"
@@ -229,7 +239,7 @@
             </div>
             <div>
               <p class="title-text _anim-items _anim-no-hide">
-                С 2015 года мы создаем интерьеры в сфере торговли и других видов
+                С 2012 года мы создаем интерьеры в сфере торговли и других видов
                 бизнеса
               </p>
             </div>
@@ -1599,7 +1609,7 @@
                 нам!
               </p>
             </div>
-            <form action="#" class="form-form">
+            <form action="send_mail.php" class="form-form">
               <ul>
                 <li>
                   <label for="name">Your name</label>
@@ -1609,6 +1619,7 @@
                     class="input-name field"
                     type="text"
                     placeholder="ELENA SVETLOVA"
+                    data-reg="^[А-ЯЁ][а-яё]*$"
                   />
                 </li>
                 <li>
@@ -1620,6 +1631,7 @@
                     type="email"
                     placeholder="address"
                     required
+                    data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
                   />
                 </li>
                 <li>
@@ -1630,6 +1642,7 @@
                     class="input-phone field"
                     type="tel"
                     placeholder="+7 (___)___-__-__"
+                    data-reg="^((\+7|7|8)+([0-9]){10})$"
                   />
                 </li>
                 <li>
@@ -1691,7 +1704,7 @@
                   >
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/beformstudio" target="blank"
+                  <a href="https://vk.com/beformstudio" target="blank"
                     >Vkontakte</a
                   >
                 </li>
@@ -1776,6 +1789,5 @@
     <script src="./js/form.js"></script>
     <script src="./js/anim.js"></script>
     <script src="./js/date.js"></script>
-    <script src="./js/togglePhone.js"></script>
   </body>
 </html>

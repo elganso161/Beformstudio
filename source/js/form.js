@@ -25,14 +25,13 @@ async function formSend(e) {
     });
     if (response.ok) {
       let result = await response.json();
-      alert(result.message);
-      formPreview.innerHTML = "";
+      console.log(result.message);
       form.reset();
     } else {
-      alert("ошибка");
+      console.log("ошибка");
     }
   } else {
-    alert("Заполните все поля");
+    console.log("Заполните все поля");
   }
 }
 
