@@ -3,6 +3,11 @@ const anyProjectListLast = document.querySelector(".any-project__list-last");
 
 const database = [
   {
+    titleLink: "5ESSENCE 4.0",
+    link: "./project-page-5essence-4.0.html",
+    img: "./img/6-projects-main/desctop/img-12-desctop.jpg",
+  },
+  {
     titleLink: "Fluffy&Puffy",
     link: "./project-page-furniture.html",
     img: "./img/6-projects-main/desctop/img-11-desctop.jpg",
