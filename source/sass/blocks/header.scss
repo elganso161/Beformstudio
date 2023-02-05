@@ -13,7 +13,7 @@
   z-index: 20;
   background: #212121;
   transition: 0.2s;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
@@ -227,6 +227,15 @@
   display: flex;
   justify-content: space-between;
   width: 450px;
+
+  p {
+    font-size: 21px;
+    width: 340px;
+    margin-right: 50px;
+  }
+  a {
+    font-size: 21px;
+  }
 }
 
 .social__list {
@@ -240,6 +249,10 @@
     font-size: 21px;
     line-height: 106%;
     color: #ffffff;
+    margin-left: 18px;
+    &:first-child {
+      margin-left: 0;
+    }
   }
   a {
     text-decoration: none;
@@ -403,8 +416,14 @@
   .burger__contacts-group {
     width: 710px;
     justify-content: start;
+    font-size: 24px;
     p {
-      margin-right: 116px;
+      font-size: 24px;
+      width: 380px;
+      margin-right: 80px;
+    }
+    a {
+      font-size: 24px;
     }
   }
 }
@@ -446,6 +465,19 @@
     li:last-child {
       width: 304px;
       margin-right: 0;
+    }
+  }
+
+  .burger__contacts-group {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    max-width: 370px;
+    p {
+      font-size: 18px;
+    }
+    a {
+      font-size: 18px;
     }
   }
 }
@@ -508,10 +540,13 @@
   }
 
   .burger__contacts-group {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 370px;
+    max-width: 285px;
+    p {
+      font-size: 18px;
+    }
+    a {
+      font-size: 18px;
+    }
   }
 
   .social__list {
@@ -524,6 +559,10 @@
     a {
       font-size: 18px;
       line-height: 106%;
+      svg {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 
@@ -636,6 +675,10 @@
     li {
       font-size: 18px;
       line-height: 106%;
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0;
+      }
     }
     a {
       text-decoration: none;
@@ -644,6 +687,10 @@
       font-weight: bold;
       font-size: 18px;
       line-height: 106%;
+      svg {
+        width: 34px;
+        height: 34px;
+      }
     }
   }
   .burger__contacts-group {
@@ -653,19 +700,22 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 210px;
+    // max-width: 210px;
+    width: 100%;
     margin: 0 auto;
     div {
       min-width: 100%;
       text-align: center;
     }
     p {
-      font-size: 13px;
+      width: 100%;
+      font-size: 15px;
       line-height: 124%;
     }
     a {
+      width: 100%;
       display: block;
-      font-size: 13px;
+      font-size: 15px;
       line-height: 124%;
     }
   }
