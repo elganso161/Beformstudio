@@ -30,16 +30,17 @@ async function formSend(e) {
     } else {
       console.log("ошибка");
     }
-  } else {
-    console.log("Заполните все поля");
   }
+  // else {
+  //   console.log("Заполните все поля");
+  // }
 }
 
 function formValidate(form) {
   let error = 0;
 
-  for (let index = 0; index < fields.length; index++) {
-    const input = fields[index];
+  for (let index = 0; index < inputMail.length; index++) {
+    const input = inputMail[index];
     formRemoveError(input);
     if (input.classList.contains("input-mail")) {
       if (emailTest(input)) {

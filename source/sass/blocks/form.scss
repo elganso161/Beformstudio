@@ -94,8 +94,8 @@ form {
     outline: none;
 
     &::placeholder {
-      font-family: "Neutral Face";
-      font-size: 14px;
+      font-family: "PTRootUIWebRegular";
+      font-size: 18px;
       line-height: 147.5%;
       color: #d0d0d0;
     }
@@ -172,7 +172,7 @@ form {
     line-height: 126%;
     transition: 0.2s;
     span {
-      color: #aaaaaa;
+      color: #868686;
     }
     &:hover span {
       color: #616161;
@@ -333,7 +333,7 @@ form {
     input {
       font-size: 16px;
       &::placeholder {
-        font-size: 13px;
+        font-size: 16px;
       }
     }
   }
@@ -446,7 +446,7 @@ form {
     input {
       font-size: 15px;
       &::placeholder {
-        font-size: 12px;
+        font-size: 15px;
       }
     }
   }
@@ -561,7 +561,7 @@ form {
       padding: 5px 0;
       font-size: 14px;
       &::placeholder {
-        font-size: 10px;
+        font-size: 14px;
       }
     }
   }
@@ -602,5 +602,25 @@ form {
       height: 60px;
       margin-top: 50px;
     }
+  }
+}
+
+.form-custom {
+  .form {
+    margin-top: 0;
+  }
+}
+
+.scroll-up-custom {
+  margin-top: 300px;
+
+  @media (max-width: 1440px) {
+    margin-top: 250px;
+  }
+  @media (max-width: 1024px) {
+    margin-top: 170px;
+  }
+  @media (max-width: 480px) {
+    margin-top: 50px;
   }
 }
