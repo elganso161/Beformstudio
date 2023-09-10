@@ -406,6 +406,17 @@
       opacity: 1;
     }
   }
+
+  .contactus-page__list {
+    li {
+      &:nth-child(1) {
+        width: 100%;
+      }
+      &:nth-child(2) {
+        width: 100%;
+      }
+    }
+  }
 }
 
 @media (max-width: 480px) {
