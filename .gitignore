@@ -7,7 +7,6 @@
 *.psd
 *.sublime*
 *.mp4
-sendmail.php
 build/
 node_modules/
 npm-debug.*
