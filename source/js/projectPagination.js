@@ -4,6 +4,31 @@ let current_page = 1;
 let records_per_page = 6;
 
 let objJson = [
+    {
+    title: "Fluffy&Puffy 2.0",
+    subtitle: "Шоурум мягкой мебели",
+    link: "./project-page-furniture-2.0.html",
+    img: "./img/6-projects-main/desctop/img-13-desctop.jpg",
+    imgX2: "./img/6-projects-main/desctop/img-13-desctop-x2.jpg",
+    imgW: "./img/6-projects-main/desctop/img-13-desctop.webp",
+    imgWx2: "./img/6-projects-main/desctop/img-13-desctop-x2.webp",
+    imgfull: "./img/6-projects-main/full/img-13-full.jpg",
+    imgfullX2: "./img/6-projects-main/full/img-13-full-x2.jpg",
+    imgfullW: "./img/6-projects-main/full/img-13-full.webp",
+    imgfullWx2: "./img/6-projects-main/full/img-13-full-x2.webp",
+    img1024: "./img/6-projects-main/1024px/img-13-1024.jpg",
+    img1024X2: "./img/6-projects-main/1024px/img-13-1024-x2.jpg",
+    img1024W: "./img/6-projects-main/1024px/img-13-1024.webp",
+    img1024Wx2: "./img/6-projects-main/1024px/img-13-1024-x2.webp",
+    imgtab: "./img/6-projects-main/tab/img-13-tab.jpg",
+    imgtabX2: "./img/6-projects-main/tab/img-13-tab-x2.jpg",
+    imgtabW: "./img/6-projects-main/tab/img-13-tab.webp",
+    imgtabWx2: "./img/6-projects-main/tab/img-13-tab-x2.webp",
+    imgmob: "./img/6-projects-main/mob/img-13-mob.jpg",
+    imgmobX2: "./img/6-projects-main/mob/img-13-mob-x2.jpg",
+    imgmobW: "./img/6-projects-main/mob/img-13-mob.webp",
+    imgmobWx2: "./img/6-projects-main/mob/img-13-mob-x2.webp",
+  },
   {
     title: "5ESSENCE 4.0",
     subtitle: "Сеть обувных магазинов",
