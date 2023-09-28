@@ -2,6 +2,11 @@ const anyProjectListFirst = document.querySelector(".any-project__list-first");
 const anyProjectListLast = document.querySelector(".any-project__list-last");
 
 const database = [
+    {
+    titleLink: "Fluffy&Puffy 2.0",
+    link: "./project-page-furniture-2.0-en.html",
+    img: "./img/6-projects-main/desctop/img-13-desctop.jpg",
+  },
   {
     titleLink: "5ESSENCE 4.0",
     link: "./project-page-5essence-4.0-en.html",
